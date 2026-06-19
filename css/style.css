@@ -157,3 +157,7 @@ padding: 25px;
     position: relative;
     z-index: 1;
 }
+
+.hero.small {
+    min-height: 40vh;
+}
