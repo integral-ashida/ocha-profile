@@ -1,7 +1,3 @@
-/* =========================
-   ベース
-========================= */
-
 :root {
     --text: #1f2d2a;
     --accent: #2f7d6a;
@@ -20,10 +16,6 @@ body {
 
     background: linear-gradient(180deg, #f4f8f7 0%, #eef5f3 100%);
 }
-
-/* =========================
-   ナビ
-========================= */
 
 .nav {
     position: sticky;
@@ -59,10 +51,6 @@ body {
     background: rgba(47,125,106,0.12);
     color: var(--accent);
 }
-
-/* =========================
-   ヒーロー
-========================= */
 
 .hero {
     background: url("../images/top.jpeg") center/cover no-repeat;
@@ -136,10 +124,6 @@ body {
     padding: 20px;
 }
 
-/* =========================
-   図鑑（DB専用）
-========================= */
-
 .group {
     max-width: 1100px;
     margin: 60px auto;
@@ -173,10 +157,6 @@ body {
     margin: 0 auto;
 }
 
-/* =========================
-   フッター
-========================= */
-
 footer {
     text-align: center;
     padding: 80px 20px;
@@ -190,10 +170,6 @@ footer {
     box-shadow: 0 5px 20px rgba(0,0,0,0.08);
 }
 
-/* =========================
-   レスポンシブ
-========================= */
-
 @media (max-width: 900px) {
     .cards {
         grid-template-columns: 1fr;
@@ -202,4 +178,20 @@ footer {
     .hero-content h1 {
         font-size: 2.5rem;
     }
+}
+
+
+.group .cards {
+    display: grid;
+    grid-template-columns: 1fr !important;
+    gap: 20px !important;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.group .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
 }
