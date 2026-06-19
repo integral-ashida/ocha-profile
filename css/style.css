@@ -193,43 +193,52 @@ padding: 25px;
 h1, h2 {
     color: #1f2d2a;
 }
+
 .nav {
     position: sticky;
     top: 0;
+    z-index: 1000;
 
     display: flex;
     justify-content: center;
-    gap: 28px;
+    align-items: center;
+    gap: 8px;
 
-    padding: 14px 20px;
+    padding: 14px 12px;
 
-    background: rgba(255, 255, 255, 0.65);
-    backdrop-filter: blur(14px);
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(16px);
 
     border-bottom: 1px solid rgba(0, 0, 0, 0.06);
-
-    z-index: 1000;
-
-    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", sans-serif;
-    font-size: 15px;
-    letter-spacing: 0.04em;
 }
 
-.nav a {
+/* ボタン化 */
+.nav-item {
     text-decoration: none;
+
     color: #2a3a35;
 
-    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+
+    padding: 8px 14px;
     border-radius: 999px;
 
-    transition: 0.25s ease;
-
-    font-weight: 500;
+    transition: all 0.2s ease;
 }
 
-.nav a:hover {
+/* ホバー */
+.nav-item:hover {
     background: rgba(47, 125, 106, 0.12);
     color: #2f7d6a;
-
     transform: translateY(-1px);
 }
+
+/* 現在地（使いたければ） */
+.nav-item.active {
+    background: rgba(47, 125, 106, 0.15);
+    color: #2f7d6a;
+}
+
+
