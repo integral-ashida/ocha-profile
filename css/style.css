@@ -65,7 +65,7 @@ body {
 ========================= */
 
 .hero {
-    background: url("../images/top.jpeg") center/cover no-repeat;
+    background: url("../images/BOX.jpeg") center/cover no-repeat;
     min-height: 80vh;
 
     display: flex;
