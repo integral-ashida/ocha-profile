@@ -214,14 +214,55 @@ footer {
     }
 }
 
-.db-cards .card {
-    overflow: hidden;
-    border-radius: 18px;
+/* =========================
+   DB専用（完全分離版）
+========================= */
+
+.db-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+
+    max-width: 900px;
+    margin: 0 auto;
 }
 
-.db-cards .card img {
+.db-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.db-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 16px 40px rgba(0,0,0,0.12);
+}
+
+.db-card img {
     width: 100%;
     height: 200px;
     object-fit: cover;
     display: block;
+}
+
+.db-text {
+    padding: 18px;
+}
+
+.db-text h2 {
+    font-size: 1.2rem;
+    margin-bottom: 6px;
+}
+
+.db-text p {
+    font-size: 0.9rem;
+    color: #6b7a75;
 }
