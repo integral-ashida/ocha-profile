@@ -134,3 +134,26 @@ display: block;
 .card-text {
 padding: 25px;
 }
+
+.hero {
+    background: url("../images/top.jpeg") center/cover no-repeat;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.35);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
