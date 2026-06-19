@@ -226,16 +226,42 @@ h1, h2 {
     transition: all 0.2s ease;
 }
 
-/* ホバー */
 .nav-item:hover {
     background: rgba(47, 125, 106, 0.12);
     color: #2f7d6a;
     transform: translateY(-1px);
 }
 
-/* 現在地（使いたければ） */
-.nav-item.active {
-    background: rgba(47, 125, 106, 0.15);
 
+.group-title {
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin: 50px 0 10px;
+    color: #1f2d2a;
+    letter-spacing: 0.08em;
 }
+
+.group-desc {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 40px;
+
+    color: #6b7a75;
+    font-size: 0.95rem;
+    line-height: 1.8;
+}
+
+.sub-title {
+    max-width: 1100px;
+    margin: 40px auto 15px;
+    padding: 0 20px;
+
+    font-size: 1.2rem;
+    font-weight: 500;
+
+    color: #2f7d6a;
+    letter-spacing: 0.05em;
+}
+
 
