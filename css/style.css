@@ -146,7 +146,6 @@ body {
     padding: 0 20px;
 }
 
-/* 科（中央タイトル） */
 .group-title {
     text-align: center;
     font-size: 2.4rem;
@@ -155,14 +154,6 @@ body {
     letter-spacing: 0.08em;
 }
 
-/* 説明（使うなら） */
-.group-desc {
-    text-align: center;
-    max-width: 700px;
-    margin: 0 auto 30px;
-    color: #6b7a75;
-    font-size: 0.95rem;
-}
 
 /* 属（左寄せ見出し） */
 .sub-title {
@@ -261,3 +252,4 @@ footer {
     border-radius: 999px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.08);
 }
+
