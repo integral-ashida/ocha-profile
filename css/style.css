@@ -1,3 +1,7 @@
+/* =========================
+   ベース
+========================= */
+
 :root {
     --text: #1f2d2a;
     --accent: #2f7d6a;
@@ -16,6 +20,10 @@ body {
 
     background: linear-gradient(180deg, #f4f8f7 0%, #eef5f3 100%);
 }
+
+/* =========================
+   ナビ
+========================= */
 
 .nav {
     position: sticky;
@@ -52,6 +60,10 @@ body {
     color: var(--accent);
 }
 
+/* =========================
+   ヒーロー
+========================= */
+
 .hero {
     background: url("../images/top.jpeg") center/cover no-repeat;
     min-height: 80vh;
@@ -82,7 +94,7 @@ body {
 }
 
 /* =========================
-   カード（TOP用）
+   TOPカード
 ========================= */
 
 .cards {
@@ -124,6 +136,10 @@ body {
     padding: 20px;
 }
 
+/* =========================
+   DB（図鑑専用）
+========================= */
+
 .group {
     max-width: 1100px;
     margin: 60px auto;
@@ -149,13 +165,27 @@ body {
     color: var(--accent);
 }
 
-/* ★ここが超重要：DBは1列固定 */
-.group .cards {
+/* ★DBカードはこれだけ（超重要） */
+.db-cards {
+    display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
+
     max-width: 900px;
     margin: 0 auto;
 }
+
+/* DB内カード画像 */
+.db-cards .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+/* =========================
+   フッター
+========================= */
 
 footer {
     text-align: center;
@@ -170,6 +200,10 @@ footer {
     box-shadow: 0 5px 20px rgba(0,0,0,0.08);
 }
 
+/* =========================
+   レスポンシブ
+========================= */
+
 @media (max-width: 900px) {
     .cards {
         grid-template-columns: 1fr;
@@ -179,28 +213,3 @@ footer {
         font-size: 2.5rem;
     }
 }
-
-
-.group .cards {
-    display: grid;
-    grid-template-columns: 1fr !important;
-    gap: 20px !important;
-    max-width: 900px;
-    margin: 0 auto;
-}
-
-.group .card img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    display: block;
-}
-
-.db-cards {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
-    max-width: 900px;
-    margin: 0 auto;
-}
-
