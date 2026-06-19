@@ -60,10 +60,6 @@ body {
     color: var(--accent);
 }
 
-/* =========================
-   ヒーロー
-========================= */
-
 .hero {
     background: url("../images/BOX.jpeg") center/cover no-repeat;
     min-height: 80vh;
@@ -92,10 +88,6 @@ body {
 .hero.small {
     min-height: 40vh;
 }
-
-/* =========================
-   TOPカード
-========================= */
 
 .cards {
     max-width: 1200px;
