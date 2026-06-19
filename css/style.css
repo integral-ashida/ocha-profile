@@ -1,3 +1,7 @@
+/* =========================
+   ベース
+========================= */
+
 :root {
     --bg: #f4f8f7;
     --text: #1f2d2a;
@@ -17,6 +21,10 @@ body {
     background: linear-gradient(180deg, #f4f8f7 0%, #eef5f3 100%);
 }
 
+/* =========================
+   ナビ
+========================= */
+
 .nav {
     position: sticky;
     top: 0;
@@ -26,20 +34,20 @@ body {
     justify-content: center;
     gap: 8px;
 
-    padding: 14px 12px;
+    padding: 12px 10px;
 
-    background: rgba(255, 255, 255, 0.75);
-    backdrop-filter: blur(16px);
+    background: rgba(255,255,255,0.75);
+    backdrop-filter: blur(14px);
 
-    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    border-bottom: 1px solid rgba(0,0,0,0.06);
 }
 
 .nav-item {
     text-decoration: none;
     color: #2a3a35;
+
     font-size: 14px;
     font-weight: 500;
-    letter-spacing: 0.05em;
 
     padding: 8px 14px;
     border-radius: 999px;
@@ -48,12 +56,14 @@ body {
 }
 
 .nav-item:hover {
-    background: rgba(47, 125, 106, 0.12);
+    background: rgba(47,125,106,0.12);
     color: var(--accent);
-    transform: translateY(-1px);
 }
 
-/* ===== ヒーロー ===== */
+/* =========================
+   ヒーロー
+========================= */
+
 .hero {
     background: url("../images/top.jpeg") center/cover no-repeat;
     min-height: 80vh;
@@ -83,14 +93,10 @@ body {
     min-height: 40vh;
 }
 
-/* ===== ABOUT ===== */
-.about {
-    max-width: 900px;
-    margin: auto;
-    padding: 100px 30px;
-}
+/* =========================
+   カード（トップ用）
+========================= */
 
-/* ===== カード ===== */
 .cards {
     max-width: 1200px;
     margin: auto;
@@ -115,7 +121,7 @@ body {
 }
 
 .card:hover {
-    transform: translateY(-8px);
+    transform: translateY(-6px);
     box-shadow: 0 18px 45px rgba(0,0,0,0.12);
 }
 
@@ -127,42 +133,47 @@ body {
 }
 
 .card-text {
-    padding: 25px;
+    padding: 20px;
 }
 
-/* ===== 図鑑セクション ===== */
+/* =========================
+   図鑑（db）
+========================= */
+
 .group {
-    margin: 60px auto;
     max-width: 1100px;
+    margin: 60px auto;
     padding: 0 20px;
 }
 
 .group-title {
     text-align: center;
-    font-size: 2.4rem;
-    font-weight: 600;
-    margin: 50px 0 10px;
-    letter-spacing: 0.08em;
+    font-size: 2.2rem;
+    margin: 40px 0 10px;
 }
 
 .group-desc {
     text-align: center;
     max-width: 700px;
-    margin: 0 auto 40px;
+    margin: 0 auto 30px;
     color: #6b7a75;
     font-size: 0.95rem;
-    line-height: 1.8;
 }
 
 .sub-title {
-    max-width: 1100px;
-    margin: 40px auto 15px;
-    padding: 0 20px;
-
+    margin: 35px 0 15px;
     font-size: 1.2rem;
-    font-weight: 500;
     color: var(--accent);
 }
+
+/* db内カードは1列で安定 */
+.group .cards {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+/* =========================
+   フッター
+========================= */
 
 footer {
     text-align: center;
@@ -177,7 +188,10 @@ footer {
     box-shadow: 0 5px 20px rgba(0,0,0,0.08);
 }
 
-/* ===== レスポンシブ ===== */
+/* =========================
+   レスポンシブ
+========================= */
+
 @media (max-width: 900px) {
     .cards {
         grid-template-columns: 1fr;
