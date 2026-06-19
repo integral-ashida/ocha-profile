@@ -237,19 +237,5 @@ h1, h2 {
 .nav-item.active {
     background: rgba(47, 125, 106, 0.15);
 
-.family-title {
-    text-align: center;
-
-    font-size: 2.2rem;
-    font-weight: 600;
-
-    margin: 40px 0 30px;
-
-    color: #1f2d2a;
-
-    letter-spacing: 0.08em;
 }
-    color: #2f7d6a;
-}
-
 
