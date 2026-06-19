@@ -193,29 +193,43 @@ padding: 25px;
 h1, h2 {
     color: #1f2d2a;
 }
-
 .nav {
     position: sticky;
     top: 0;
+
     display: flex;
-    gap: 20px;
-    padding: 12px 20px;
-    background: rgba(255,255,255,0.8);
-    backdrop-filter: blur(10px);
-    border-bottom: 1px solid rgba(0,0,0,0.05);
+    justify-content: center;
+    gap: 28px;
+
+    padding: 14px 20px;
+
+    background: rgba(255, 255, 255, 0.65);
+    backdrop-filter: blur(14px);
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+
     z-index: 1000;
+
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.04em;
 }
 
 .nav a {
     text-decoration: none;
-    color: #1f2d2a;
+    color: #2a3a35;
+
+    padding: 6px 12px;
+    border-radius: 999px;
+
+    transition: 0.25s ease;
+
     font-weight: 500;
-    padding: 6px 10px;
-    border-radius: 8px;
-    transition: 0.2s;
 }
 
 .nav a:hover {
-    background: rgba(47,125,106,0.1);
+    background: rgba(47, 125, 106, 0.12);
     color: #2f7d6a;
+
+    transform: translateY(-1px);
 }
