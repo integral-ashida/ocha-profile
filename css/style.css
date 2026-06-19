@@ -1,148 +1,78 @@
-/*style.css*/
+/* =========================
+   ベース
+========================= */
+
 :root {
-    --bg: #f4f8f7;
-    --card: #ffffff;
     --text: #1f2d2a;
     --accent: #2f7d6a;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  }
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", sans-serif;
     color: var(--text);
     line-height: 1.8;
 
     background: linear-gradient(180deg, #f4f8f7 0%, #eef5f3 100%);
 }
 
-.hero {
-min-height: 70vh;
-display: flex;
-justify-content: center;
-align-items: center;
-text-align: center;
-padding: 40px;
-background: linear-gradient(
-135deg,
-#e8f5ef,
-#f8fbff
-);
+/* =========================
+   ナビ
+========================= */
+
+.nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+
+    padding: 12px 10px;
+
+    background: rgba(255,255,255,0.75);
+    backdrop-filter: blur(14px);
+
+    border-bottom: 1px solid rgba(0,0,0,0.06);
 }
 
-.hero-content h1 {
-font-size: 4rem;
-margin-bottom: 20px;
+.nav-item {
+    text-decoration: none;
+    color: #2a3a35;
+
+    font-size: 14px;
+    font-weight: 500;
+
+    padding: 8px 14px;
+    border-radius: 999px;
+
+    transition: 0.2s ease;
 }
 
-.hero-content p {
-font-size: 1.2rem;
+.nav-item:hover {
+    background: rgba(47,125,106,0.12);
+    color: var(--accent);
 }
 
-.about {
-max-width: 900px;
-margin: auto;
-padding: 100px 30px;
-}
-
-.about h2 {
-margin-bottom: 20px;
-}
-
-.cards {
-max-width: 1200px;
-margin: auto;
-padding: 0 30px 100px;
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-gap: 30px;
-}
-
-.card {
-background: white;
-text-decoration: none;
-color: inherit;
-border-radius: 24px;
-padding: 40px;
-min-height: 250px;
-
-```
-box-shadow:
-    0 10px 30px rgba(0,0,0,0.08);
-
-transition: 0.3s;
-```
-
-}
-
-.card:hover {
-transform: translateY(-8px);
-}
-
-.card h2 {
-margin-bottom: 15px;
-}
-
-footer {
-text-align: center;
-padding: 80px 20px;
-}
-
-#creator {
-display: inline-block;
-background: white;
-padding: 15px 25px;
-border-radius: 999px;
-
-```
-box-shadow:
-    0 5px 20px rgba(0,0,0,0.08);
-```
-
-}
-
-@media (max-width: 900px) {
-
-```
-.cards {
-    grid-template-columns: 1fr;
-}
-
-.hero-content h1 {
-    font-size: 2.5rem;
-}
-```
-
-}
-
-
-.card {
-overflow: hidden;
-padding: 0;
-}
-
-.card img {
-width: 100%;
-height: 220px;
-object-fit: cover;
-display: block;
-}
-
-.card-text {
-padding: 25px;
-}
+/* =========================
+   ヒーロー
+========================= */
 
 .hero {
     background: url("../images/top.jpeg") center/cover no-repeat;
     min-height: 80vh;
+
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+
     position: relative;
     color: white;
 }
@@ -163,26 +93,31 @@ padding: 25px;
     min-height: 40vh;
 }
 
-.group {
-    margin: 60px auto;
-    max-width: 1100px;
-    padding: 0 20px;
-}
+/* =========================
+   カード（TOP用）
+========================= */
 
-.group-title {
-    font-size: 1.6rem;
-    margin-bottom: 20px;
-    border-left: 4px solid #2f7d6a;
-    padding-left: 12px;
-    color: #24323d;
+.cards {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px 100px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
 }
 
 .card {
     background: white;
     border-radius: 18px;
     overflow: hidden;
+
+    text-decoration: none;
+    color: inherit;
+
     box-shadow: 0 10px 30px rgba(0,0,0,0.06);
-    transition: all 0.25s ease;
+
+    transition: 0.25s ease;
 }
 
 .card:hover {
@@ -190,54 +125,81 @@ padding: 25px;
     box-shadow: 0 18px 45px rgba(0,0,0,0.12);
 }
 
-h1, h2 {
-    color: #1f2d2a;
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
 }
 
-.nav {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-
-    padding: 14px 12px;
-
-    background: rgba(255, 255, 255, 0.75);
-    backdrop-filter: blur(16px);
-
-    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+.card-text {
+    padding: 20px;
 }
 
-/* ボタン化 */
-.nav-item {
-    text-decoration: none;
+/* =========================
+   図鑑（DB専用）
+========================= */
 
-    color: #2a3a35;
+.group {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
 
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 0.05em;
+.group-title {
+    font-size: 1.8rem;
+    margin: 40px 0 10px;
+    border-left: 4px solid #2f7d6a;
+    padding-left: 12px;
+}
 
-    padding: 8px 14px;
+.group-desc {
+    color: #6b7a75;
+    margin-bottom: 30px;
+    font-size: 0.95rem;
+}
+
+.sub-title {
+    margin: 35px 0 15px;
+    font-size: 1.2rem;
+    color: var(--accent);
+}
+
+/* ★ここが超重要：DBは1列固定 */
+.group .cards {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* =========================
+   フッター
+========================= */
+
+footer {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+#creator {
+    display: inline-block;
+    background: white;
+    padding: 15px 25px;
     border-radius: 999px;
-
-    transition: all 0.2s ease;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
 }
 
-/* ホバー */
-.nav-item:hover {
-    background: rgba(47, 125, 106, 0.12);
-    color: #2f7d6a;
-    transform: translateY(-1px);
-}
+/* =========================
+   レスポンシブ
+========================= */
 
-/* 現在地（使いたければ） */
-.nav-item.active {
-    background: rgba(47, 125, 106, 0.15);
-    color: #2f7d6a;
-}
+@media (max-width: 900px) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
 
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+}
