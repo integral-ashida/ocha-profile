@@ -5,6 +5,7 @@
 :root {
     --text: #1f2d2a;
     --accent: #2f7d6a;
+    --bg: #f4f8f7;
 }
 
 * {
@@ -17,7 +18,6 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", sans-serif;
     color: var(--text);
     line-height: 1.8;
-
     background: linear-gradient(180deg, #f4f8f7 0%, #eef5f3 100%);
 }
 
@@ -32,7 +32,7 @@ body {
 
     display: flex;
     justify-content: center;
-    gap: 8px;
+    gap: 10px;
 
     padding: 12px 10px;
 
@@ -137,7 +137,7 @@ body {
 }
 
 /* =========================
-   DB：科（中央タイトル）
+   DB：全体
 ========================= */
 
 .group {
@@ -146,6 +146,7 @@ body {
     padding: 0 20px;
 }
 
+/* 科（中央タイトル） */
 .group-title {
     text-align: center;
     font-size: 2.4rem;
@@ -154,21 +155,27 @@ body {
     letter-spacing: 0.08em;
 }
 
-/* =========================
-   DB：属（左寄せ）
-========================= */
+/* 説明（使うなら） */
+.group-desc {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 30px;
+    color: #6b7a75;
+    font-size: 0.95rem;
+}
 
+/* 属（左寄せ見出し） */
 .sub-title {
     text-align: left;
     font-size: 1.2rem;
-    margin: 30px 0 15px;
+    margin: 35px 0 15px;
     color: var(--accent);
     border-left: 4px solid var(--accent);
     padding-left: 12px;
 }
 
 /* =========================
-   DBカード（3列グリッド）
+   DBカード（3列）
 ========================= */
 
 .db-grid {
@@ -177,7 +184,7 @@ body {
     gap: 20px;
 }
 
-/* カード本体 */
+/* カード */
 .db-card {
     display: block;
     text-decoration: none;
@@ -197,10 +204,10 @@ body {
     box-shadow: 0 16px 40px rgba(0,0,0,0.12);
 }
 
-/* 画像（正方形寄りに固定） */
+/* 画像（安定版：これが一番崩れない） */
 .db-card img {
     width: 100%;
-    aspect-ratio: 4 / 3;
+    height: 180px;
     object-fit: cover;
     display: block;
 }
