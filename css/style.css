@@ -194,4 +194,28 @@ h1, h2 {
     color: #1f2d2a;
 }
 
+.nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    gap: 20px;
+    padding: 12px 20px;
+    background: rgba(255,255,255,0.8);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    z-index: 1000;
+}
 
+.nav a {
+    text-decoration: none;
+    color: #1f2d2a;
+    font-weight: 500;
+    padding: 6px 10px;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.nav a:hover {
+    background: rgba(47,125,106,0.1);
+    color: #2f7d6a;
+}
