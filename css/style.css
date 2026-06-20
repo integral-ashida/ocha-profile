@@ -245,3 +245,152 @@ footer {
     box-shadow: 0 5px 20px rgba(0,0,0,0.08);
 }
 
+:root {
+    --bg: #070b0a;
+    --panel: #101715;
+    --text: #e8f2ee;
+    --muted: #9db3aa;
+    --accent: #2f7d6a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body.specimen {
+    font-family: -apple-system, "Hiragino Sans", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.8;
+}
+
+/* ===== NAV ===== */
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px;
+}
+
+.nav-item {
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 13px;
+}
+
+/* ===== HERO（標本ラベル空間） ===== */
+
+.specimen-hero {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle at top, #1c2f28, #070b0a);
+}
+
+.label-box {
+    text-align: center;
+}
+
+.family {
+    font-size: 0.7rem;
+    letter-spacing: 0.3em;
+    color: var(--accent);
+}
+
+.label-box h1 {
+    font-size: 3rem;
+    letter-spacing: 0.05em;
+}
+
+.latin {
+    color: var(--muted);
+}
+
+/* ===== WINDOW（観察窓） ===== */
+
+.window {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.glass img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 18px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+}
+
+.film-strip {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.film-strip img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+    opacity: 0.6;
+}
+
+/* ===== LABELS ===== */
+
+.labels {
+    max-width: 900px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+.label {
+    background: var(--panel);
+    padding: 16px;
+    border-radius: 14px;
+    text-align: center;
+}
+
+.label span {
+    font-size: 0.7rem;
+    color: var(--muted);
+    letter-spacing: 0.2em;
+}
+
+/* ===== MAP ===== */
+
+.map {
+    max-width: 900px;
+    margin: 60px auto;
+}
+
+.map-frame {
+    height: 280px;
+    border-radius: 16px;
+    background: #0f1513;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--muted);
+}
+
+/* ===== LOG ===== */
+
+.log {
+    max-width: 900px;
+    margin: 50px auto;
+}
+
+.entry {
+    background: var(--panel);
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 12px;
+    color: var(--muted);
+}
