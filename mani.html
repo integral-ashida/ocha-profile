@@ -1,84 +1,80 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ゲンゴロウ | Specimen</title>
-<link rel="stylesheet" href="css/common.css">
-<link rel="stylesheet" href="css/data.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ゲンゴロウ｜図鑑</title>
+
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/data.css">
 </head>
 
-<body class="specimen">
+<body class="data">
 
-<!-- ナビ -->
 <nav class="nav">
     <a href="index.html" class="nav-item">TOP</a>
-    <a href="db.html" class="nav-item">BACK</a>
+    <a href="quiz.html" class="nav-item">競技クイズ</a>
+    <a href="pk.html" class="nav-item">ポケモン</a>
+    <a href="db.html" class="nav-item">水生昆虫</a>
 </nav>
 
-<!-- HERO（標本ラベル） -->
-<header class="specimen-hero">
-    <div class="label-box">
-        <p class="family">DYTISCIDAE</p>
+<main class="container">
+
+    <!-- ヘッダー -->
+    <header class="species-header">
         <h1>ゲンゴロウ</h1>
-        <p class="latin">Dytiscus sharpi</p>
-    </div>
-</header>
+        <p class="latin">Cybister japonicus</p>
+    </header>
 
-<main>
+    <!-- メインビジュアル -->
+    <section class="gallery">
 
-<!-- 観察ウィンドウ（写真主役） -->
-<section class="window">
+        <img class="main-photo" src="images/db.jpeg" alt="ゲンゴロウ">
 
-    <div class="glass">
-        <img src="images/db.jpeg">
-    </div>
+        <div class="thumbs">
+            <img src="images/db.jpeg">
+            <img src="images/db.jpeg">
+            <img src="images/db.jpeg">
+        </div>
 
-    <div class="film-strip">
-        <img src="images/db.jpeg">
-        <img src="images/db2.jpeg">
-        <img src="images/db3.jpeg">
-    </div>
+    </section>
 
-</section>
+    <!-- 情報カード -->
+    <section class="info-grid">
 
-<!-- ステータス（ラベル風） -->
-<section class="labels">
+        <div class="info-card">
+            <h3>分類</h3>
+            <p>ゲンゴロウ科</p>
+        </div>
 
-    <div class="label">
-        <span>STATUS</span>
-        <p>指定なし</p>
-    </div>
+        <div class="info-card">
+            <h3>ランク</h3>
+            <p>未評価</p>
+        </div>
 
-    <div class="label">
-        <span>SIZE</span>
-        <p>30–38 mm</p>
-    </div>
+        <div class="info-card">
+            <h3>大きさ</h3>
+            <p>30〜38mm</p>
+        </div>
 
-    <div class="label">
-        <span>HABITAT</span>
-        <p>田んぼ・止水域</p>
-    </div>
+    </section>
 
-</section>
+    <!-- 説明 -->
+    <section class="description">
+        <h2>概要</h2>
+        <p>
+            日本を代表する大型水生昆虫。流れるような遊泳能力と強い捕食性を持つ。
+            静かな水面に潜む“生態系の支配者”。
+        </p>
+    </section>
 
-<!-- 分布（地図UI） -->
-<section class="map">
-    <h2>Distribution Map</h2>
-    <div class="map-frame">
-        日本地図SVG（後で色付け）
-    </div>
-</section>
-
-<!-- 記録 -->
-<section class="log">
-    <h2>Field Records</h2>
-
-    <div class="entry">2024 / Hiroshima / Night sampling</div>
-    <div class="entry">水田環境で確認</div>
-    <div class="entry">飛翔音あり</div>
-
-</section>
+    <!-- 地図 -->
+    <section class="map">
+        <h2>分布</h2>
+        <div class="map-box">
+            日本地図（都道府県ハイライト予定）
+        </div>
+    </section>
 
 </main>
 
