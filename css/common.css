@@ -1,0 +1,119 @@
+:root {
+    --text: #1f2d2a;
+    --accent: #2f7d6a;
+    --bg: #f4f8f7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", sans-serif;
+    color: var(--text);
+    line-height: 1.8;
+    background: linear-gradient(180deg, #f4f8f7 0%, #eef5f3 100%);
+}
+
+/* NAV */
+.nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px 10px;
+    background: rgba(255,255,255,0.75);
+    backdrop-filter: blur(14px);
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #2a3a35;
+    font-size: 14px;
+    padding: 8px 14px;
+    border-radius: 999px;
+}
+
+.nav-item:hover {
+    background: rgba(47,125,106,0.12);
+    color: var(--accent);
+}
+
+/* HERO */
+.hero {
+    background: url("../images/BOX.jpeg") center/cover no-repeat;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.35);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.hero.small {
+    min-height: 40vh;
+}
+
+/* TOP CARDS */
+.cards {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card {
+    background: white;
+    border-radius: 18px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+}
+
+.card:hover {
+    transform: translateY(-6px);
+}
+
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-text {
+    padding: 20px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+#creator {
+    display: inline-block;
+    background: white;
+    padding: 15px 25px;
+    border-radius: 999px;
+}
