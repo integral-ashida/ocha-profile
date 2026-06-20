@@ -172,3 +172,17 @@ body.data {
     color: #7f8c8d;
     font-weight: 700;
 }
+
+.map-box {
+    background: white;
+    border-radius: 18px;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+}
+
+.map-box img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
