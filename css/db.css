@@ -1,0 +1,77 @@
+.group {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.group-title {
+    text-align: center;
+    font-size: 2.4rem;
+    margin: 50px 0 30px;
+}
+
+/* 科（中央） */
+.family-title {
+    text-align: center;
+    font-size: 2.8rem;
+    margin: 80px 0 40px;
+    letter-spacing: 0.08em;
+}
+
+/* 属（左） */
+.sub-title {
+    text-align: left;
+    font-size: 1.2rem;
+    margin: 35px 0 15px;
+    color: var(--accent);
+    border-left: 4px solid var(--accent);
+    padding-left: 12px;
+}
+
+/* 3列グリッド */
+.db-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* カード */
+.db-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+
+.db-card:hover {
+    transform: translateY(-6px);
+}
+
+.db-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.db-text {
+    padding: 14px;
+}
+
+.db-text h2 {
+    font-size: 1rem;
+}
+
+.db-text p {
+    font-size: 0.85rem;
+    color: #6b7a75;
+}
+
+/* responsive */
+@media (max-width: 900px) {
+    .db-grid {
+        grid-template-columns: 1fr;
+    }
+}
