@@ -143,3 +143,28 @@ body.data {
         padding-bottom: 60px;
     }
 }
+
+.rank-ex {
+    color: #8e44ad;
+    font-weight: 700;
+}
+
+.rank-cr {
+    color: #d63031;
+    font-weight: 700;
+}
+
+.rank-en {
+    color: #0984e3;
+    font-weight: 700;
+}
+
+.rank-vu {
+    color: #00b894;
+    font-weight: 700;
+}
+
+.rank-nt {
+    color: #7f8c8d;
+    font-weight: 700;
+}
