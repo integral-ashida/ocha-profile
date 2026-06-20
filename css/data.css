@@ -1,0 +1,42 @@
+body.specimen {
+    font-family: -apple-system, "Hiragino Sans", sans-serif;
+    background: #070b0a;
+    color: #e8f2ee;
+}
+
+.specimen-hero {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle at top, #1c2f28, #070b0a);
+}
+
+.window img {
+    width: 100%;
+    border-radius: 18px;
+}
+
+.labels {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.label {
+    background: #101715;
+    padding: 14px;
+    border-radius: 14px;
+    text-align: center;
+}
+
+.map-frame {
+    height: 280px;
+    background: #0f1513;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
