@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="css/data.css">
 </head>
 
+<script>
+function changePhoto(src) {
+    document.getElementById("main-photo").src = src;
+}
+</script>
+    
 <body class="data">
 
 <nav class="nav">
@@ -27,21 +33,28 @@
     </header>
 
     <!-- メインビジュアル -->
-    <section class="gallery">
+   <!-- メインビジュアル -->
+<section class="gallery">
 
-        <img class="main-photo" src="images/db.jpeg" alt="ゲンゴロウ">
+    <img
+        id="main-photo"
+        class="main-photo"
+        src="images/nami_1.jpeg"
+        alt="ゲンゴロウ">
 
-        <div class="thumbs">
-            <img src="images/nami_1.jpeg">
-            <img src="images/nami_2.heic">
-            <img src="images/nami_3.heic">
-            <img src="images/nami_4.heic">
-            <img src="images/nami_5.heic">
-            <img src="images/nami_6.heic">
-            <img src="images/nami_10.heic">
-        </div>
+    <div class="thumbs">
 
-    </section>
+        <img src="images/nami_1.jpeg" onclick="changePhoto(this.src)">
+        <img src="images/nami_2.heic" onclick="changePhoto(this.src)">
+        <img src="images/nami_3.heic" onclick="changePhoto(this.src)">
+        <img src="images/nami_4.heic" onclick="changePhoto(this.src)">
+        <img src="images/nami_5.heic" onclick="changePhoto(this.src)">
+        <img src="images/nami_6.heic" onclick="changePhoto(this.src)">
+        <img src="images/nami_10.heic" onclick="changePhoto(this.src)">
+
+    </div>
+
+</section>
 
     <!-- 情報カード -->
     <section class="info-grid">
@@ -81,6 +94,12 @@
     </section>
 
 </main>
+
+<script>
+function changePhoto(src) {
+    document.getElementById("main-photo").src = src;
+}
+</script>
 
 </body>
 </html>
