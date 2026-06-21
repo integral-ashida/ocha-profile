@@ -1,188 +1,214 @@
-body.data {
-    background: #f6f9fb;
-    color: #1f2d2a;
-    font-family: -apple-system, "Hiragino Sans", sans-serif;
+body.data{
+background:#f6f8f8;
+color:#1f2d2a;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Hiragino Sans",sans-serif;
 }
 
-/* 全体幅 */
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 20px;
+/* レイアウト */
+
+.page-layout{
+max-width:1400px;
+margin:40px auto;
+padding:0 20px;
+
+```
+display:flex;
+gap:40px;
+```
+
 }
 
-/* ===== ヘッダー ===== */
-.species-header {
-    text-align: center;
-    margin: 40px 0 20px;
+/* 左メニュー */
+
+.species-menu{
+
+```
+width:260px;
+flex-shrink:0;
+
+position:sticky;
+top:90px;
+
+background:white;
+
+border-radius:20px;
+
+padding:24px;
+
+box-shadow:
+0 10px 30px rgba(0,0,0,0.05);
+```
+
 }
 
-.species-header h1 {
-    font-size: 2.1rem;
-    font-weight: 600;
-    letter-spacing: 0.03em;
+.menu-title{
+font-size:0.8rem;
+letter-spacing:0.2em;
+color:#6b7a75;
+margin-bottom:18px;
 }
 
-.latin {
-    margin-top: 6px;
+.species-menu a{
 
-    font-size: 1.15rem;
-    color: #6b7a75;
+```
+display:block;
 
-    letter-spacing: 0.08em;
+text-decoration:none;
+
+color:#1f2d2a;
+
+padding:12px 0;
+
+border-bottom:1px solid #edf2f1;
+
+transition:0.25s ease;
+```
+
 }
 
-/* ===== ギャラリー ===== */
-.gallery {
-    margin-top: 20px;
+.species-menu a:hover{
+padding-left:8px;
+color:#2f7d6a;
 }
 
-.main-photo {
-    width: 100%;
-
-    aspect-ratio: 3 / 2;
-
-    object-fit: cover;
-
-    border-radius: 18px;
-
-    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+.species-menu .current{
+color:#2f7d6a;
+font-weight:700;
 }
 
-.gallery {
-    max-width: 780px;
-    margin: 0 auto 40px;
+/* 本文 */
+
+.species-content{
+flex:1;
+max-width:900px;
 }
 
-.thumbs {
-    display: flex;
-    gap: 10px;
-    margin-top: 12px;
+/* ヘッダー */
 
-    overflow-x: auto;
-    padding-bottom: 6px;
-
-    scrollbar-width: thin;
+.species-header{
+text-align:center;
+margin-bottom:50px;
 }
 
-.thumbs img {
-    flex-shrink: 0;
-
-    width: 90px;
-    height: 70px;
-
-    object-fit: cover;
-    border-radius: 10px;
-
-    cursor: pointer;
-    opacity: 0.75;
-
-    transition: 0.25s ease;
+.species-header h1{
+font-size:2rem;
+font-weight:600;
 }
 
-.thumbs img:hover {
-    opacity: 1;
-    transform: scale(1.05);
+.latin{
+margin-top:8px;
+font-size:1.1rem;
+color:#70817b;
 }
 
-.thumbs img:hover {
-    opacity: 1;
-    transform: translateY(-2px);
+/* ブログブロック */
+
+.article-block{
+margin-bottom:90px;
 }
 
-/* ===== 情報 ===== */
-.info-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 12px;
-    margin: 30px 0;
+.article-block img{
+
+```
+width:100%;
+
+border-radius:20px;
+
+display:block;
+
+box-shadow:
+0 15px 40px rgba(0,0,0,0.08);
+```
+
 }
 
-.info-card {
-    background: white;
-    padding: 16px;
-    border-radius: 14px;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.06);
-    text-align: center;
+.article-block p{
+
+```
+margin-top:18px;
+
+line-height:2;
+
+font-size:1rem;
+```
+
 }
 
-.info-card h3 {
-    font-size: 0.8rem;
-    color: #6b7a75;
-    margin-bottom: 6px;
+/* 写真保管庫 */
+
+.archive{
+margin-top:120px;
 }
 
-/* ===== 説明 ===== */
-.description {
-    background: white;
-    padding: 20px;
-    border-radius: 16px;
-    margin-bottom: 30px;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+.archive h2{
+text-align:center;
+margin-bottom:30px;
 }
 
-/* ===== 地図 ===== */
-.map {
-    margin-top: 20px;
+.archive-grid{
+
+```
+display:grid;
+
+grid-template-columns:
+repeat(4,1fr);
+
+gap:12px;
+```
+
 }
 
-.map-box {
-    height: 280px;
-    background: #e9f1ef;
-    border-radius: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #6b7a75;
+.archive-grid img{
+
+```
+width:100%;
+
+aspect-ratio:1;
+
+object-fit:cover;
+
+border-radius:14px;
+
+transition:0.3s ease;
+
+cursor:pointer;
+```
+
 }
 
-/* ===== PCで1画面感 ===== */
-@media (min-width: 1000px) {
+.archive-grid img:hover{
 
-    .main-photo {
-        height: 380px;
-    }
+```
+transform:translateY(-3px);
 
-    .container {
-        padding-bottom: 60px;
-    }
+box-shadow:
+0 10px 25px rgba(0,0,0,0.12);
+```
+
 }
 
-.rank-ex {
-    color: #8e44ad;
-    font-weight: 700;
+/* スマホ */
+
+@media (max-width:900px){
+
+```
+.page-layout{
+    display:block;
 }
 
-.rank-cr {
-    color: #d63031;
-    font-weight: 700;
+.species-menu{
+
+    width:100%;
+
+    position:static;
+
+    margin-bottom:30px;
 }
 
-.rank-en {
-    color: #0984e3;
-    font-weight: 700;
+.archive-grid{
+    grid-template-columns:
+    repeat(3,1fr);
 }
+```
 
-.rank-vu {
-    color: #00b894;
-    font-weight: 700;
-}
-
-.rank-nt {
-    color: #7f8c8d;
-    font-weight: 700;
-}
-
-.map-box {
-    background: white;
-    border-radius: 18px;
-    padding: 20px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.06);
-}
-
-.map-box img {
-    display: block;
-    width: 100%;
-    max-width: 500px;
-    margin: 0 auto;
 }
