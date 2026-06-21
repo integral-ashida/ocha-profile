@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>競技クイズ</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>競技クイズ</title>
 
-    <link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/common.css">
+
+<style>
+html{
+    scroll-behavior:smooth;
+}
+</style>
+
 </head>
+
 <body>
 
 <nav class="nav">
@@ -15,12 +23,54 @@
     <a href="pk.html" class="nav-item">ポケモン</a>
     <a href="db.html" class="nav-item">水生昆虫</a>
 </nav>
-    
-<h1>競技クイズ</h1>
 
-<p>ここに競技クイズの紹介を書く</p>
+<div class="page-layout">
 
-<p><a href="index.html">トップへ戻る</a></p>
+<!-- 左メニュー（namiと同じ思想） -->
+<aside class="species-menu">
+
+    <div class="menu-title">
+        競技クイズ
+    </div>
+
+    <a href="#todaiou">東大王 出場</a>
+    <a href="#koukousei">謎解き検定 全国３位</a>
+
+</aside>
+
+<!-- 本文 -->
+<main class="species-content">
+
+<header class="species-header">
+    <h1>競技クイズ</h1>
+    <p class="latin">Quiz Competition</p>
+</header>
+
+<section id="todaiou" class="article-block">
+    <img src="images/quiz_1.jpeg">
+    <p>
+        
+    </p>
+</section>
+
+<section id="koukousei" class="article-block">
+    <img src="images/quiz2.jpeg">
+    <p>
+        高校生クイズ出演。
+        全国大会などの経験。
+    </p>
+</section>
+
+<section id="shinseki" class="article-block">
+    <img src="images/quiz3.jpeg">
+    <p>
+        戦績・結果まとめ。
+    </p>
+</section>
+
+</main>
+
+</div>
 
 </body>
 </html>
