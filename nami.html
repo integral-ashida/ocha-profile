@@ -1,20 +1,18 @@
 <!DOCTYPE html>
+
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>日本の主なゲンゴロウ</title>
+    <title>ゲンゴロウ | 水生昆虫</title>
 
-    <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/data.css">
+
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/data.css">
+
+
 </head>
 
-<script>
-    function changePhoto(src) {
-    document.getElementById("main-photo").src = src;
-}
-</script>
-    
 <body class="data">
 
 <nav class="nav">
@@ -24,88 +22,101 @@
     <a href="db.html" class="nav-item">水生昆虫</a>
 </nav>
 
-<main class="container">
+<div class="page-layout">
 
-    <!-- ヘッダー -->
-    <header class="species-header">
-    <h1>ゲンゴロウ</h1>
-    <p class="latin"><em>Cybister chinensis</em></p>
-</header>
 
-    <!-- メインビジュアル -->
-   <!-- メインビジュアル -->
-<section class="gallery">
+<aside class="species-menu">
 
-    <img
-        id="main-photo"
-        class="main-photo"
-        src="images/nami_1.jpeg"
-        alt="ゲンゴロウ">
-
-    <div class="thumbs">
-
-        <img src="images/nami_1.jpeg"
-         onmouseover="changePhoto(this.src)">
-        <img src="images/nami_2.heic"
-         onmouseover="changePhoto(this.src)">
-        <img src="images/nami_3.heic"
-         onmouseover="changePhoto(this.src)">
-        <img src="images/nami_4.heic"
-         onmouseover="changePhoto(this.src)">
-        <img src="images/nami_5.heic"
-         onmouseover="changePhoto(this.src)">
-        <img src="images/nami_6.heic"
-         onmouseover="changePhoto(this.src)">
-        <img src="images/nami_10.heic"
-         onmouseover="changePhoto(this.src)">
-
+    <div class="menu-title">
+        標本箱
     </div>
 
-</section>
+    <a class="current" href="nami.html">
+        ゲンゴロウ
+    </a>
 
-    <!-- 情報カード -->
-    <section class="info-grid">
+    <a href="himefuchitori.html">
+        ヒメフチトリゲンゴロウ
+    </a>
 
-        <div class="info-card">
-            <h3>分類</h3>
-            <p>ゲンゴロウ属</p>
-        </div>
+    <a href="usuiroshima.html">
+        ウスイロシマゲンゴロウ
+    </a>
 
-        <div class="info-card">
-            <h3>環境省カテゴリー</h3>
-            <p class="rank-vu">UV（絶滅危惧種Ⅱ類）</p>
-        </div>
+    <a href="ezogenmo.html">
+        エゾゲンゴロウモドキ
+    </a>
 
-        <div class="info-card">
-            <h3>大きさ</h3>
-            <p>34〜43mm</p>
-        </div>
+</aside>
 
-    </section>
+<main class="species-content">
 
-    <!-- 説明 -->
-    <section class="description">
-        <h2>説明</h2>
-        <p>
-        日本最大のゲンゴロウ。ナミゲンゴロウと呼ばれることも多く、一般的にゲンゴロウと聞いてイメージするのはこの種。
+    <header class="species-header">
+
+        <h1>ゲンゴロウ</h1>
+
+        <p class="latin">
+            <em>Cybister chinensis</em>
         </p>
+
+    </header>
+
+    <section class="article-block">
+
+        <img src="images/nami_1.jpeg">
+
+        <p>
+            日本を代表する大型ゲンゴロウ。
+            「ゲンゴロウ」と聞いて多くの人が思い浮かべるのが本種である。
+        </p>
+
     </section>
 
-    <!-- 地図 -->
-    <section class="map">
-        <h2>分布</h2>
-        <div class="map-box">
-            <img src="images/nami.svg" alt=ナミゲンゴロウの分布図>
+    <section class="article-block">
+
+        <img src="images/nami_2.jpeg">
+
+        <p>
+            標本個体。
+            黄色紋の入り方には個体差があり、
+            同じ種でも見比べると面白い。
+        </p>
+
+    </section>
+
+    <section class="article-block">
+
+        <img src="images/nami_3.jpeg">
+
+        <p>
+            生息環境。
+            静かなため池や湿地で見られる。
+        </p>
+
+    </section>
+
+    <section class="archive">
+
+        <h2>写真保管庫</h2>
+
+        <div class="archive-grid">
+
+            <img src="images/nami_1.jpeg">
+            <img src="images/nami_2.jpeg">
+            <img src="images/nami_3.jpeg">
+            <img src="images/nami_4.jpeg">
+            <img src="images/nami_5.jpeg">
+            <img src="images/nami_6.jpeg">
+            <img src="images/nami_10.jpeg">
+
         </div>
+
     </section>
 
 </main>
 
-<script>
-function changePhoto(src) {
-    document.getElementById("main-photo").src = src;
-}
-</script>
+
+</div>
 
 </body>
 </html>
