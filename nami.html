@@ -1,15 +1,29 @@
 <!DOCTYPE html>
-
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ゲンゴロウ | 水生昆虫</title>
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ゲンゴロウ | 水生昆虫</title>
 
 <link rel="stylesheet" href="css/common.css">
 <link rel="stylesheet" href="css/data.css">
 
+<script>
+function changePhoto(src){
+    document.getElementById("main-photo").src = src;
+}
+
+function filterSpecies(){
+    const q = document.getElementById("search").value.toLowerCase();
+    document.querySelectorAll(".species-link").forEach(a=>{
+        a.style.display = a.textContent.toLowerCase().includes(q) ? "block":"none";
+    });
+}
+
+function openImg(src){
+    window.open(src, "_blank");
+}
+</script>
 
 </head>
 
@@ -24,97 +38,71 @@
 
 <div class="page-layout">
 
-
+<!-- 左メニュー -->
 <aside class="species-menu">
 
-    <div class="menu-title">
-        標本箱
-    </div>
+<div class="menu-title">標本箱</div>
 
-    <a class="current" href="nami.html">
-        ゲンゴロウ
-    </a>
+<input id="search" oninput="filterSpecies()" placeholder="種を検索">
 
-    <a href="himefuchitori.html">
-        ヒメフチトリゲンゴロウ
-    </a>
+<details open>
+<summary>ゲンゴロウ属</summary>
 
-    <a href="usuiroshima.html">
-        ウスイロシマゲンゴロウ
-    </a>
+<a class="species-link current" href="nami.html">ゲンゴロウ</a>
+<a class="species-link" href="himefuchitori.html">ヒメフチトリ</a>
+<a class="species-link" href="usuiroshima.html">ウスイロシマ</a>
 
-    <a href="ezogenmo.html">
-        エゾゲンゴロウモドキ
-    </a>
+</details>
+
+<details>
+<summary>その他</summary>
+<a class="species-link" href="#">エゾゲンモドキ</a>
+</details>
 
 </aside>
 
+<!-- 本文 -->
 <main class="species-content">
 
-    <header class="species-header">
+<header class="species-header">
+<h1>ゲンゴロウ</h1>
+<p class="latin"><em>Cybister chinensis</em></p>
+</header>
 
-        <h1>ゲンゴロウ</h1>
+<section class="article-block">
+<img src="images/nami_1.jpeg">
+<p>日本を代表する大型ゲンゴロウ。</p>
+</section>
 
-        <p class="latin">
-            <em>Cybister chinensis</em>
-        </p>
+<section class="article-block">
+<img src="images/nami_2.jpeg">
+<p>標本個体。</p>
+</section>
 
-    </header>
+<section class="article-block">
+<img src="images/nami_3.jpeg">
+<p>生息環境。</p>
+</section>
 
-    <section class="article-block">
+<!-- 写真保管庫 -->
+<section class="archive">
 
-        <img src="images/nami_1.jpeg">
+<h2>写真保管庫</h2>
 
-        <p>
-            日本を代表する大型ゲンゴロウ。
-            「ゲンゴロウ」と聞いて多くの人が思い浮かべるのが本種である。
-        </p>
+<div class="archive-grid">
 
-    </section>
+<img src="images/nami_1.jpeg" onclick="openImg(this.src)">
+<img src="images/nami_2.jpeg" onclick="openImg(this.src)">
+<img src="images/nami_3.jpeg" onclick="openImg(this.src)">
+<img src="images/nami_4.jpeg" onclick="openImg(this.src)">
+<img src="images/nami_5.jpeg" onclick="openImg(this.src)">
+<img src="images/nami_6.jpeg" onclick="openImg(this.src)">
 
-    <section class="article-block">
+</div>
 
-        <img src="images/nami_2.jpeg">
-
-        <p>
-            標本個体。
-            黄色紋の入り方には個体差があり、
-            同じ種でも見比べると面白い。
-        </p>
-
-    </section>
-
-    <section class="article-block">
-
-        <img src="images/nami_3.jpeg">
-
-        <p>
-            生息環境。
-            静かなため池や湿地で見られる。
-        </p>
-
-    </section>
-
-    <section class="archive">
-
-        <h2>写真保管庫</h2>
-
-        <div class="archive-grid">
-
-            <img src="images/nami_1.jpeg">
-            <img src="images/nami_2.jpeg">
-            <img src="images/nami_3.jpeg">
-            <img src="images/nami_4.jpeg">
-            <img src="images/nami_5.jpeg">
-            <img src="images/nami_6.jpeg">
-            <img src="images/nami_10.jpeg">
-
-        </div>
-
-    </section>
+</section>
 
 </main>
-
 
 </div>
 
