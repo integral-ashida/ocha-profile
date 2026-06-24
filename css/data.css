@@ -196,3 +196,9 @@ summary{
 .all-species > summary:hover{
     transform:translateY(-1px);
 }
+
+#todaiou,
+#koukousei,
+#shinseki{
+    scroll-margin-top: 90px;
+}
