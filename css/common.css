@@ -125,3 +125,21 @@ footer {
     padding: 15px 25px;
     border-radius: 999px;
 }
+
+@media (max-width: 900px){
+
+    .hero{
+        min-height: 50vh;
+    }
+
+    .cards{
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 0 20px 60px;
+    }
+
+    .card img{
+        height: 180px;
+    }
+
+}
