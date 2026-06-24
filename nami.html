@@ -158,5 +158,19 @@ function openImg(src){
 
 </div>
 
+<script>
+
+if(window.innerWidth > 900){
+
+    document.querySelector(".all-species")
+        .setAttribute("open","");
+
+    document.querySelectorAll(".species-group")
+        .forEach(x => x.setAttribute("open",""));
+
+}
+
+</script>
+
 </body>
 </html>
