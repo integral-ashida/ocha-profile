@@ -174,17 +174,25 @@ summary{
 
     .all-species > summary{
 
-        display:block;
+    list-style:none;
 
-        background:#eef6f4;
+    background:#2f7d6a;
+    color:white;
 
-        padding:12px;
+    padding:14px 16px;
 
-        border-radius:10px;
+    border-radius:14px;
 
-        cursor:pointer;
+    font-weight:700;
+    text-align:center;
 
-        margin-bottom:10px;
-    }
+    cursor:pointer;
 
+    box-shadow:0 6px 20px rgba(47,125,106,0.25);
+
+    transition:.2s;
+}
+
+.all-species > summary:hover{
+    transform:translateY(-1px);
 }
