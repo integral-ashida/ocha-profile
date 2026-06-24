@@ -146,3 +146,44 @@ summary{
         max-height:280px; /* スマホはさらに少し小さく */
     }
 }
+
+.all-species-title{
+    cursor:pointer;
+    font-weight:700;
+}
+
+/* PC */
+
+@media (min-width:901px){
+
+    .all-species{
+        display:block;
+    }
+
+    .all-species > summary{
+        display:none;
+    }
+
+}
+
+/* スマホ */
+
+@media (max-width:900px){
+
+    .all-species > summary{
+
+        display:block;
+
+        background:#eef6f4;
+
+        padding:12px;
+
+        border-radius:10px;
+
+        cursor:pointer;
+
+        margin-bottom:10px;
+    }
+
+}
+
