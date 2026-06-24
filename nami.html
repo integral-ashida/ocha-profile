@@ -14,10 +14,29 @@ function changePhoto(src){
 }
 
 function filterSpecies(){
-    const q = document.getElementById("search").value.toLowerCase();
+
+    const q =
+        document.getElementById("search")
+        .value
+        .toLowerCase();
+
     document.querySelectorAll(".species-link").forEach(a=>{
-        a.style.display = a.textContent.toLowerCase().includes(q) ? "block":"none";
+
+        a.style.display =
+            a.textContent.toLowerCase().includes(q)
+            ? "block"
+            : "none";
+
     });
+
+    if(q !== ""){
+
+        document
+            .querySelectorAll(".species-group")
+            .forEach(x => x.open = true);
+
+    }
+
 }
 
 function openImg(src){
@@ -63,7 +82,7 @@ function openImg(src){
 
 </details>
 
-<details>
+<details class="species-group">
 <summary>ゲンゴロウモドキ属</summary>
     
 <a class="species-link" href="tada.html">ゲンゴロウモドキ</a>
@@ -72,7 +91,7 @@ function openImg(src){
 
 </details>
 
-<details>
+<details class="species-group">
 <summary>シマゲンゴロウ属</summary>
     
 <a class="species-link" href="shima.html">シマゲンゴロウ</a>
@@ -88,7 +107,7 @@ function openImg(src){
 
 </details>
 
-<details>
+<details class="species-group">
 <summary>メススジゲンゴロウ属</summary>
     
 <a class="species-link" href="mesusuji.html">メススジゲンゴロウ</a>
