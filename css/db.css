@@ -94,3 +94,9 @@
     display:block;
     margin:0 auto;
 }
+
+.db-card img.vertical{
+    object-fit:contain;
+    background:white;
+    padding:8px;
+}
