@@ -105,7 +105,7 @@
     display:grid;
     grid-template-columns:1fr 1fr;
     gap:0;     
-    height:190px;
+    height:120px;
     overflow:hidden;
     border-radius:16px;
 }
