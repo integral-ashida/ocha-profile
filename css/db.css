@@ -101,3 +101,13 @@
     padding:8px;
 }
 
+.collection-photo{
+    margin:35px 0 50px;
+}
+
+.collection-photo img{
+    width:100%;
+    display:block;
+    border-radius:18px;
+    box-shadow:0 10px 30px rgba(0,0,0,.10);
+}
