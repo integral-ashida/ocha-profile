@@ -1,1 +1,182 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>日本の主なゲンゴロウ</title>
+
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/data.css">
+    
+<script>
+function changePhoto(src){
+    document.getElementById("main-photo").src = src;
+}
+
+function filterSpecies(){
+
+    const q =
+        document.getElementById("search")
+        .value
+        .toLowerCase();
+
+    document.querySelectorAll(".species-link").forEach(a=>{
+
+        a.style.display =
+            a.textContent.toLowerCase().includes(q)
+            ? "block"
+            : "none";
+
+    });
+
+    if(q !== ""){
+
+        document
+            .querySelectorAll(".species-group")
+            .forEach(x => x.open = true);
+
+    }
+
+}
+
+function openImg(src){
+    window.open(src, "_blank");
+}
+</script>
+
+</head>
+
+<body class="data">
+
+<nav class="nav">
+    <a href="index.html" class="nav-item">TOP</a>
+    <a href="quiz.html" class="nav-item">競技クイズ</a>
+    <a href="pk.html" class="nav-item">ポケモン</a>
+    <a href="db.html" class="nav-item">水生昆虫</a>
+</nav>
+
+<div class="page-layout">
+
+<aside class="species-menu">
+
+<details class="all-species">
+
+<summary class="all-species-title">
+その他のゲンゴロウも覗いてく？
+</summary>
+
+<!-- ここから今の検索欄と属一覧全部 -->
+
+<input id="search" oninput="filterSpecies()" placeholder="和名を検索">
+
+<details class="species-group">
+<summary>ゲンゴロウ属</summary>
+
+<a class="species-link current" href="nami.html">ゲンゴロウ</a>
+<a class="species-link" href="fuchitori.html">フチトリゲンゴロウ</a>
+<a class="species-link" href="himefuchitori.html">ヒメフチトリゲンゴロウ</a>
+<a class="species-link" href="kogatano.html">コガタノゲンゴロウ</a>
+<a class="species-link" href="marukogatano.html">マルコガタノゲンゴロウ</a>
+<a class="species-link" href="kuro.html">クロゲンゴロウ</a>
+<a class="species-link" href="tobiiro.html">トビイロゲンゴロウ</a>
+
+</details>
+
+<details class="species-group">
+<summary>ゲンゴロウモドキ属</summary>
+    
+<a class="species-link" href="tada.html">ゲンゴロウモドキ</a>
+<a class="species-link" href="ezo.html">エゾゲンゴロウモドキ</a>
+<a class="species-link" href="shapu.html">シャープゲンゴロウモドキ</a>
+
+</details>
+
+<details class="species-group">
+<summary>シマゲンゴロウ属</summary>
+    
+<a class="species-link" href="shima.html">シマゲンゴロウ</a>
+<a class="species-link" href="koshima.html">コシマゲンゴロウ</a>
+<a class="species-link" href="suji.html">スジゲンゴロウ</a>
+<a class="species-link" href="okinawasuji.html">オキナワスジゲンゴロウ</a>
+<a class="species-link" href="oshima.html">オオシマゲンゴロウ</a>
+<a class="species-link" href="usuiroshima.html">ウスイロシマゲンゴロウ</a>
+<a class="species-link" href="oichimonji.html">オオイチモンジゲンゴロウ</a>
+<a class="species-link" href="yanbaruoichimonji.html">ヤンバルオオイチモンジゲンゴロウ</a>
+<a class="species-link" href="ryukyuoichimonji.html">リュウキュウオオイチモンジゲンゴロウ</a>
+<a class="species-link" href="madarashima.html">マダラシマゲンゴロウ</a>
+
+</details>
+
+<details class="species-group">
+<summary>メススジゲンゴロウ属</summary>
+    
+<a class="species-link" href="mesusuji.html">メススジゲンゴロウ</a>
+
+</details>
+
+<details class="species-group">
+<summary>マルガタゲンゴロウ属</summary>
+    
+<a class="species-link" href="marugata.html">マルガタゲンゴロウ</a>
+<a class="species-link" href="karafutomarugata.html">カラフトマルガタゲンゴロウ</a>
+    
+</details>
+
+<details class="species-group">
+<summary>編集中・・・</summary>
+    
+<a class="species-link" href="mm.html">MM</a>
+<a class="species-link" href="mm.html">MM</a>
+    
+</details>
+</details>
+</aside>
+
+<!-- 本文 -->
+<main class="species-content">
+
+<header class="species-header">
+<h1>ゲンゴロウ</h1>
+<p class="latin"><em>Cybister chinensis</em></p>
+</header>
+
+<section class="article-block">
+<img src="images/himefuchitori_h1.jpeg">
+<p>鹿児島県の奄美大島や沖縄県に生息します。大きさは30mmほどですが、体の厚さがあるからかナミゲンゴロウのようなインパクトを感じます。</p>
+</section>
+
+<section class="article-block">
+<img src="images/nami_2.jpeg">
+<img src="images/nami_3.jpeg">
+<section class="article-block">
+<img src="images/nami_7.jpeg">
+<img src="images/nami_8.jpeg">
+<img src="images/nami_9.jpeg">
+<img src="images/nami_11.jpeg">
+<img src="images/nami_12.jpeg">
+<img src="images/nami_4.jpeg">
+<img src="images/nami_6.jpeg">
+<img src="images/nami_13.jpeg">
+</section>
+
+</main>
+
+</div>
+
+<script>
+
+if(window.innerWidth > 900){
+
+    document.querySelector(".all-species")
+        .setAttribute("open","");
+
+    document.querySelectorAll(".species-group")
+        .forEach(x => x.setAttribute("open",""));
+
+}
+
+</script>
+
+</body>
+</html>
 
