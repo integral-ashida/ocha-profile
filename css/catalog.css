@@ -24,3 +24,7 @@
 .catalog-copy .lead{font-family:"Hiragino Mincho ProN","Yu Mincho",YuMincho,serif}
 
 @media(max-width:620px){.catalog-copy h1{white-space:normal;font-size:2rem}}
+
+/* Reserve enough width for the unbroken Japanese title. */
+.catalog-intro{grid-template-columns:minmax(0,1.65fr) minmax(0,1fr)}.catalog-copy h1{white-space:nowrap;font-family:var(--gothic);font-size:clamp(1rem,2.7vw,2rem);letter-spacing:0}.catalog-copy{min-width:0}.catalog-copy .lead{font-family:var(--gothic)}.result-count{display:block}.search-wrap{min-width:0}
+@media(max-width:900px){.catalog-intro{grid-template-columns:1fr}.catalog-copy h1{font-size:clamp(1rem,5.2vw,2rem)}.catalog-photo{border-left:0;border-top:1px solid var(--line)}.catalog-photo img{max-height:260px}}
