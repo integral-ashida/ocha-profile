@@ -24,7 +24,7 @@ const SPECIES=[
 {id:'marugata',name:'マルガタゲンゴロウ',latin:'Graphoderus adamsii',genus:'マルガタゲンゴロウ属',image:'images/web/marugata_s1.webp',gallery:['images/web/marugata_s1.webp'],description:'大きさ12-15mmの中型種。名前の通りマルく、黄金色をしています。北海道の個体は黒みがかっているように思えます。'},
 {id:'karafutomarugata',name:'カラフトマルガタゲンゴロウ',latin:'Graphoderus elatus',genus:'マルガタゲンゴロウ属',image:'images/web/',gallery:['images/web/'],description:'北海道に生息します。大きさ11-14mmの中型種。腹側がワインレッドであることから、マルガタとの区別が容易です。'},
 
-{id:'mesusuji',name:'メススジゲンゴロウ',latin:'Acilius japonicus',genus:'メススジゲンゴロウ属',image:'images/web/mesusuji_s1.webp',gallery:['images/web/mesusuji_s1.webp'],description:'北海道・東北に生息します。大きさは15-17mmの中型種。名前の通りメスにはスジが通っています。福井県に生息するヤシャゲンゴロウと非常によく似ています。'},
+{id:'mesusuji',name:'メススジゲンゴロウ',latin:'Acilius japonicus',genus:'メススジゲンゴロウ属',image:'images/web/mesusuji.webp',gallery:['images/web/mesusuji.webp'],description:'北海道・東北に生息します。大きさは15-17mmの中型種。名前の通りメスにはスジが通っています。福井県に生息するヤシャゲンゴロウと非常によく似ています。'},
 
 {id:'mumonchibikotsubu',name:'ムモンチビコツブゲンゴロウ',latin:'Neohydrocoptus sp.',genus:'チビコツブゲンゴロウ属',image:'images/web/mumonchibikotsubu.webp',gallery:['images/web/mumonchibikotsubu.webp'],description:''},
 
@@ -40,7 +40,7 @@ const SPECIES=[
 {id:'watanabenagakeshi',name:'ワタナベナガケシゲンゴロウ',latin:'Hydroporus morio',genus:'ナガケシゲンゴロウ属',image:'images/web/watanabenagakeshi_h1.webp',gallery:['images/web/watanabenagakeshi_h2.webp','images/web/watanabenagakeshi_h3.webp'],description:''},
 {id:'gomadarachibi',name:'ゴマダラチビゲンゴロウ',latin:'Neonectes natrix',genus:'マルガタシマチビゲンゴロウ属',image:'images/web/gomadarachibi_1.webp',gallery:['images/web/gomadarachibi_1.webp'],description:''},
 {id:'tsubu',name:'ツブゲンゴロウ',latin:'Laccophilus difficilis',genus:'ツブゲンゴロウ属',image:'images/web/tsubu_1.webp',gallery:['images/web/tsubu_1.webp'],description:''},
-{id:'sharptsubu',name:'シャープツブゲンゴロウ',latin:'',genus:'ツブゲンゴロウ属',image:'images/web/sharptsubu_1.webp',gallery:['images/web/sharptsubu_1.webp'],description:''},
+{id:'sharptsubu',name:'シャープツブゲンゴロウ',latin:'Laccophilus sharpi',genus:'ツブゲンゴロウ属',image:'images/web/sharptsubu_1.webp',gallery:['images/web/sharptsubu_1.webp'],description:''},
 {id:'kiboshitsubu',name:'キボシツブゲンゴロウ',latin:'Japanolaccophilus niponensis',genus:'キボシツブゲンゴロウ属',image:'images/web/kiboshitsubu_1.webp',gallery:['images/web/kiboshitsubu_1.webp'],description:''},
 {id:'hososesuji',name:'ホソセスジゲンゴロウ',latin:'Copelatus weymarni',genus:'セスジゲンゴロウ属',image:'images/web/hososesuji_1.webp',gallery:['images/web/hososesuji_1.webp'],description:''},
 {id:'todasesuji',name:'トダセスジゲンゴロウ',latin:'Copelatus nakamurai',genus:'セスジゲンゴロウ属',image:'images/web/todasesuji_1.webp',gallery:['images/web/todasesuji_1.webp'],description:''},
