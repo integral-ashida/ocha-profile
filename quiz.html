@@ -6,6 +6,7 @@
   <meta name="description" content="競技クイズ">
   <title>競技クイズ｜足立拓哉</title>
   <link rel="stylesheet" href="css/common.css">
+
   <style>
     .quiz-toc {
       max-width: var(--max);
@@ -16,30 +17,26 @@
       gap: 12px 28px;
       border-bottom: 1px solid var(--line);
     }
+
     .quiz-toc p {
       width: 100%;
       margin: 0;
       color: var(--muted);
       font-size: .875rem;
     }
+
     .quiz-toc a {
       display: inline-flex;
       align-items: center;
       min-height: 44px;
       text-underline-offset: 5px;
     }
-    #todaiou > div {
-      grid-column: 2;
-    }
+
     #todaiou,
     #nazoken {
       scroll-margin-top: calc(var(--header-height) + 24px);
     }
-    @media (max-width: 850px) {
-      #todaiou > div {
-        grid-column: 1;
-      }
-    }
+
     @media (max-width: 560px) {
       .quiz-toc {
         padding: 20px 16px;
@@ -52,6 +49,7 @@
 <body data-section="quiz">
   <header class="site-header">
     <a class="brand" href="index.html">お茶。</a>
+
     <nav class="global-nav" aria-label="メインメニュー">
       <a href="index.html">TOP</a>
       <a href="quiz.html">競技クイズ</a>
@@ -65,6 +63,7 @@
       <div class="page-title">
         <h1>競技クイズ</h1>
       </div>
+
       <div class="page-note">
         <p>高校１年生の頃、テレビ番組『高校生クイズ』に憧れて始めたのがきっかけ。とりわけ謎解きクイズが好きです！</p>
       </div>
@@ -77,11 +76,14 @@
     </nav>
 
     <div class="story-list">
+      <!-- 東大王 -->
       <article class="story" id="todaiou">
         <div class="story-index">2020年</div>
+
         <div>
           <h2>『東大王』出場</h2>
           <p></p>
+
           <div class="story-media">
             <img src="images/web/quiz_1.webp" alt="紀野紗良">
             <img src="images/web/quiz_2.webp" alt="郵便">
@@ -89,11 +91,14 @@
         </div>
       </article>
 
+      <!-- 謎解き能力検定 -->
       <article class="story" id="nazoken">
         <div class="story-index">2022年</div>
+
         <div>
           <h2>謎解き能力検定<br>全国３位</h2>
           <p></p>
+
           <div class="story-media">
             <img src="images/web/trophy.webp" alt="トロフィー">
             <img src="images/web/quiz_3.webp" alt="結果">
