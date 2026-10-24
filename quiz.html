@@ -8,39 +8,164 @@
   <link rel="stylesheet" href="css/common.css">
 
   <style>
-    .quiz-toc {
-      max-width: var(--max);
+    /* ページ全体の幅と余白 */
+    .record-page {
+      max-width: 1040px;
       margin: 0 auto;
-      padding: 24px 28px;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px 28px;
+      padding: 0 28px 64px;
+    }
+
+    .record-head {
+      padding: 56px 0 36px;
+    }
+
+    .record-head h1 {
+      margin: 0 0 20px;
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      line-height: 1.4;
+      letter-spacing: .04em;
+    }
+
+    .record-head p {
+      max-width: 42rem;
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.95;
+    }
+
+    /* 縦並びの目次 */
+    .record-toc {
+      margin: 0 0 56px;
+    }
+
+    .record-toc-label {
+      margin: 0 0 12px;
+      color: var(--muted);
+      font-size: .875rem;
+      letter-spacing: .12em;
+    }
+
+    .record-toc ol {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      border-top: 1px solid var(--ink);
+    }
+
+    .record-toc li {
       border-bottom: 1px solid var(--line);
     }
 
-    .quiz-toc p {
-      width: 100%;
-      margin: 0;
-      color: var(--muted);
-      font-size: .875rem;
+    .record-toc a {
+      display: grid;
+      grid-template-columns: 88px minmax(0, 1fr) 24px;
+      align-items: baseline;
+      gap: 20px;
+      padding: 20px 0;
+      color: var(--ink);
+      text-decoration: none;
+      transition: background-color .18s ease;
     }
 
-    .quiz-toc a {
-      display: inline-flex;
-      align-items: center;
-      min-height: 44px;
+    .record-toc a:hover {
+      background: var(--paper-deep);
+    }
+
+    .record-toc a:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 4px;
+    }
+
+    .toc-year {
+      color: var(--muted);
+      font-size: .875rem;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .toc-title {
+      font-size: 1rem;
+      font-weight: 600;
+      line-height: 1.7;
+    }
+
+    .toc-arrow {
+      text-align: right;
+      color: var(--muted);
+    }
+
+    /* 年号・見出し・写真 */
+    .record-entry {
+      display: grid;
+      grid-template-columns: 88px minmax(0, 1fr);
+      gap: 20px;
+      padding: 36px 0 56px;
+      border-top: 1px solid var(--line);
+      scroll-margin-top: calc(var(--header-height, 64px) + 20px);
+    }
+
+    .record-year {
+      padding-top: 7px;
+      color: var(--muted);
+      font-size: .875rem;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .record-content {
+      min-width: 0;
+    }
+
+    .record-content h2 {
+      margin: 0 0 24px;
+      font-size: clamp(1.4rem, 3vw, 1.9rem);
+      line-height: 1.6;
+      letter-spacing: .02em;
+    }
+
+    .record-content .story-media {
+      margin-top: 0;
+      gap: 16px;
+    }
+
+    .record-back {
+      display: inline-block;
+      margin-top: 24px;
+      padding: 8px 0;
+      color: var(--muted);
+      font-size: .875rem;
       text-underline-offset: 5px;
     }
 
-    #todaiou,
-    #nazoken {
-      scroll-margin-top: calc(var(--header-height) + 24px);
-    }
-
     @media (max-width: 560px) {
-      .quiz-toc {
-        padding: 20px 16px;
-        gap: 4px 20px;
+      .record-page {
+        padding: 0 16px 40px;
+      }
+
+      .record-head {
+        padding: 32px 0 28px;
+      }
+
+      .record-toc {
+        margin-bottom: 36px;
+      }
+
+      .record-toc a {
+        grid-template-columns: 62px minmax(0, 1fr) 16px;
+        gap: 12px;
+        padding: 18px 0;
+      }
+
+      .record-entry {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding: 24px 0 36px;
+      }
+
+      .record-year {
+        padding-top: 0;
+      }
+
+      .record-content h2 {
+        margin-bottom: 20px;
       }
     }
   </style>
@@ -58,54 +183,67 @@
     </nav>
   </header>
 
-  <main>
-    <header class="page-head">
-      <div class="page-title">
-        <h1>競技クイズ</h1>
-      </div>
-
-      <div class="page-note">
-        <p>高校１年生の頃、テレビ番組『高校生クイズ』に憧れて始めたのがきっかけ。とりわけ謎解きクイズが好きです！</p>
-      </div>
+  <main class="record-page">
+    <!-- タイトルと紹介文 -->
+    <header class="record-head">
+      <h1>競技クイズ</h1>
+      <p>高校１年生の頃、テレビ番組『高校生クイズ』に憧れて始めたのがきっかけ。とりわけ謎解きクイズが好きです！</p>
     </header>
 
-    <nav class="quiz-toc" aria-label="このページの目次">
-      <p>目次</p>
-      <a href="#todaiou">『東大王』出場</a>
-      <a href="#nazoken">謎解き能力検定 全国3位</a>
+    <!-- 目次 -->
+    <nav class="record-toc" id="contents" aria-label="このページの目次">
+      <p class="record-toc-label">目次</p>
+
+      <ol>
+        <li>
+          <a href="#todaiou">
+            <span class="toc-year">2020年</span>
+            <span class="toc-title">『東大王』出場</span>
+            <span class="toc-arrow" aria-hidden="true">↓</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#nazoken">
+            <span class="toc-year">2022年</span>
+            <span class="toc-title">謎解き能力検定 全国３位</span>
+            <span class="toc-arrow" aria-hidden="true">↓</span>
+          </a>
+        </li>
+      </ol>
     </nav>
 
-    <div class="story-list">
-      <!-- 東大王 -->
-      <article class="story" id="todaiou">
-        <div class="story-index">2020年</div>
+    <!-- 東大王 -->
+    <article class="record-entry" id="todaiou">
+      <div class="record-year">2020年</div>
 
-        <div>
-          <h2>『東大王』出場</h2>
-          <p></p>
+      <div class="record-content">
+        <h2>『東大王』出場</h2>
 
-          <div class="story-media">
-            <img src="images/web/quiz_1.webp" alt="紀野紗良">
-            <img src="images/web/quiz_2.webp" alt="郵便">
-          </div>
+        <div class="story-media">
+          <img src="images/web/quiz_1.webp" alt="紀野紗良">
+          <img src="images/web/quiz_2.webp" alt="郵便">
         </div>
-      </article>
 
-      <!-- 謎解き能力検定 -->
-      <article class="story" id="nazoken">
-        <div class="story-index">2022年</div>
+        <a class="record-back" href="#contents">目次へ戻る</a>
+      </div>
+    </article>
 
-        <div>
-          <h2>謎解き能力検定<br>全国３位</h2>
-          <p></p>
+    <!-- 謎解き能力検定 -->
+    <article class="record-entry" id="nazoken">
+      <div class="record-year">2022年</div>
 
-          <div class="story-media">
-            <img src="images/web/trophy.webp" alt="トロフィー">
-            <img src="images/web/quiz_3.webp" alt="結果">
-          </div>
+      <div class="record-content">
+        <h2>謎解き能力検定<br>全国３位</h2>
+
+        <div class="story-media">
+          <img src="images/web/trophy.webp" alt="トロフィー">
+          <img src="images/web/quiz_3.webp" alt="結果">
         </div>
-      </article>
-    </div>
+
+        <a class="record-back" href="#contents">目次へ戻る</a>
+      </div>
+    </article>
   </main>
 
   <script src="js/main.js"></script>
