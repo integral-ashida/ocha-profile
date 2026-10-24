@@ -32,7 +32,7 @@ const SPECIES=[
 {"id": "kiboshikeshi", "name": "キボシケシゲンゴロウ", "latin": "Allopachria flavomaculata", "genus": "キボシケシゲンゴロウ属", "image": "images/web/kiboshikeshi_1.webp", "gallery": ["images/web/kiboshikeshi_1.webp"], "description": ""},
 {"id": "komarukeshi", "name": "コマルケシゲンゴロウ", "latin": "Hydrovatus acuminatus", "genus": "マルケシゲンゴロウ属", "image": "images/web/komarukeshi_1.webp", "gallery": ["images/web/komarukeshi_1.webp"], "description": ""},
 {"id": "onigirimarukeshi", "name": "オニギリマルケシゲンゴロウ", "latin": "Hydrovatus onigiri", "genus": "マルケシゲンゴロウ属", "image": "images/web/onigirimarukeshi_1.webp", "gallery": ["images/web/onigirimarukeshi_1.webp"], "description": ""},
-{"id": "chibi", "name": "チビゲンゴロウ", "latin": "Hydroglyphus japonicus", "genus": "チビゲンゴロウ属", "image": "images/web/chibi_1.webp", "gallery": ["images/web/chibi_1.webp"], "description": ""},
+{"id": "chibi", "name": "チビゲンゴロウ", "latin": "Hydroglyphus japonicus", "genus": "チビゲンゴロウ属", "image": "images/web/chibi.webp", "gallery": ["images/web/chibi_s1.webp"], "description": ""},
 {"id": "maruchibi", "name": "マルチビゲンゴロウ", "latin": "Leiodytes frontalis", "genus": "マルチビゲンゴロウ属", "image": "images/web/maruchibi_1.webp", "gallery": ["images/web/maruchibi_1.webp"], "description": ""},
 {"id": "tohokunagakeshi", "name": "トウホクナガケシゲンゴロウ", "latin": "Hydroporus tokui", "genus": "ナガケシゲンゴロウ属", "image": "images/web/tohokunagakeshi_1.webp", "gallery": ["images/web/tohokunagakeshi_1.webp"], "description": ""},
 {"id": "usuironagakeshi", "name": "ウスイロナガケシゲンゴロウ", "latin": "Hydroporus ijimai", "genus": "ナガケシゲンゴロウ属", "image": "images/web/usuironagakeshi_1.webp", "gallery": ["images/web/usuironagakeshi_1.webp"], "description": ""},
