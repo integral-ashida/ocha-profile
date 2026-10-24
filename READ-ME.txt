@@ -1,0 +1,9 @@
+2026年10月24日 GitHub最新版 a4cfeac を元に編集。
+置き換えるのは index.html、quiz.html、pk.html の3ファイルのみです。
+1. GitHub Desktopで未保存の編集を保存し、必要なCommitを済ませる。Fetch origin → Pull origin（表示された場合）。
+2. Repository → Show in Finder。元フォルダを別の場所にバックアップ。
+3. この3つのHTMLをocha-profile直下へコピーし、同名ファイルを置き換える。
+4. GitHub Desktopで変更を確認しCommit → Push origin。
+css、js、imagesフォルダは操作不要。
+競技クイズの末尾がfooterの開始タグで途切れていたため、閉じタグとmain.jsの読み込みも補完しました。
+目次のリンク先・説明文の一致・順位装飾の削除を確認。実ブラウザ表示は未確認です。
