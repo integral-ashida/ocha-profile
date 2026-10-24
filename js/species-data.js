@@ -51,7 +51,7 @@ const SPECIES=[
 {"id": "sawadamame", "name": "サワダマメゲンゴロウ", "latin": "Platambus sawadai", "genus": "モンキマメゲンゴロウ属", "image": "images/web/sawadamame_1.webp", "gallery": ["images/web/sawadamame_1.webp"], "description": ""},
 {"id": "hosokuromame", "name": "ホソクロマメゲンゴロウ", "latin": "Platambus optatus", "genus": "モンキマメゲンゴロウ属", "image": "images/web/hosokuromame_1.webp", "gallery": ["images/web/hosokuromame_1.webp"], "description": ""},
 {"id": "mame", "name": "マメゲンゴロウ", "latin": "Agabus japonicus", "genus": "マメゲンゴロウ属", "image": "images/web/mame_1.webp", "gallery": ["images/web/mame_1.webp"], "description": ""},
-{"id": "chairomame", "name": "チャイロマメゲンゴロウ", "latin": "Agabus browni", "genus": "マメゲンゴロウ属", "image": "images/web/chairomame_1.webp", "gallery": ["images/web/chairomame_1.webp"], "description": ""},
+{"id": "chairomame", "name": "チャイロマメゲンゴロウ", "latin": "Agabus browni", "genus": "マメゲンゴロウ属", "image": "images/web/chairomame.webp", "gallery": ["images/web/chairomame.webp"], "description": ""},
 {"id": "kurozumame", "name": "クロズマメゲンゴロウ", "latin": "Agabus conspicuus", "genus": "マメゲンゴロウ属", "image": "images/web/kurozumame.webp", "gallery": ["images/web/kurozumame.webp"], "description": ""},
 {"id": "kiberikurohime", "name": "キベリクロヒメゲンゴロウ", "latin": "Ilybius apicalis", "genus": "クロヒメゲンゴロウ属", "image": "images/web/kiberikurohime_1.webp", "gallery": ["images/web/kiberikurohime_1.webp"], "description": ""},
 {"id": "hime", "name": "ヒメゲンゴロウ", "latin": "Rhantus suturalis", "genus": "ヒメゲンゴロウ属", "image": "images/web/hime_1.webp", "gallery": ["images/web/hime_1.webp"], "description": ""},
