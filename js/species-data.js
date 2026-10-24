@@ -28,10 +28,10 @@ const SPECIES=[
 
 {"id": "mumonchibikotsubu", "name": "ムモンチビコツブゲンゴロウ", "latin": "Neohydrocoptus sp.", "genus": "チビコツブゲンゴロウ属", "image": "images/web/mumonchibikotsubu.webp", "gallery": ["images/web/mumonchibikotsubu.webp"], "description": ""},
 
-{"id": "kotsubu", "name": "コツブゲンゴロウ", "latin": "Noterus japonicus", "genus": "コツブゲンゴロウ属", "image": "images/web/kotsubu_1.webp", "gallery": ["images/web/kotsubu_1.webp"], "description": ""},
+{"id": "kotsubu", "name": "コツブゲンゴロウ", "latin": "Noterus japonicus", "genus": "コツブゲンゴロウ属", "image": "images/web/kotsubu_1.webp", "gallery": ["images/web/kotsubu.webp"], "description": ""},
 {"id": "kotsubu", "name": "ツヤコツブゲンゴロウ", "latin": "Cauthydrus nitidulus", "genus": "ツヤコツブゲンゴロウ属", "image": "images/web/tuyakotsubu.webp", "gallery": ["images/web/kotsubu.webp"], "description": ""},
-{"id": "kiboshikeshi", "name": "キボシケシゲンゴロウ", "latin": "Allopachria flavomaculata", "genus": "キボシケシゲンゴロウ属", "image": "images/web/kiboshikeshi_1.webp", "gallery": ["images/web/kiboshikeshi_1.webp"], "description": ""},
-{"id": "komarukeshi", "name": "コマルケシゲンゴロウ", "latin": "Hydrovatus acuminatus", "genus": "マルケシゲンゴロウ属", "image": "images/web/komarukeshi_1.webp", "gallery": ["images/web/komarukeshi_1.webp"], "description": ""},
+{"id": "kiboshikeshi", "name": "キボシケシゲンゴロウ", "latin": "Allopachria flavomaculata", "genus": "キボシケシゲンゴロウ属", "image": "images/web/kiboshikeshi.webp", "gallery": ["images/web/kiboshikeshi.webp"], "description": ""},
+{"id": "komarukeshi", "name": "コマルケシゲンゴロウ", "latin": "Hydrovatus acuminatus", "genus": "マルケシゲンゴロウ属", "image": "images/web/komarukeshi.webp", "gallery": ["images/web/komarukeshi.webp"], "description": ""},
 {"id": "onigirimarukeshi", "name": "オニギリマルケシゲンゴロウ", "latin": "Hydrovatus onigiri", "genus": "マルケシゲンゴロウ属", "image": "images/web/onigirimarukeshi_1.webp", "gallery": ["images/web/onigirimarukeshi_1.webp"], "description": ""},
 {"id": "chibi", "name": "チビゲンゴロウ", "latin": "Hydroglyphus japonicus", "genus": "チビゲンゴロウ属", "image": "images/web/chibi.webp", "gallery": ["images/web/chibi_s1.webp"], "description": ""},
 {"id": "maruchibi", "name": "マルチビゲンゴロウ", "latin": "Leiodytes frontalis", "genus": "マルチビゲンゴロウ属", "image": "images/web/maruchibi_1.webp", "gallery": ["images/web/maruchibi_1.webp"], "description": ""},
