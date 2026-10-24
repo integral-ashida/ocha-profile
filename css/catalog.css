@@ -42,3 +42,12 @@
 .search-hint{margin:8px 0 0;font-size:.875rem;line-height:1.6;color:var(--muted)}
 .result-count{display:block;font-size:.875rem;white-space:nowrap;font-variant-numeric:tabular-nums}
 @media(max-width:600px){.catalog-tools{grid-template-columns:1fr;gap:10px;padding:16px}.result-count{text-align:right}.search-hint{font-size:.875rem}}
+
+/* スマホでは検索欄を非固定　*/
+@media (max-width: 600px) {
+  .catalog-tools {
+    position: static;
+    top: auto;
+  }
+}
+
