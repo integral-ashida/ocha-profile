@@ -26,10 +26,10 @@ const SPECIES=[
 
 {id:'mesusuji',name:'メススジゲンゴロウ',latin:'',genus:'メススジゲンゴロウ属',image:'images/web/mesusuji_s1.webp',gallery:['images/web/mesusuji_s1.webp'],description:'北海道・東北に生息します。大きさは15-17mmの中型種。名前の通りメスにはスジが通っています。福井県に生息するヤシャゲンゴロウと非常によく似ています。'},
 
-{"id": "mumonchibikotsubu", "name": "ムモンチビコツブゲンゴロウ", "latin": "Neohydrocoptus sp.", "genus": "チビコツブゲンゴロウ属", "image": "images/web/mumonchibikotsubu_1.webp", "gallery": ["images/web/mumonchibikotsubu_1.webp"], "description": ""},
+{"id": "mumonchibikotsubu", "name": "ムモンチビコツブゲンゴロウ", "latin": "Neohydrocoptus sp.", "genus": "チビコツブゲンゴロウ属", "image": "images/web/mumonchibikotsubu.webp", "gallery": ["images/web/mumonchibikotsubu.webp"], "description": ""},
 
 {"id": "kotsubu", "name": "コツブゲンゴロウ", "latin": "Noterus japonicus", "genus": "コツブゲンゴロウ属", "image": "images/web/kotsubu_1.webp", "gallery": ["images/web/kotsubu_1.webp"], "description": ""},
-{"id": "kotsubu", "name": "ツヤコツブゲンゴロウ", "latin": "Cauthydrus nitidulus", "genus": "ツヤコツブゲンゴロウ属", "image": "images/web/tuyakotsubu.webp", "gallery": ["images/web/kotsubu.webp"], "description": "MM"},
+{"id": "kotsubu", "name": "ツヤコツブゲンゴロウ", "latin": "Cauthydrus nitidulus", "genus": "ツヤコツブゲンゴロウ属", "image": "images/web/tuyakotsubu.webp", "gallery": ["images/web/kotsubu.webp"], "description": ""},
 {"id": "kiboshikeshi", "name": "キボシケシゲンゴロウ", "latin": "Allopachria flavomaculata", "genus": "キボシケシゲンゴロウ属", "image": "images/web/kiboshikeshi_1.webp", "gallery": ["images/web/kiboshikeshi_1.webp"], "description": ""},
 {"id": "komarukeshi", "name": "コマルケシゲンゴロウ", "latin": "Hydrovatus acuminatus", "genus": "マルケシゲンゴロウ属", "image": "images/web/komarukeshi_1.webp", "gallery": ["images/web/komarukeshi_1.webp"], "description": ""},
 {"id": "onigirimarukeshi", "name": "オニギリマルケシゲンゴロウ", "latin": "Hydrovatus onigiri", "genus": "マルケシゲンゴロウ属", "image": "images/web/onigirimarukeshi_1.webp", "gallery": ["images/web/onigirimarukeshi_1.webp"], "description": ""},
