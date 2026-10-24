@@ -21,8 +21,8 @@ const SPECIES=[
 {id:'yamonji',name:'ヤンバルオオイチモンジシマゲンゴロウ',latin:'Hydaticus yambaruensis',genus:'シマゲンゴロウ属',image:'images/web/yamonji_h1.webp',gallery:['images/web/yamonji_h1.webp'],description:'沖縄県本島に生息します。大きさ14mmほどの中型種。ほかのモンジの仲間に比べて、模様が派手です。'},
 {id:'ryumonji',name:'リュウキュウオオイチモンジシマゲンゴロウ',latin:'Hydaticus pacificus',genus:'シマゲンゴロウ属',image:'images/web/ryumonji_h2.webp',gallery:['images/web/ryumonji_h1.webp','images/web/ryumonji_h2.webp'],description:'石垣島・西表島に生息します。大きさ15mmほどの中型種です。ほかのモンジの仲間に比べて、模様がかなり地味です。'},
 
-{id:'marugata',name:'マルガタゲンゴロウ',latin:'Graphoderus adamsii',genus:'マルガタゲンゴロウ属',image:'images/web/marugata_s1.webp',gallery:['images/web/marugata_s1.webp'],description:'大きさ12-15mmの中型種。名前の通りマルく、黄金色をしています。北海道の個体は黒みがかっているように思えます。'},
-{id:'karafutomarugata',name:'カラフトマルガタゲンゴロウ',latin:'Graphoderus elatus',genus:'マルガタゲンゴロウ属',image:'images/web/',gallery:['images/web/'],description:'北海道に生息します。大きさ11-14mmの中型種。腹側がワインレッドであることから、マルガタとの区別が容易です。'},
+{id:'marugata',name:'マルガタゲンゴロウ',latin:'Graphoderus adamsii',genus:'マルガタゲンゴロウ属',image:'images/web/marugata_s1.webp',gallery:['images/web/marugata_s1.webp'],description:'大きさ12-15mmの中型種。名前の通りマルく、黄金色をしています。北海道の個体は本州の個体に比べて黒みがかっています。'},
+{id:'karafutomarugata',name:'カラフトマルガタゲンゴロウ',latin:'Graphoderus elatus',genus:'マルガタゲンゴロウ属',image:'images/web/',gallery:['images/web/'],description:'北海道の北部に生息します。大きさ11-14mmの中型種。腹側がワインレッドであることから、マルガタとの区別が容易です。'},
 
 {id:'mesusuji',name:'メススジゲンゴロウ',latin:'Acilius japonicus',genus:'メススジゲンゴロウ属',image:'images/web/mesusuji.webp',gallery:['images/web/mesusuji.webp'],description:'北海道・東北に生息します。大きさは15-17mmの中型種。名前の通りメスにはスジが通っています。福井県に生息するヤシャゲンゴロウと非常によく似ています。'},
 
