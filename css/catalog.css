@@ -28,3 +28,17 @@
 /* Reserve enough width for the unbroken Japanese title. */
 .catalog-intro{grid-template-columns:minmax(0,1.65fr) minmax(0,1fr)}.catalog-copy h1{white-space:nowrap;font-family:var(--gothic);font-size:clamp(1rem,2.7vw,2rem);letter-spacing:0}.catalog-copy{min-width:0}.catalog-copy .lead{font-family:var(--gothic)}.result-count{display:block}.search-wrap{min-width:0}
 @media(max-width:900px){.catalog-intro{grid-template-columns:1fr}.catalog-copy h1{font-size:clamp(1rem,5.2vw,2rem)}.catalog-photo{border-left:0;border-top:1px solid var(--line)}.catalog-photo img{max-height:260px}}
+
+/* Search: a white input field, explicit label and immediate result feedback. */
+.catalog-tools{display:grid;grid-template-columns:minmax(0,720px) auto;align-items:center;gap:16px 28px;background:#fff;padding:20px max(20px,calc((100vw - 1064px)/2));border-bottom:1px solid var(--line)}
+.search-wrap{position:relative;width:100%;max-width:none;min-width:0}
+.search-wrap label{position:static;display:block;transform:none;font-size:.875rem;font-weight:600;letter-spacing:0;margin-bottom:8px;color:var(--ink)}
+.search-wrap input{display:block;width:100%;height:52px;padding:12px 84px 12px 16px;border:1px solid #7c8986;border-radius:0;background:#fff;color:var(--ink);font-size:1rem;box-shadow:none}
+.search-wrap input:focus{outline:2px solid var(--accent);outline-offset:2px;border-color:var(--accent);box-shadow:none}
+.search-wrap input::placeholder{color:#68736f;opacity:1}
+.search-wrap input::-webkit-search-cancel-button{-webkit-appearance:none}
+.search-wrap .clear-search{position:absolute;right:5px;top:calc(1.575rem + 12px);transform:none;min-height:44px;min-width:64px;padding:8px;background:#fff;color:var(--accent);font-size:.875rem;text-decoration:underline;text-underline-offset:3px}
+.clear-search[hidden]{display:none!important}
+.search-hint{margin:8px 0 0;font-size:.875rem;line-height:1.6;color:var(--muted)}
+.result-count{display:block;font-size:.875rem;white-space:nowrap;font-variant-numeric:tabular-nums}
+@media(max-width:600px){.catalog-tools{grid-template-columns:1fr;gap:10px;padding:16px}.result-count{text-align:right}.search-hint{font-size:.875rem}}
