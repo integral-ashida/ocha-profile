@@ -28,7 +28,7 @@ const SPECIES=[
 
 {id:'mumonchibikotsubu',name:'ムモンチビコツブゲンゴロウ',latin:'Neohydrocoptus sp.',genus:'チビコツブゲンゴロウ属',image:'images/web/mumonchibikotsubu.webp',gallery:['images/web/mumonchibikotsubu.webp'],description:''},
 
-{id:'kotsubu',name:'コツブゲンゴロウ',latin:'Noterus japonicus',genus:'コツブゲンゴロウ属',image:'images/web/kotsubu_1.webp',gallery:['images/web/kotsubu.webp'],description:''},
+{id:'kotsubu',name:'コツブゲンゴロウ',latin:'Noterus japonicus',genus:'コツブゲンゴロウ属',image:'images/web/kotsubu.webp',gallery:['images/web/kotsubu.webp'],description:''},
 {id:'tuyakotsubu',name:'ツヤコツブゲンゴロウ',latin:'Cauthydrus nitidulus',genus:'ツヤコツブゲンゴロウ属',image:'images/web/tsuyakotsubu.webp',gallery:['images/web/tsuyakotsubu.webp'],description:''},
 {id:'kiboshikeshi',name:'キボシケシゲンゴロウ',latin:'Allopachria flavomaculata',genus:'キボシケシゲンゴロウ属',image:'images/web/kiboshikeshi.webp',gallery:['images/web/kiboshikeshi.webp'],description:''},
 {id:'komarukeshi',name:'コマルケシゲンゴロウ',latin:'Hydrovatus acuminatus',genus:'マルケシゲンゴロウ属',image:'images/web/komarukeshi.webp',gallery:['images/web/komarukeshi.webp'],description:''},
@@ -37,7 +37,7 @@ const SPECIES=[
 {id:'maruchibi',name:'マルチビゲンゴロウ',latin:'Leiodytes frontalis',genus:'マルチビゲンゴロウ属',image:'images/web/maruchibi_1.webp',gallery:['images/web/maruchibi_1.webp'],description:''},
 {id:'tohokunagakeshi',name:'トウホクナガケシゲンゴロウ',latin:'Hydroporus tokui',genus:'ナガケシゲンゴロウ属',image:'images/web/tohokunagakeshi_1.webp',gallery:['images/web/tohokunagakeshi_1.webp'],description:''},
 {id:'usuironagakeshi',name:'ウスイロナガケシゲンゴロウ',latin:'Hydroporus ijimai',genus:'ナガケシゲンゴロウ属',image:'images/web/usuironagakeshi_1.webp',gallery:['images/web/usuironagakeshi_1.webp'],description:''},
-{id:'watanabenagakeshi',name:'ワタナベナガケシゲンゴロウ',latin:'Hydroporus morio',genus:'ナガケシゲンゴロウ属',image:'images/web/watanabenagakeshi_1.webp',gallery:['images/web/watanabenagakeshi_1.webp'],description:''},
+{id:'watanabenagakeshi',name:'ワタナベナガケシゲンゴロウ',latin:'Hydroporus morio',genus:'ナガケシゲンゴロウ属',image:'images/web/watanabenagakeshi_h1.webp',gallery:['images/web/watanabenagakeshi_h2.webp','images/web/watanabenagakeshi_h3.webp'],description:''},
 {id:'gomadarachibi',name:'ゴマダラチビゲンゴロウ',latin:'Neonectes natrix',genus:'マルガタシマチビゲンゴロウ属',image:'images/web/gomadarachibi_1.webp',gallery:['images/web/gomadarachibi_1.webp'],description:''},
 {id:'tsubu',name:'ツブゲンゴロウ',latin:'Laccophilus difficilis',genus:'ツブゲンゴロウ属',image:'images/web/tsubu_1.webp',gallery:['images/web/tsubu_1.webp'],description:''},
 {id:'sharptsubu',name:'シャープツブゲンゴロウ',latin:'',genus:'ツブゲンゴロウ属',image:'images/web/sharptsubu_1.webp',gallery:['images/web/sharptsubu_1.webp'],description:''},
