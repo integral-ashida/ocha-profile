@@ -7,7 +7,7 @@ const SPECIES=[
 {id:'kuro',name:'クロゲンゴロウ',latin:'',genus:'ゲンゴロウ属',image:'images/web/kuro.webp',gallery:['images/web/kuro.webp','images/web/kuro_s2.webp','images/web/kuro_s1.webp'],description:'大きさ20-25mm。光の当たり方によって深緑色にみえます。'},
 {id:'tobiiro',name:'トビイロゲンゴロウ',latin:'',genus:'ゲンゴロウ属',image:'images/web/tobiiro_h1.webp',gallery:['images/web/tobiiro_h1.webp','images/web/tobiiro_h2.webp'],description:'沖縄・奄美に生息します。大きさ19-24mmでクロゲンよりやや小さいと感じます。標本にしたらクロゲンとほぼ同じです。'},
 
-{id:'genmo',name:'ゲンゴロウモドキ',latin:'',genus:'ゲンゴロウモドキ属',image:'images/web/genmo.webp',gallery:['images/web/genmo_h1.webp','images/web/genmo_h2.webp'],description:'北海道や東北に生息します。大きさ30-37mm。腹側に黒色のしましまが目立つことから、エゾゲンモとの区別が容易です。エゾゲンモはこのしましまが控えめで目立ちません。メイン写真は東北で採集した個体です。'},
+{id:'genmo',name:'ゲンゴロウモドキ',latin:'',genus:'ゲンゴロウモドキ属',image:'images/web/genmo.webp',gallery:['images/web/genmo_s1.webp','images/web/genmo_h1.webp','images/web/genmo_h2.webp'],description:'北海道や東北に生息します。大きさ30-37mm。腹側に黒色のしましまが目立つことから、エゾゲンモとの区別が容易です。エゾゲンモはこのしましまが控えめで目立ちません。メイン写真は東北で採集した個体です。'},
 {id:'ezogenmo',name:'エゾゲンゴロウモドキ',latin:'',genus:'ゲンゴロウモドキ属',image:'images/web/ezogenmo.webp',gallery:['images/web/ezogenmo.webp','images/web/ezogenmo_s1.webp','images/web/ezogenmo_s1.webp'],description:'東北・北海道に生息します。大きさ30-37mm。腹側に黒色のしましまが目立たないことから、タダゲンモとの区別が容易です。また、タダゲンモよりも横幅が広く、胸部下側の黄色のふちとりが太いイメージです。メイン写真は長野で採集した個体です。'},
 {id:'shapu',name:'シャープゲンゴロウモドキ',latin:'Dytiscus sharpi',genus:'ゲンゴロウモドキ属',image:'images/web/spgnm.webp',gallery:['images/web/spgnm.webp'],description:'主に石川県・千葉県に生息します。大きさは30mmほど。ほかのゲンゴロウモドキ類と比べてやや小型ですが、異様な存在感があります。国内希少野生動植物種に指定されているたいへん希少な種です。'},
 
