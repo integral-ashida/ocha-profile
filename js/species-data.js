@@ -21,7 +21,7 @@ const SPECIES=[
 {id:'yamonji',name:'ヤンバルオオイチモンジシマゲンゴロウ',latin:'Hydaticus yambaruensis',genus:'シマゲンゴロウ属',image:'images/web/yamonji_h1.webp',gallery:['images/web/yamonji_h1.webp'],description:'沖縄県本島に生息します。大きさ14mmほどの中型種。ほかのモンジの仲間に比べて、模様が派手です。'},
 {id:'ryumonji',name:'リュウキュウオオイチモンジシマゲンゴロウ',latin:'Hydaticus pacificus',genus:'シマゲンゴロウ属',image:'images/web/ryumonji_h2.webp',gallery:['images/web/ryumonji_h1.webp','images/web/ryumonji_h2.webp'],description:'石垣島・西表島に生息します。大きさ15mmほどの中型種です。ほかのモンジの仲間に比べて、模様がかなり地味です。'},
 
-{id:'marugata',name:'マルガタゲンゴロウ',latin:'Graphoderus adamsii',genus:'マルガタゲンゴロウ属',image:'images/web/marugata_s1.webp',gallery:['images/web/marugata_s1.webp'],description:'大きさ12-15mmの中型種。名前の通りマルく、黄金色をしています。北海道の個体は本州の個体に比べて黒みがかっています。'},
+{id:'marugata',name:'マルガタゲンゴロウ',latin:'Graphoderus adamsii',genus:'マルガタゲンゴロウ属',image:'images/web/marugata_s1.webp',gallery:['images/web/marugata_h1.webp'],description:'大きさ12-15mmの中型種。名前の通りマルく、黄金色をしています。北海道の個体は本州の個体に比べて黒みがかっています。'},
 {id:'karafutomarugata',name:'カラフトマルガタゲンゴロウ',latin:'Graphoderus elatus',genus:'マルガタゲンゴロウ属',image:'images/web/',gallery:['images/web/'],description:'北海道の北部に生息します。大きさ11-14mmの中型種。腹側がワインレッドであることから、マルガタとの区別が容易です。'},
 
 {id:'mesusuji',name:'メススジゲンゴロウ',latin:'Acilius japonicus',genus:'メススジゲンゴロウ属',image:'images/web/mesusuji.webp',gallery:['images/web/mesusuji.webp'],description:'北海道・東北に生息します。大きさ15-17mmの中型種。名前の通りメスにはスジが通っています。福井県に生息するヤシャゲンゴロウと非常によく似ています。'},
@@ -37,7 +37,7 @@ const SPECIES=[
 {id:'maruchibi',name:'マルチビゲンゴロウ',latin:'Leiodytes frontalis',genus:'マルチビゲンゴロウ属',image:'images/web/maruchibi_1.webp',gallery:['images/web/maruchibi_1.webp'],description:''},
 {id:'tohokunagakeshi',name:'トウホクナガケシゲンゴロウ',latin:'Hydroporus tokui',genus:'ナガケシゲンゴロウ属',image:'images/web/tohokunagakeshi_1.webp',gallery:['images/web/tohokunagakeshi_1.webp'],description:''},
 {id:'usuironagakeshi',name:'ウスイロナガケシゲンゴロウ',latin:'Hydroporus ijimai',genus:'ナガケシゲンゴロウ属',image:'images/web/usuironagakeshi_1.webp',gallery:['images/web/usuironagakeshi_1.webp'],description:''},
-{id:'watanabenagakeshi',name:'ワタナベナガケシゲンゴロウ',latin:'Hydroporus morio',genus:'ナガケシゲンゴロウ属',image:'images/web/watanabenagakeshi_h1.webp',gallery:['images/web/watanabenagakeshi_h2.webp','images/web/watanabenagakeshi_h3.webp'],description:''},
+{id:'watanabenagakeshi',name:'ワタナベナガケシゲンゴロウ',latin:'Hydroporus morio',genus:'ナガケシゲンゴロウ属',image:'images/web/watanabenagakeshi.webp',gallery:['images/web/watanabenagakeshi_h1.webp','images/web/watanabenagakeshi_h2.webp'],description:''},
 {id:'gomadarachibi',name:'ゴマダラチビゲンゴロウ',latin:'Neonectes natrix',genus:'マルガタシマチビゲンゴロウ属',image:'images/web/gomadarachibi_1.webp',gallery:['images/web/gomadarachibi_1.webp'],description:''},
 {id:'tsubu',name:'ツブゲンゴロウ',latin:'Laccophilus difficilis',genus:'ツブゲンゴロウ属',image:'images/web/tsubu_1.webp',gallery:['images/web/tsubu_1.webp'],description:''},
 {id:'sharptsubu',name:'シャープツブゲンゴロウ',latin:'Laccophilus sharpi',genus:'ツブゲンゴロウ属',image:'images/web/sharptsubu_1.webp',gallery:['images/web/sharptsubu_1.webp'],description:''},
@@ -56,6 +56,6 @@ const SPECIES=[
 {id:'kiberikurohime',name:'キベリクロヒメゲンゴロウ',latin:'Ilybius apicalis',genus:'クロヒメゲンゴロウ属',image:'images/web/kiberikurohime_1.webp',gallery:['images/web/kiberikurohime_1.webp'],description:''},
 {id:'hime',name:'ヒメゲンゴロウ',latin:'Rhantus suturalis',genus:'ヒメゲンゴロウ属',image:'images/web/hime_1.webp',gallery:['images/web/hime_1.webp'],description:''},
 {id:'oohime',name:'オオヒメゲンゴロウ',latin:'Rhantus erraticus',genus:'ヒメゲンゴロウ属',image:'images/web/oohime_1.webp',gallery:['images/web/oohime_1.webp'],description:''},
-{id:'ezohiratahime',name:'エゾヒラタヒメゲンゴロウ',latin:'Colymbetes pseudostriatus',genus:'ヒラタヒメゲンゴロウ属',image:'images/web/ezohiratahime.webp',gallery:['images/web/ezohiratahime_1.webp'],description:''},
+{id:'ezohiratahime',name:'エゾヒラタヒメゲンゴロウ',latin:'Colymbetes pseudostriatus',genus:'ヒラタヒメゲンゴロウ属',image:'images/web/ezohiratahime.webp',gallery:['images/web/ezohiratahime.webp'],description:''},
 {id:'haiiro',name:'ハイイロゲンゴロウ',latin:'Eretes griseus',genus:'ハイイロゲンゴロウ属',image:'images/web/haiiro.webp',gallery:['images/web/haiiro_1.webp'],description:''}
 ];
