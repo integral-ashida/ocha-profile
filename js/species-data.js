@@ -9,7 +9,7 @@ const SPECIES=[
 
 {id:'genmo',name:'ゲンゴロウモドキ',latin:'Dytiscus dauricus',genus:'ゲンゴロウモドキ属',image:'images/web/genmo.webp',gallery:['images/web/genmo_s1.webp','images/web/genmo_h1.webp','images/web/genmo_h2.webp'],description:'北海道・東北に生息します。大きさ30-37mm。腹側に黒色の縞模様が目立つことから、エゾゲンモとの区別が容易です。エゾゲンモはこの縞模様が控えめで目立ちません。トップ写真は東北で採集した個体です。'},
 {id:'ezogenmo',name:'エゾゲンゴロウモドキ',latin:'Dytiscus marginalis czerskii',genus:'ゲンゴロウモドキ属',image:'images/web/ezogenmo.webp',gallery:['images/web/ezogenmo_s1.webp','images/web/ezogenmo_s2.webp'],description:'東北・北海道に生息します。大きさ30-37mm。腹側に黒色の縞模様が目立たないことから、タダゲンモとの区別が容易です。また、タダゲンモよりも横幅が広く、胸部下側の黄色の縁取りが太いイメージです。トップ写真は長野県で観察した個体です。'},
-{id:'shapu',name:'シャープゲンゴロウモドキ',latin:'Dytiscus sharpi',genus:'ゲンゴロウモドキ属',image:'images/web/shapu.webp',gallery:['images/web/shapu_s1.webp','images/web/shapu_h1.webp'],description:'主に石川県・千葉県に生息します。大きさは30mmほど。ほかのゲンゴロウモドキ類と比べてやや小型ですが、異様な存在感があります。国内希少野生動植物種に指定されている大変希少な種です。小学生のとき、ひと掬いで毎度5-6匹ほどタモ網に入る池をみつけたときには大興奮しました。'},
+{id:'shapu',name:'シャープゲンゴロウモドキ',latin:'Dytiscus sharpi',genus:'ゲンゴロウモドキ属',image:'images/web/shapu.webp',gallery:['images/web/shapu_s1.webp','images/web/shapu_h1.webp'],description:'主に石川県・千葉県に生息します。大きさ30mmほど。ほかのゲンゴロウモドキ類と比べてやや小型ですが、異様な存在感があります。国内希少野生動植物種に指定されている大変希少な種です。小学生のとき、ひと掬いで毎度5-6匹ほどタモ網に入る池をみつけたときには大興奮しました。'},
 
 {id:'shima',name:'シマゲンゴロウ',latin:'Hydaticus bowringii',genus:'シマゲンゴロウ属',image:'images/web/shima.webp',gallery:['images/web/shima_s1.webp','images/web/shima_s2.webp','images/web/shima_s3.webp','images/web/shima_y1.webp','images/web/shima_p1.webp','images/web/shima_s4.webp','images/web/shima_s5.webp','images/web/shima_s6.webp'],description:'大きさ12-14mmの中型種。1対のポチと4本のラインが通っています。模様の個体変異が多い種で、よく1対のポチがない子や4本のラインが途切れる子もいます。幼虫は、他のゲンゴロウのように地中に空洞を作るのではなく、地上に繭を作ってそのなかで蛹になります。繭は天井から作り始めるっぽいです。'},
 {id:'koshima',name:'コシマゲンゴロウ',latin:'Hydaticus grammicus',genus:'シマゲンゴロウ属',image:'images/web/koshima.webp',gallery:['images/web/koshima_s1.webp','images/web/koshima_s2.webp','images/web/koshima_y1.webp','images/web/koshima_h1.webp','images/web/koshima_h2.webp'],description:'大きさ9-11mmの小型種。背側の模様は大変美しいです。比較的普通にみられる種。'},
@@ -24,7 +24,7 @@ const SPECIES=[
 {id:'marugata',name:'マルガタゲンゴロウ',latin:'Graphoderus adamsii',genus:'マルガタゲンゴロウ属',image:'images/web/marugata_s1.webp',gallery:['images/web/marugata_s1.webp'],description:'大きさ12-15mmの中型種。名前の通りマルく、黄金色をしています。北海道の個体は本州の個体に比べて黒みがかっています。'},
 {id:'karafutomarugata',name:'カラフトマルガタゲンゴロウ',latin:'Graphoderus elatus',genus:'マルガタゲンゴロウ属',image:'images/web/',gallery:['images/web/'],description:'北海道の北部に生息します。大きさ11-14mmの中型種。腹側がワインレッドであることから、マルガタとの区別が容易です。'},
 
-{id:'mesusuji',name:'メススジゲンゴロウ',latin:'Acilius japonicus',genus:'メススジゲンゴロウ属',image:'images/web/mesusuji.webp',gallery:['images/web/mesusuji.webp'],description:'北海道・東北に生息します。大きさは15-17mmの中型種。名前の通りメスにはスジが通っています。福井県に生息するヤシャゲンゴロウと非常によく似ています。'},
+{id:'mesusuji',name:'メススジゲンゴロウ',latin:'Acilius japonicus',genus:'メススジゲンゴロウ属',image:'images/web/mesusuji.webp',gallery:['images/web/mesusuji.webp'],description:'北海道・東北に生息します。大きさ15-17mmの中型種。名前の通りメスにはスジが通っています。福井県に生息するヤシャゲンゴロウと非常によく似ています。'},
 
 {id:'mumonchibikotsubu',name:'ムモンチビコツブゲンゴロウ',latin:'Neohydrocoptus sp.',genus:'チビコツブゲンゴロウ属',image:'images/web/mumonchibikotsubu.webp',gallery:['images/web/mumonchibikotsubu.webp'],description:''},
 
