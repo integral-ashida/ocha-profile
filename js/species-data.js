@@ -37,7 +37,7 @@ const SPECIES=[
 {id:'maruchibi',name:'マルチビゲンゴロウ',latin:'Leiodytes frontalis',genus:'マルチビゲンゴロウ属',image:'images/web/maruchibi_1.webp',gallery:['images/web/maruchibi_1.webp'],description:''},
 {id:'tohokunagakeshi',name:'トウホクナガケシゲンゴロウ',latin:'Hydroporus tokui',genus:'ナガケシゲンゴロウ属',image:'images/web/tohokunagakeshi_1.webp',gallery:['images/web/tohokunagakeshi_1.webp'],description:''},
 {id:'usuironagakeshi',name:'ウスイロナガケシゲンゴロウ',latin:'Hydroporus ijimai',genus:'ナガケシゲンゴロウ属',image:'images/web/usuironagakeshi_1.webp',gallery:['images/web/usuironagakeshi_1.webp'],description:''},
-{id:'watanabenagakeshi',name:'ワタナベナガケシゲンゴロウ',latin:'Hydroporus morio',genus:'ナガケシゲンゴロウ属',image:'images/web/watanabenagakeshi.webp',gallery:['images/web/watanabenagakeshi_h1.webp','images/web/watanabenagakeshi_h2.webp'],description:'日本では北海道の大雪山に生息します。大きさ3.7mmほど。'},
+{id:'watanabenagakeshi',name:'ワタナベナガケシゲンゴロウ',latin:'Hydroporus morio',genus:'ナガケシゲンゴロウ属',image:'images/web/watanabenagakeshi.webp',gallery:['images/web/watanabenagakeshi_h1.webp','images/web/watanabenagakeshi_h2.webp'],description:'日本では北海道の大雪山のみに生息します。大きさ3.7mmほど。背側は黒褐色、点刻が密にあり、灰白色の微細な毛が密生する。水生植物がない岩場水域で暮らしているため、長い脚や鉤爪が特徴的です。1992年に北海道の大雪山で採集された１個体のみを所持しています。（譲渡個体）'},
 {id:'gomadarachibi',name:'ゴマダラチビゲンゴロウ',latin:'Neonectes natrix',genus:'マルガタシマチビゲンゴロウ属',image:'images/web/gomadarachibi_1.webp',gallery:['images/web/gomadarachibi_1.webp'],description:''},
 {id:'tsubu',name:'ツブゲンゴロウ',latin:'Laccophilus difficilis',genus:'ツブゲンゴロウ属',image:'images/web/tsubu_1.webp',gallery:['images/web/tsubu_1.webp'],description:''},
 {id:'sharptsubu',name:'シャープツブゲンゴロウ',latin:'Laccophilus sharpi',genus:'ツブゲンゴロウ属',image:'images/web/sharptsubu_1.webp',gallery:['images/web/sharptsubu_1.webp'],description:''},
