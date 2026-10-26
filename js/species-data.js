@@ -57,5 +57,5 @@ const SPECIES=[
 {id:'hime',name:'ヒメゲンゴロウ',latin:'Rhantus suturalis',genus:'ヒメゲンゴロウ属',image:'images/web/hime_1.webp',gallery:['images/web/hime_1.webp'],description:''},
 {id:'oohime',name:'オオヒメゲンゴロウ',latin:'Rhantus erraticus',genus:'ヒメゲンゴロウ属',image:'images/web/oohime_1.webp',gallery:['images/web/oohime_1.webp'],description:''},
 {id:'ezohiratahime',name:'エゾヒラタヒメゲンゴロウ',latin:'Colymbetes pseudostriatus',genus:'ヒラタヒメゲンゴロウ属',image:'images/web/ezohiratahime.webp',gallery:['images/web/ezohiratahime.webp'],description:''},
-{id:'haiiro',name:'ハイイロゲンゴロウ',latin:'Eretes griseus',genus:'ハイイロゲンゴロウ属',image:'images/web/haiiro.webp',gallery:['images/web/haiiro_1.webp'],description:''}
+{id:'haiiro',name:'ハイイロゲンゴロウ',latin:'Eretes griseus',genus:'ハイイロゲンゴロウ属',image:'images/web/haiiro.webp',gallery:['images/web/haiiro_1.webp'],description:'大きさ9.8-16.5mm。ゲンゴロウ界の異端児。水面が氷で覆われている真冬のため池でも元気に泳いでいたり、上陸することなく直接水面から飛翔したり'}
 ];
