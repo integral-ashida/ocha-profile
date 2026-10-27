@@ -30,7 +30,7 @@ const SPECIES=[
 
 {id:'kotsubu',name:'コツブゲンゴロウ',latin:'Noterus japonicus',genus:'コツブゲンゴロウ属',image:'images/web/kotsubu.webp',gallery:['images/web/kotsubu.webp'],description:''},
 {id:'tuyakotsubu',name:'ツヤコツブゲンゴロウ',latin:'Cauthydrus nitidulus',genus:'ツヤコツブゲンゴロウ属',image:'images/web/tsuyakotsubu.webp',gallery:['images/web/tsuyakotsubu.webp'],description:''},
-{id:'kiboshikeshi',name:'キボシケシゲンゴロウ',latin:'Allopachria flavomaculata',genus:'キボシケシゲンゴロウ属',image:'images/web/kiboshikeshi.webp',gallery:['images/web/kiboshikeshi.webp'],description:''},
+{id:'kiboshikeshi',name:'キボシケシゲンゴロウ',latin:'Allopachria flavomaculata',genus:'キボシケシゲンゴロウ属',image:'images/web/kiboshikeshi_h.webp',gallery:['images/web/kiboshikeshi_h.webp'],description:''},
 {id:'komarukeshi',name:'コマルケシゲンゴロウ',latin:'Hydrovatus acuminatus',genus:'マルケシゲンゴロウ属',image:'images/web/komarukeshi.webp',gallery:['images/web/komarukeshi.webp'],description:''},
 {id:'onigirimarukeshi',name:'オニギリマルケシゲンゴロウ',latin:'Hydrovatus onigiri',genus:'マルケシゲンゴロウ属',image:'images/web/onigirimarukeshi.webp',gallery:['images/web/onigirimarukeshi_s1.webp'],description:''},
 {id:'chibi',name:'チビゲンゴロウ',latin:'Hydroglyphus japonicus',genus:'チビゲンゴロウ属',image:'images/web/chibi.webp',gallery:['images/web/chibi_s1.webp'],description:''},
@@ -49,7 +49,7 @@ const SPECIES=[
 {id:'monkimame',name:'モンキマメゲンゴロウ',latin:'Platambus pictipennis',genus:'モンキマメゲンゴロウ属',image:'images/web/monkimame_1.webp',gallery:['images/web/monkimame_1.webp'],description:''},
 {id:'kiberimame',name:'キベリマメゲンゴロウ',latin:'Platambus fimbriatus',genus:'モンキマメゲンゴロウ属',image:'images/web/kiberimame_1.webp',gallery:['images/web/kiberimame_1.webp'],description:''},
 {id:'sawadamame',name:'サワダマメゲンゴロウ',latin:'Platambus sawadai',genus:'モンキマメゲンゴロウ属',image:'images/web/sawadamame_h.webp',gallery:['images/web/sawadamame_h.webp'],description:''},
-{id:'hosokuromame',name:'ホソクロマメゲンゴロウ',latin:'Platambus optatus',genus:'モンキマメゲンゴロウ属',image:'images/web/hosokuromame_1.webp',gallery:['images/web/hosokuromame_h.webp'],description:''},
+{id:'hosokuromame',name:'ホソクロマメゲンゴロウ',latin:'Platambus optatus',genus:'モンキマメゲンゴロウ属',image:'images/web/hosokuromame_1.webp',gallery:['images/web/hosokuromame_h.webp','images/web/hosokuromame_hb.webp'],description:''},
 {id:'mame',name:'マメゲンゴロウ',latin:'Agabus japonicus',genus:'マメゲンゴロウ属',image:'images/web/mame_1.webp',gallery:['images/web/mame_1.webp'],description:''},
 {id:'chairomame',name:'チャイロマメゲンゴロウ',latin:'Agabus browni',genus:'マメゲンゴロウ属',image:'images/web/chairomame.webp',gallery:['images/web/chairomame.webp'],description:''},
 {id:'kurozumame',name:'クロズマメゲンゴロウ',latin:'Agabus conspicuus',genus:'マメゲンゴロウ属',image:'images/web/kurozumame.webp',gallery:['images/web/kurozumame.webp'],description:''},
