@@ -39,10 +39,10 @@ const SPECIES=[
 {id:'usuironagakeshi',name:'ウスイロナガケシゲンゴロウ',latin:'Hydroporus ijimai',genus:'ナガケシゲンゴロウ属',image:'images/web/usuironagakeshi_1.webp',gallery:['images/web/usuironagakeshi_1.webp'],description:'大きさ3.4-3.8mmの微小種。長野県を原産地としたナガケシゲンゴロウに対して、北海道から記載された前胸背側縁の丸みが強いものをウスイロナガケシゲンゴロウと区別しているらしいです。ただし、この２種は変異が大きく外見からのみでは明確に区別することはできません。そこで、大まかに生息域から判断して本州産=ナガケシ｜北海道産=ウスイロナガケシとされることが多いです。'},
 {id:'watanabenagakeshi',name:'ワタナベナガケシゲンゴロウ',latin:'Hydroporus morio',genus:'ナガケシゲンゴロウ属',image:'images/web/watanabenagakeshi.webp',gallery:['images/web/watanabenagakeshi_h1.webp','images/web/watanabenagakeshi_h2.webp'],description:'日本国内では北海道の大雪山のみに生息します。大きさ3.7mmほど。背側は光沢のない黒褐色、点刻が密にあり、灰白色の微細な毛が密生します。水生植物がない岩場水域で暮らしているため、長い脚や鉤爪が特徴的です。1992年に北海道の大雪山で採集された１個体のみを所持しています。（譲渡個体）'},
 {id:'gomadarachibi',name:'ゴマダラチビゲンゴロウ',latin:'Neonectes natrix',genus:'マルガタシマチビゲンゴロウ属',image:'images/web/gomadarachibi_1.webp',gallery:['images/web/gomadarachibi_1.webp'],description:''},
-{id:'tsubu',name:'ツブゲンゴロウ',latin:'Laccophilus difficilis',genus:'ツブゲンゴロウ属',image:'images/web/tsubu_1.webp',gallery:['images/web/tsubu_1.webp'],description:''},
-{id:'sharptsubu',name:'シャープツブゲンゴロウ',latin:'Laccophilus sharpi',genus:'ツブゲンゴロウ属',image:'images/web/sharptsubu_1.webp',gallery:['images/web/sharptsubu_1.webp'],description:''},
+{id:'tsubu',name:'ツブゲンゴロウ',latin:'Laccophilus difficilis',genus:'ツブゲンゴロウ属',image:'images/web/tsubu_h.webp',gallery:['images/web/tsubu_h.webp'],description:''},
+{id:'sharptsubu',name:'シャープツブゲンゴロウ',latin:'Laccophilus sharpi',genus:'ツブゲンゴロウ属',image:'images/web/sharptsubu_h.webp',gallery:['images/web/sharptsubu_h.webp'],description:''},
 {id:'kiboshitsubu',name:'キボシツブゲンゴロウ',latin:'Japanolaccophilus niponensis',genus:'キボシツブゲンゴロウ属',image:'images/web/kiboshitsubu_1.webp',gallery:['images/web/kiboshitsubu_1.webp'],description:''},
-{id:'hososesuji',name:'ホソセスジゲンゴロウ',latin:'Copelatus weymarni',genus:'セスジゲンゴロウ属',image:'images/web/hososesuji_1.webp',gallery:['images/web/hososesuji_1.webp'],description:''},
+{id:'hososesuji',name:'ホソセスジゲンゴロウ',latin:'Copelatus weymarni',genus:'セスジゲンゴロウ属',image:'images/web/hososesuji_h.webp',gallery:['images/web/hososesuji_h.webp'],description:''},
 {id:'todasesuji',name:'トダセスジゲンゴロウ',latin:'Copelatus nakamurai',genus:'セスジゲンゴロウ属',image:'images/web/todasesuji_h.webp',gallery:['images/web/todasesuji_h.webp'],description:''},
 {id:'yaeyamasesuji',name:'ヤエヤマセスジゲンゴロウ',latin:'Copelatus masculinus',genus:'セスジゲンゴロウ属',image:'images/web/yaeyamasesuji_h.webp',gallery:['images/web/yaeyamasesuji_h.webp'],description:''},
 {id:'atohoshihiratamame',name:'アトホシヒラタマメゲンゴロウ',latin:'Platynectes chujoi',genus:'ヒラタマメゲンゴロウ属',image:'images/web/atohoshihiratamame_1.webp',gallery:['images/web/atohoshihiratamame_1.webp'],description:''},
@@ -59,3 +59,4 @@ const SPECIES=[
 {id:'ezohiratahime',name:'エゾヒラタヒメゲンゴロウ',latin:'Colymbetes pseudostriatus',genus:'ヒラタヒメゲンゴロウ属',image:'images/web/ezohiratahime.webp',gallery:['images/web/ezohiratahime.webp'],description:''},
 {id:'haiiro',name:'ハイイロゲンゴロウ',latin:'Eretes griseus',genus:'ハイイロゲンゴロウ属',image:'images/web/haiiro.webp',gallery:['images/web/haiiro_1.webp'],description:'大きさ9.8-16.5mm。ゲンゴロウ界の異端児。体を震わせて鳴いたり、水面が氷で覆われている真冬のため池でも元気に泳いでいたり、上陸することなく直接水面から飛翔したり、水中で翅を広げたり！？記述中'}
 ];
+
