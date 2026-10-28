@@ -7,6 +7,7 @@
 // 記入例は README.txt を参照。値は文献等で確認して記入してください。
 
 const SPECIES=[
+<<<<<<< HEAD
 {id:'nami',
   bodyLength:'35–43 mm',
   redList:'',
@@ -56,6 +57,15 @@ const SPECIES=[
   habitat:'',
   factsSource:'',
   name:'トビイロゲンゴロウ',latin:'Cybister sugillatus',genus:'ゲンゴロウ属',image:'images/web/tobiiro_hh.webp',gallery:['images/web/tobiiro_hh.webp'],description:'沖縄・奄美に生息します。大きさ19-24mmでクロゲンゴロウよりやや小さいと感じます。パッと見はクロゲンゴロウですが、胸部の左右に鳶色があることからトビイロゲンゴロウ。'},
+=======
+{id:'nami',name:'ゲンゴロウ',latin:'Cybister chinensis',genus:'ゲンゴロウ属',image:'images/web/nami.webp',gallery:['images/web/nami_s1.webp','images/web/nami_s2.webp','images/web/nami_s3.webp','images/web/nami_s4.webp','images/web/nami_s5.webp','images/web/nami_s6.webp','images/web/nami_y1.webp','images/web/nami_y2.webp','images/web/nami_y3.webp','images/web/nami_p1.webp','images/web/nami_s7.webp','images/web/nami_s8.webp','images/web/nami_s9.webp','images/web/nami_s10.webp'],description:'日本最大のゲンゴロウ。一般にゲンゴロウといえば本種を指しますが、ほかのゲンゴロウ類と区別するため、ナミゲンゴロウやホンゲンゴロウと呼ばれることもあります。ゲンゴロウ界の代表のような名前を背負っていますが、実際その堂々たる体格はなかなかのもの。初めてタモ網に入ったときのあの感動は忘れられません。数多くの種類がいるゲンゴロウのなかでもやはり特別な存在のひとつです。'},
+{id:'fuchitori',name:'フチトリゲンゴロウ',latin:'Cybister limbatus',genus:'ゲンゴロウ属',image:'images/web/fuchitori_h1.webp',gallery:['images/web/fuchitori_h1.webp'],description:'沖縄・奄美に生息します。大きさ33-39mmで、ナミゲンゴロウより気持ち小さめですが体に厚みがあるため、ナミゲンゴロウにも負けない存在感があります。'},
+{id:'himefuchitori',name:'ヒメフチトリゲンゴロウ',latin:'Cybister rugosus',genus:'ゲンゴロウ属',image:'images/web/himefuchitori.webp',gallery:['images/web/himefuchitori_s1.webp','images/web/himefuchitori_y1.webp','images/web/himefuchitori_p1.webp','images/web/himefuchitori_s2.webp','images/web/himefuchitori_s3.webp','images/web/himefuchitori_s4.webp','images/web/himefuchitori_h1.webp','images/web/himefuchitori_h2.webp','images/web/himefuchitori_h3.webp'],description:'沖縄・奄美に生息します。大きさ30mmほど。フチトリゲンゴロウに似ていますが、比較的小さく、腹側には黄色の模様があるので、区別が容易です。幼虫の頭部には縞模様が目立つようです。'},
+{id:'kogatano',name:'コガタノゲンゴロウ',latin:'Cybister tripunctatus lateralis',genus:'ゲンゴロウ属',image:'images/web/kogatano.webp',gallery:['images/web/kogatano_hh.webp','images/web/kogatano_s1.webp','images/web/kogatano_s2.webp'],description:'大きさ30mmに満たないほどの南方系のゲンゴロウ。比較的獰猛で、同じ湿地に暮らすナミゲンゴロウの後脚が食いちぎられていることもあります。'},
+{id:'marukogatano',name:'マルコガタノゲンゴロウ',latin:'Cybister lewisianus',genus:'ゲンゴロウ属',image:'images/web/marukogatano_hh.webp',gallery:['images/web/marukogatano_hh.webp'],description:'わたしの最も好きなゲンゴロウです。大きさ21-26mmでクロゲンゴロウより大きく、コガタノゲンゴロウよりも小さいくらい。ヒルムシロが生息する比較的大きな池でみつかるイメージです。'},
+{id:'kuro',name:'クロゲンゴロウ',latin:'Cybister brevis',genus:'ゲンゴロウ属',image:'images/web/kuro.webp',gallery:['images/web/kuro_hh.webp','images/web/kuro_y1.webp','images/web/kuro_y2.webp','images/web/kuro_p1.webp','images/web/kuro_s1.webp','images/web/kuro_s2.webp'],description:'大きさ20-25mm。光の当たり方によって深緑色にもみえます。'},
+{id:'tobiiro',name:'トビイロゲンゴロウ',latin:'Cybister sugillatus',genus:'ゲンゴロウ属',image:'images/web/tobiiro_hh.webp',gallery:['images/web/tobiiro_hh.webp'],description:'沖縄・奄美に生息します。大きさ19-24mmでクロゲンゴロウよりやや小さいと感じます。パッと見はクロゲンゴロウですが、胸部の左右に鳶色があることからトビイロゲンゴロウ。'},
+>>>>>>> 0e476e5fc2274cfc1b981250661328f42dc8cb81
 
 {id:'genmo',
   bodyLength:'',
