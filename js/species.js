@@ -3,7 +3,7 @@ const params=new URLSearchParams(location.search),selected=SPECIES.find(s=>s.id=
 
 // 基本情報：すべて textContent で表示するため、HTMLを書く必要はありません。
 function renderSpeciesFacts(species) {
-  const heading = document.querySelector('.species-title');
+  const heading = document.querySelector('.species-hero');
   if (!heading) return;
   document.querySelector('#species-facts')?.remove();
   const fields = [
