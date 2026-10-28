@@ -8,8 +8,8 @@ function renderSpeciesFacts(species) {
   document.querySelector('#species-facts')?.remove();
   const fields = [
     ['体長', species.bodyLength],
-    ['環境省レッドリスト', species.redList],
-    ['生息環境', species.habitat]
+    ['環境省カテゴリー', species.redList],
+    ['生息地', species.habitat]
   ].filter(([, value]) => typeof value === 'string' && value.trim());
   if (!fields.length) return;
 
@@ -25,21 +25,10 @@ function renderSpeciesFacts(species) {
     term.textContent = label;
     const detail = document.createElement('dd');
     detail.textContent = value.trim();
-    if (label === '環境省レッドリスト' && species.redListNote?.trim()) {
-      const note = document.createElement('small');
-      note.textContent = species.redListNote.trim();
-      detail.append(note);
-    }
     row.append(term, detail);
     list.append(row);
   }
   section.append(list);
-  if (species.factsSource?.trim()) {
-    const source = document.createElement('p');
-    source.className = 'species-facts-source';
-    source.textContent = '出典：' + species.factsSource.trim();
-    section.append(source);
-  }
   heading.insertAdjacentElement('afterend', section);
 }
 renderSpeciesFacts(selected);
