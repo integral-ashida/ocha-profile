@@ -7,9 +7,9 @@ function renderSpeciesFacts(species) {
   if (!heading) return;
   document.querySelector('#species-facts')?.remove();
   const fields = [
-    ['体長', species.bodyLength],
-    ['環境省カテゴリー', species.redList],
-    ['生息地', species.habitat]
+    ['大きさ', species.bodyLength],
+    ['生息地', species.habitat],
+    ['環境省カテゴリー', species.redList]
   ].filter(([, value]) => typeof value === 'string' && value.trim());
   if (!fields.length) return;
 
