@@ -51,3 +51,25 @@
   }
 }
 
+
+
+/* 種詳細の基本情報。写真・一覧のレイアウトには影響しません。 */
+.species-facts { margin: 24px 0; }
+.species-facts dl { margin: 0; border-top: 1px solid var(--line, #d9deda); }
+.species-facts-row {
+  display: grid;
+  grid-template-columns: 11rem minmax(0, 1fr);
+  gap: 12px 24px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line, #d9deda);
+  font-size: .9375rem;
+  line-height: 1.7;
+}
+.species-facts dt { margin: 0; color: var(--muted, #626b67); font-weight: 400; }
+.species-facts dd { margin: 0; min-width: 0; white-space: pre-line; overflow-wrap: anywhere; }
+.species-facts small { display: block; color: var(--muted, #626b67); font-size: .8125rem; }
+.species-facts-source { margin: 10px 0 0; font-size: .8125rem; line-height: 1.7; color: var(--muted, #626b67); overflow-wrap: anywhere; }
+@media (max-width: 600px) {
+  .species-facts-row { grid-template-columns: 1fr; gap: 3px; padding: 11px 0; }
+  .species-facts dt { font-size: .8125rem; }
+}
