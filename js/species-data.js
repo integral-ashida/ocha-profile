@@ -5,24 +5,12 @@ const SPECIES=[
 {id:'nami',
   bodyLength:'35–43 mm',
   redList:'絶滅危惧II類（VU）',
-<<<<<<< HEAD
   habitat:'北海道・本州・四国・九州',
-=======
-  redListNote:'',
-  habitat:'北海道・本州・四国・九州',
-  factsSource:'',
->>>>>>> 0586c6e67283252703d14cd74f15cfa69292b514
   name:'ゲンゴロウ',latin:'Cybister chinensis',genus:'ゲンゴロウ属',image:'images/web/nami.webp',gallery:['images/web/nami_s1.webp','images/web/nami_s2.webp','images/web/nami_s3.webp','images/web/nami_s4.webp','images/web/nami_s5.webp','images/web/nami_s6.webp','images/web/nami_y1.webp','images/web/nami_y2.webp','images/web/nami_y3.webp','images/web/nami_p1.webp','images/web/nami_s7.webp','images/web/nami_s8.webp','images/web/nami_s9.webp','images/web/nami_s10.webp'],description:'日本最大のゲンゴロウ。一般にゲンゴロウといえば本種を指しますが、ほかのゲンゴロウ類と区別するため、ナミゲンゴロウやホンゲンゴロウと呼ばれることもあります。ゲンゴロウ界の代表のような名前を背負っていますが、実際その堂々たる体格はなかなかのもの。初めてタモ網に入ったときのあの感動は忘れられません。数多くの種類がいるゲンゴロウのなかでもやはり特別な存在のひとつです。'},
 {id:'fuchitori',
   bodyLength:'',
   redList:'絶滅危惧IA類（CR）',
-<<<<<<< HEAD
   habitat:'沖縄・奄美',
-=======
-  redListNote:'MM',
-  habitat:'沖縄・奄美',
-  factsSource:'NN',
->>>>>>> 0586c6e67283252703d14cd74f15cfa69292b514
   name:'フチトリゲンゴロウ',latin:'Cybister limbatus',genus:'ゲンゴロウ属',image:'images/web/fuchitori_h1.webp',gallery:['images/web/fuchitori_h1.webp'],description:'ナミゲンゴロウより気持ち小さめですが体に厚みがあるため、ナミゲンゴロウにも負けない存在感があります。'},
 {id:'himefuchitori',
   bodyLength:'',
