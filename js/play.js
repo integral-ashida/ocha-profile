@@ -1,167 +1,84 @@
 (() => {
   'use strict';
-
   const root = document.getElementById('quiz-room');
-  const seen = new Set();
-  const questions = (window.OCHA_QUIZ || []).filter(q => {
-    const valid = q.published === true
-      && /^[a-zA-Z0-9_-]{1,64}$/.test(q.id || '')
-      && typeof q.question === 'string'
-      && q.question.trim()
-      && Array.isArray(q.answers)
-      && q.answers.some(answer => typeof answer === 'string' && answer.trim());
-    if (!valid || seen.has(q.id)) return false;
-    seen.add(q.id);
-    return true;
-  });
-
-  const normalize = value => String(value)
-    .normalize('NFKC')
-    .toLowerCase()
-    .replace(/\s+/g, '')
-    .replace(/[ァ-ヶ]/g, character => String.fromCharCode(character.charCodeAt(0) - 0x60));
-
-  let deck = [];
-  let cursor = 0;
-  let previousId = '';
-  let roundAnswered = 0;
-  let roundCorrect = 0;
-
-  function element(tag, text = '', className = '') {
-    const item = document.createElement(tag);
-    if (text) item.textContent = text;
-    if (className) item.className = className;
-    return item;
-  }
-
-  function shuffle() {
-    deck = questions.slice();
-    for (let index = deck.length - 1; index > 0; index -= 1) {
-      const target = Math.floor(Math.random() * (index + 1));
-      [deck[index], deck[target]] = [deck[target], deck[index]];
+  const normalize = value => String(value).normalize('NFKC').toLowerCase()
+    .replace(/[\s・･·]/g, '').replace(/[ァ-ヶ]/g, c => String.fromCharCode(c.charCodeAt(0) - 96));
+  const questions = (window.OCHA_QUIZ || []).filter(q => q.published && q.question && q.answers?.length);
+  const shuffled = values => {
+    const result = values.slice();
+    for (let i = result.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [result[i], result[j]] = [result[j], result[i]];
     }
-    if (deck.length > 1 && deck[0].id === previousId) {
-      [deck[0], deck[1]] = [deck[1], deck[0]];
-    }
-    cursor = 0;
-    roundAnswered = 0;
-    roundCorrect = 0;
+    return result;
+  };
+  function el(tag, text = '', cls = '') {
+    const node = document.createElement(tag);
+    node.textContent = text; node.className = cls; return node;
   }
-
-  function focusQuestion() {
-    root.querySelector('h2')?.focus();
+  function button(text, cls, fn) {
+    const node = el('button', text, cls); node.type = 'button';
+    node.addEventListener('click', fn); return node;
   }
-
-  function advance() {
-    previousId = deck[cursor].id;
-    cursor += 1;
-    if (cursor < deck.length) {
-      render();
-      focusQuestion();
-      return;
-    }
-
-    root.replaceChildren();
-    const title = element('h2', '問題集をひと巡りしました。');
-    title.tabIndex = -1;
-    root.append(
-      title,
-      element('p', `この回は${roundAnswered}問に回答し、${roundCorrect}問正解しました。`),
-      element('p', 'もう一度遊ぶと、違う順番で出題されます。', 'small-note')
-    );
-    const again = element('button', 'もう一度ランダムに遊ぶ', 'solid-button');
-    again.type = 'button';
-    again.addEventListener('click', () => {
-      shuffle();
-      render();
-      focusQuestion();
-    });
-    root.append(again);
-    title.focus();
-  }
-
+  let deck = shuffled(questions), cursor = 0, correctCount = 0, unknownCount = 0;
   function render() {
     root.replaceChildren();
-    if (!questions.length) {
-      root.append(
-        element('h2', 'ただいま、出題の準備中です。'),
-        element('p', '問題が届くまで、もう少しお待ちください。')
-      );
-      return;
+    if (!deck.length) { root.append(el('h2', 'ただいま準備中です。')); return; }
+    if (cursor === deck.length) {
+      root.append(el('h2', 'ひと巡り、おつかれさまでした。'), el('p', `${deck.length}問中 ${correctCount}問正解（わからない：${unknownCount}問）`));
+      root.append(button('もう一度遊ぶ', 'quiz-primary', () => {
+        const last = deck[deck.length - 1].id; deck = shuffled(questions);
+        if (deck.length > 1 && deck[0].id === last) [deck[0],deck[1]] = [deck[1],deck[0]];
+        cursor = 0; correctCount = 0; unknownCount = 0; render();
+      })); return;
     }
-
-    const question = deck[cursor];
-    const title = element('h2', '問題');
-    title.tabIndex = -1;
-    root.append(
-      element('p', `${questions.length}問の問題集から、ランダムに出題`, 'eyebrow'),
-      title,
-      element('p', question.question, 'question-text')
-    );
-
-    if (/^images\/[\w\-./]+\.(webp|png|jpe?g)$/i.test(question.image || '') && !question.image.includes('..')) {
-      const image = element('img', '', 'question-image');
-      image.src = question.image;
-      image.alt = question.imageAlt || '問題の画像';
-      root.append(image);
+    const q = deck[cursor];
+    const title = el('h2', '問題'); title.tabIndex = -1;
+    root.append(title, el('p', q.question, 'question-text'));
+    const form = el('form');
+    const controls = el('div', '', 'quiz-controls');
+    const feedback = el('section', '', 'quiz-result'); feedback.hidden = true;
+    feedback.setAttribute('aria-live', 'polite');
+    const next = button('次へ！', 'quiz-primary quiz-next', () => { cursor++; render(); root.querySelector('h2')?.focus(); });
+    next.hidden = true;
+    let done = false, input;
+    const finish = (value, unknown = false) => {
+      if (done || (!unknown && !normalize(value))) return;
+      done = true;
+      const correct = !unknown && q.answers.some(a => normalize(a) === normalize(value));
+      if (correct) correctCount++;
+      if (unknown) unknownCount++;
+      if (input) { input.readOnly = true; input.blur(); }
+      form.querySelectorAll('button').forEach(b => {
+        b.disabled = true;
+        if (b.classList.contains('quiz-choice')) {
+          if (q.answers.some(a => normalize(a) === normalize(b.textContent))) b.classList.add('is-correct');
+          else if (!unknown && b.textContent === value) b.classList.add('is-wrong');
+        }
+      });
+      controls.hidden = true;
+      feedback.append(el('h3', unknown ? '答えはこちら' : correct ? '正解！' : '不正解'), el('p', `答え：${q.answers[0]}`));
+      feedback.hidden = false; next.hidden = false;
+      next.textContent = cursor === deck.length - 1 ? '結果を見る！' : '次へ！';
+      next.focus({ preventScroll: true });
+      next.scrollIntoView({ block: 'nearest', behavior: 'auto' });
+    };
+    if (Array.isArray(q.choices) && q.choices.length === 4) {
+      form.append(el('p', '選んで回答', 'quiz-instruction'));
+      const grid = el('div', '', 'quiz-choices');
+      shuffled(q.choices).forEach(choice => grid.append(button(choice, 'quiz-choice', () => finish(choice))));
+      form.append(grid);
+    } else {
+      const label = el('label', 'あなたの答え'); label.htmlFor = 'quiz-answer';
+      input = el('input'); input.id = 'quiz-answer'; input.autocomplete = 'off'; input.maxLength = 200;
+      input.setAttribute('enterkeyhint', 'done');
+      form.append(label, input);
+      const submit = el('button', '回答する', 'quiz-primary'); submit.type = 'submit'; controls.append(submit);
     }
-
-    const form = element('form');
-    const label = element('label', 'あなたの答え');
-    label.htmlFor = 'quiz-answer';
-    const input = element('input');
-    input.id = 'quiz-answer';
-    input.autocomplete = 'off';
-    input.required = true;
-    input.maxLength = 200;
-    const submit = element('button', '回答を送信する', 'solid-button');
-    submit.type = 'submit';
-    form.append(label, input, submit);
-    root.append(form);
-
-    const feedback = element('section', '', 'quiz-feedback');
-    feedback.hidden = true;
-    feedback.setAttribute('aria-label', '回答結果');
-    const verdict = element('h3', '', 'quiz-verdict');
-    verdict.tabIndex = -1;
-    const explanation = element('div', '', 'answer-explanation');
-    const primaryAnswer = question.answers.find(answer => typeof answer === 'string' && answer.trim());
-    explanation.append(
-      element('h3', `答え：${primaryAnswer}`)
-    );
-    feedback.append(verdict, explanation);
-    root.append(feedback);
-
-    const navigation = element('nav', '', 'question-nav');
-    navigation.setAttribute('aria-label', '次の問題へ');
-    const note = element('span', '回答せず、別の問題へ進めます。');
-    const next = element('button', 'この問題をとばす');
-    next.type = 'button';
-    navigation.append(note, next);
-    root.append(navigation);
-
-    let submitted = false;
-    next.addEventListener('click', advance);
-    form.addEventListener('submit', event => {
-      event.preventDefault();
-      if (submitted || !normalize(input.value)) return;
-      submitted = true;
-      const correct = question.answers.some(answer =>
-        typeof answer === 'string' && normalize(answer) === normalize(input.value)
-      );
-      input.readOnly = true;
-      submit.disabled = true;
-      roundAnswered += 1;
-      if (correct) roundCorrect += 1;
-      verdict.textContent = correct ? '正解！' : '不正解';
-      verdict.dataset.correct = String(correct);
-      feedback.hidden = false;
-      next.textContent = cursor === deck.length - 1 ? 'この回の結果へ' : '別の問題を解く';
-      note.textContent = '';
-      verdict.focus();
-    });
+    controls.append(button('わからない', 'quiz-secondary', () => finish('', true)));
+    form.append(controls);
+    form.addEventListener('submit', e => { e.preventDefault(); if (!e.isComposing && input) finish(input.value); });
+    root.append(form, feedback, next);
   }
-
-  shuffle();
   render();
 })();
