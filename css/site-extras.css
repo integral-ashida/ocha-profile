@@ -62,31 +62,32 @@
  .video-caption { padding:14px; }
 }
 
-/* TOP：写真に文字を重ねた、コンパクトな３つの入口。 */
+/* TOP：左に紹介、斜めの境界を挟んで右に写真。 */
 body[data-section="home"] .home-main { max-width:1040px; margin:auto; padding:0 28px 36px; }
 body[data-section="home"] .profile-intro { padding:28px 0 22px; }
 body[data-section="home"] .profile-intro h1 { margin:0 0 10px; font-size:clamp(1.6rem,4vw,2.2rem); }
 body[data-section="home"] .profile-intro .editing-note { margin-top:12px; font-size:.75rem; line-height:1.6; }
 body[data-section="home"] .activity-list { display:grid; grid-template-columns:1fr; gap:12px; border:0; }
 .home-entry { margin:0; padding:0; min-width:0; }
-.home-entry-link { position:relative; isolation:isolate; display:grid; align-items:center; min-height:170px; padding:24px 30px; color:#172b26; text-decoration:none; overflow:hidden; background:#f5f7f5; }
-.home-entry-photo { position:absolute; inset:0; z-index:-2; margin:0; padding:0; }
-.home-entry-photo img { display:block; width:100%; height:100%; object-fit:cover; object-position:center; }
-.home-entry-link::before { content:''; position:absolute; inset:0; background:rgba(255,255,255,.84); z-index:-1; transition:background-color .18s ease; }
-.home-entry-copy { padding:0; max-width:42rem; }
-.home-entry-copy h2 { margin:0 0 8px; font-size:clamp(1.25rem,3vw,1.65rem); line-height:1.4; letter-spacing:.04em; }
-.home-entry-copy p { margin:0; color:#34463f; font-size:.875rem; line-height:1.8; }
-.home-entry-more { display:inline-block; margin-top:10px; font-size:.75rem; color:#234b42; text-decoration:underline; text-underline-offset:4px; }
+.home-entry-link { position:relative; isolation:isolate; display:flex; align-items:center; min-height:190px; color:#172b26; text-decoration:none; overflow:hidden; background:#f3f5f2; }
+.home-entry-photo { position:absolute; top:0; right:0; bottom:0; width:43%; margin:0; padding:0; overflow:hidden; -webkit-clip-path:polygon(13% 0,100% 0,100% 100%,0 100%); clip-path:polygon(13% 0,100% 0,100% 100%,0 100%); }
+.home-entry-photo img { display:block; width:100%; height:100%; object-fit:cover; object-position:center; opacity:1; }
+.home-entry-copy { position:relative; width:57%; padding:24px 24px 24px 28px; }
+.home-entry-copy h2 { margin:0 0 10px; font-size:clamp(1.2rem,2.5vw,1.65rem); line-height:1.4; letter-spacing:.02em; }
+.home-entry-copy p { margin:0; color:#42524b; font-size:.875rem; line-height:1.85; }
+.home-entry-more { display:inline-block; margin-top:12px; font-size:.75rem; color:#234b42; text-decoration:underline; text-underline-offset:4px; }
 .home-entry-link:focus-visible { outline:3px solid #234b42; outline-offset:3px; }
-@media(hover:hover) { .home-entry-link:hover::before { background:rgba(255,255,255,.77); } .home-entry-link:hover h2 { text-decoration:underline; text-decoration-thickness:1px; text-underline-offset:6px; } }
+@media(hover:hover) { .home-entry-link:hover { background:#e9eee9; } .home-entry-link:hover h2 { text-decoration:underline; text-decoration-thickness:1px; text-underline-offset:6px; } }
 @media(max-width:560px) {
- body[data-section="home"] .home-main { padding:0 16px 28px; }
+ body[data-section="home"] .home-main { padding:0 14px 28px; }
  body[data-section="home"] .profile-intro { padding:22px 0 18px; }
  body[data-section="home"] .activity-list { gap:10px; }
- .home-entry-link { min-height:164px; padding:18px 20px; }
- .home-entry-copy p { font-size:.8125rem; line-height:1.75; }
- .home-entry-more { margin-top:8px; }
+ .home-entry-link { min-height:190px; }
+ .home-entry-copy { width:64%; padding:17px 12px 17px 16px; }
+ .home-entry-photo { width:36%; -webkit-clip-path:polygon(18% 0,100% 0,100% 100%,0 100%); clip-path:polygon(18% 0,100% 0,100% 100%,0 100%); }
+ .home-entry-copy h2 { font-size:1.05rem; letter-spacing:0; margin-bottom:8px; }
+ .home-entry-copy p { font-size:.8125rem; line-height:1.75; overflow-wrap:anywhere; }
+ .home-entry-more { margin-top:9px; }
  body[data-section="home"] .also-liked { padding-top:24px; }
 }
-@media(prefers-reduced-motion:reduce) { .home-entry-link::before { transition:none; } }
 .play-invitation{margin:24px 0 48px;padding:36px 0;border-top:1px solid var(--ink);border-bottom:1px solid var(--line)}.play-invitation p{color:var(--muted);font-size:.875rem}.play-invitation h2{font-size:1.5rem;margin:12px 0 24px}.play-invitation a{display:inline-block;background:#234b42;color:#fff;padding:14px 28px;text-decoration:none}
