@@ -1,5 +1,5 @@
 // この合言葉は簡易的な入口です。公開コード上の情報は保護できません。
-const PASSWORD = 'MM';
+const PASSWORD = '0607';
 (() => {
   const gate = document.querySelector('#secret-gate');
   const room = document.querySelector('#secret-room');
@@ -12,7 +12,7 @@ const PASSWORD = 'MM';
     .slice().sort((a,b) => (b.date || '').localeCompare(a.date || ''));
   let opened = false;
   function remember(value) {
-    try { if (value) sessionStorage.setItem('secret-room-open','yes'); else sessionStorage.removeItem('secret-room-open'); } catch (_) {}
+    try { if (value) sessionStorage.setItem('secret-room-open-0607','yes'); else sessionStorage.removeItem('secret-room-open-0607'); } catch (_) {}
   }
   function meta(post) {
     const div = document.createElement('div'); div.className = 'post-meta';
@@ -22,8 +22,6 @@ const PASSWORD = 'MM';
   }
   function returnLink() { const a=document.createElement('a'); a.href='secret.html'; a.className='post-back'; a.textContent='記事一覧へ戻る'; return a; }
   function render() {
-    document.querySelector('#room-intro').textContent = data.intro || '';
-    document.querySelector('#journal-count').textContent = `${posts.length}篇`;
     const list=document.querySelector('#journal-list'); list.replaceChildren();
     document.querySelector('#journal-empty').hidden=posts.length>0;
     for(const post of posts) {
@@ -53,5 +51,5 @@ const PASSWORD = 'MM';
   function closeRoom() { opened=false;remember(false);room.hidden=true;gate.hidden=false;postView.replaceChildren();input.value='';error.textContent='';document.title='ひみつの部屋｜お茶。';input.focus(); }
   document.querySelector('#password-form').addEventListener('submit',event=>{event.preventDefault();if(input.value===PASSWORD){error.textContent='';openRoom();}else{error.textContent='合言葉が違うよ';input.select();}});
   document.querySelector('#lock-room').addEventListener('click',closeRoom);
-  try{if(sessionStorage.getItem('secret-room-open')==='yes')openRoom();}catch(_){}
+  try{if(sessionStorage.getItem('secret-room-open-0607')==='yes')openRoom();}catch(_){}
 })();

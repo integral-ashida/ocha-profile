@@ -541,7 +541,7 @@ window.OCHA_QUIZ = [
     id: 'ocha-091',
     published: true,
     question: '一般的に、ラグビーボールの表面は何枚の革または合皮を貼り合わせて作られるでしょう？',
-    answers: ['４枚']
+    answers: ['４枚'],
     choices: ['1枚', '2枚', '4枚', '8枚']
   },
   {

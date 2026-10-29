@@ -48,3 +48,6 @@ document.addEventListener('DOMContentLoaded', () => {
   dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
   dialog.addEventListener('close', () => { document.body.style.overflow = previousOverflow; opener?.focus(); });
 });
+
+// 好きなものへの入口は一旦非表示。
+document.querySelectorAll('a[href="favorites.html"]').forEach(link => link.remove());

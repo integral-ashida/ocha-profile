@@ -23,7 +23,7 @@
   let deck = shuffled(questions), cursor = 0, correctCount = 0, unknownCount = 0;
   function render() {
     root.replaceChildren();
-    if (!deck.length) { root.append(el('h2', 'ただいま準備中です。')); return; }
+    if (!deck.length) { root.append(el('h2', '問題を読み込めませんでした。'), el('p', '再読み込みしても直らない場合は、問題データを確認してください。')); return; }
     if (cursor === deck.length) {
       root.append(el('h2', 'ひと巡り、おつかれさまでした。'), el('p', `${deck.length}問中 ${correctCount}問正解（わからない：${unknownCount}問）`));
       root.append(button('もう一度遊ぶ', 'quiz-primary', () => {
