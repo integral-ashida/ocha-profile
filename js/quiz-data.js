@@ -544,13 +544,14 @@ window.OCHA_QUIZ = [
     id: 'ocha-090',
     published: true,
     question: 'シェイクスピアの戯曲『All\'s Well That Ends Well』の訳語である、物事は過程を問わず結末が大事であるという意味の日本語のことわざは何でしょう？',
-    answers: ['終わりよければ全てよし']
+    answers: ['終わりよければすべてよし', 'おわりよければすべてよし']
   },
   {
     id: 'ocha-091',
     published: true,
     question: '一般的に、ラグビーボールの表面は何枚の革または合皮を貼り合わせて作られるでしょう？',
     answers: ['４枚']
+    choices: ['1枚', '2枚', '4枚', '8枚']
   },
   {
     id: 'ocha-092',
@@ -588,7 +589,7 @@ window.OCHA_QUIZ = [
     id: 'ocha-097',
     published: true,
     question: '四字熟語で、夫婦の仲が非常に良いことを、「夫が言い出し妻がそれに従う」という意味の漢字を用いて何というでしょう？',
-    answers: ['夫唱婦随']
+    answers: ['夫唱婦随', 'ふしょうふずい']
   },
   {
     id: 'ocha-098',
