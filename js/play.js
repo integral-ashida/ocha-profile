@@ -127,8 +127,7 @@
     const explanation = element('div', '', 'answer-explanation');
     const primaryAnswer = question.answers.find(answer => typeof answer === 'string' && answer.trim());
     explanation.append(
-      element('h3', `答え：${primaryAnswer}`),
-      element('p', question.explanation || '')
+      element('h3', `答え：${primaryAnswer}`)
     );
     feedback.append(verdict, explanation);
     root.append(feedback);
