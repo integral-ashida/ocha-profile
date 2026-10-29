@@ -11,9 +11,9 @@ window.OCHA_JOURNAL = {
       id: 'about-this-room',
       published: true,
       date: '',
-      title: 'この部屋について',
-      category: 'はじめに',
-      summary: '表のページには収まらないことを、少しずつ。',
+      title: 'やっぱり冒険していたい',
+      category: 'ブログ',
+      summary: '水槽から多様性を学ぶ',
       blocks: [
         { type: 'p', text: '趣味の記録から少し離れて、日々のことや考えていることを書き留める場所です。' },
         { type: 'p', text: '記事はこの部屋の一覧に追加していきます。気になるタイトルから、どうぞ。' }
