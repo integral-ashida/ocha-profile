@@ -134,7 +134,7 @@ window.OCHA_QUIZ = [
   {
     id: 'ocha-022',
     published: true,
-    question: '230京5843兆81億3995万2128, 1374億3869万1328, 85億8986万9056, 3355万336, 8128, 496, 28, 6などがある、\n自分自身を除くその数の約数の和がその数と等しくなる数を何というでしょう？',
+    question: '230京5843兆81億3995万2128, 1374億3869万1328, 85億8986万9056, 3355万336, 8128, 496, 28, 6などがある、自分自身を除くその数の約数の和がその数と等しくなる数を何というでしょう？',
     answers: ['完全数']
   },
   {
@@ -165,49 +165,49 @@ window.OCHA_QUIZ = [
     id: 'ocha-027',
     published: true,
     question: '日本で一番短いゲームのタイトルは何でしょう？',
-    answers: ['蚊']
+    answers: ['蚊','か']
   },
   {
     id: 'ocha-028',
     published: true,
     question: '「京都三大祭」といえば、5月の葵祭、7月の祇園祭と、10月の何祭でしょう？',
-    answers: ['時代祭']
+    answers: ['時代祭','じだいまつり']
   },
   {
     id: 'ocha-029',
     published: true,
     question: '病院やホテルなどで、シーツや枕カバー、タオルなどを保管する部屋のことを「何室」というでしょう？',
-    answers: ['リネン室']
+    answers: ['リネン室','りねんしつ']
   },
   {
     id: 'ocha-030',
     published: true,
     question: '寒冷な地域ほど身体が大きくなる／',
-    answers: ['ベルクマンの法則']
+    answers: ['ベルクマンの法則','べるくまんのほうそく']
   },
   {
     id: 'ocha-031',
     published: true,
     question: '寒冷な地域ほど体色が薄くなる／',
-    answers: ['グロージャーの法則']
+    answers: ['グロージャーの法則','ぐろーじゃーのほうそく']
   },
   {
     id: 'ocha-032',
     published: true,
     question: '寒冷な地域ほど突出部が短くなる／',
-    answers: ['アレンの法則']
+    answers: ['アレンの法則','あれんのほうそく']
   },
   {
     id: 'ocha-033',
     published: true,
     question: 'くねくねと曲がりくねった山道のことを、ある動物の内臓にたとえて何というでしょう？',
-    answers: ['羊腸']
+    answers: ['羊腸','ようちょう']
   },
   {
     id: 'ocha-034',
     published: true,
     question: 'アメリカ独立戦争のスローガン「代表なくして課税なし」はどんな税金に反対したものでしょう？',
-    answers: ['印紙税']
+    answers: ['印紙税','いんしぜい']
   },
   {
     id: 'ocha-035',
@@ -230,39 +230,35 @@ window.OCHA_QUIZ = [
   {
     id: 'ocha-038',
     published: true,
-    question: '「ある事柄を説明する際、必要以上に多くのことを仮定するべきではない」\nつまり、原理や法則はより単純であるべきだという考え方を、ある道具と人名を用いた言葉で「誰の何」というでしょう？',
+    question: '「ある事柄を説明する際、必要以上に多くのことを仮定するべきではない」つまり、原理や法則はより単純であるべきだという考え方を、ある道具と人名を用いた言葉で「誰の何」というでしょう？',
     answers: ['オッカムの剃刀'],
     choices: ['オッカムの剃刀', 'ハンロンの剃刀', 'ホッブズの剃刀', 'ヒュームの剃刀']
-  },
-  {
-    id: 'ocha-039',
-    published: true,
-    question: '俗に「東北四大祭り」とは／',
-    answers: ['花笠祭']
   },
   {
     id: 'ocha-040',
     published: true,
     question: '火星で一番高い山はオリンポス山ですが、金星で一番高い山は何でしょう？',
     answers: ['マクスウェル山']
+    choices: ['MM', 'マクスウェル山'', 'MM', 'MM']
   },
   {
     id: 'ocha-041',
     published: true,
     question: '火星で一番高い山はオリンポス山ですが、一番深い谷は何でしょう？',
     answers: ['マリネリス峡谷']
+    choices: ['MM', 'MM', 'マリネリス峡谷', 'MM']
   },
   {
     id: 'ocha-042',
     published: true,
     question: '操り人形の手首や指を操作する棒から生まれた言葉である陰で人を操ることを何というでしょう？',
-    answers: ['差し金']
+    answers: ['差し金', 'さしかね', 'さしがね']
   },
   {
     id: 'ocha-043',
     published: true,
     question: '陸上で見られる地球最古の陸地も主にこれからなっている、石英と長石とを主成分とする比較的粒の粗い岩石は何でしょう？',
-    answers: ['花崗岩']
+    answers: ['花崗岩', 'かこうがん']
   },
   {
     id: 'ocha-044',
@@ -289,6 +285,7 @@ window.OCHA_QUIZ = [
     published: true,
     question: '日本で一番「寺」が多い都道府県は愛知県ですが、日本で一番「神社」が多いのはどの都道府県でしょう？',
     answers: ['新潟県']
+    choices: ['青森県', '新潟県', '愛知県', '広島県']
   },
   {
     id: 'ocha-048',
@@ -298,16 +295,12 @@ window.OCHA_QUIZ = [
     choices: ['RAS症候群', 'SAS症候群', 'RLS症候群', 'TAS症候群']
   },
   {
-    id: 'ocha-049',
-    published: true,
-    question: '株式会社SCRAP主催の『日本謎解き能力検定2022春』全国3位入賞やTBS『東大王』に出演した経験もある、明治大学医学部を名乗るツイッタラーは誰でしょう？',
-    answers: ['お茶。']
-  },
   {
     id: 'ocha-050',
     published: true,
     question: '新人が初めて登場することを意味する「デビュー」をアルファベットで正しく綴ったとき、最後の文字は何でしょう？',
     answers: ['t']
+    choices: ['d', 't', 'v', 'u']
   },
   {
     id: 'ocha-051',
