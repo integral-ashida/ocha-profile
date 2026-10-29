@@ -99,7 +99,7 @@ const SPECIES=[
   bodyLength:'10-11 mm',
   habitat:'本州・四国・九州・トカラ・奄美・沖縄',
   redList:'-',
-  latin:'Hydaticus rhantoides',genus:'シマゲンゴロウ属',image:'images/web/usuiroshima.webp',gallery:['images/web/usuiroshima_h1.webp'],description:'名のとおり淡い褐色の体表に細かな模様が広がる南方系のゲンゴロウ。コガタノゲンゴロウと同じように徐々に北上しているような気もします。2025年には東京都港区からも初記録個体を得ました。（'2026年11月に発行されるニッチェ・ライフのPDFかURLを添付する予定'）'},
+  latin:'Hydaticus rhantoides',genus:'シマゲンゴロウ属',image:'images/web/usuiroshima.webp',gallery:['images/web/usuiroshima_h1.webp'],description:'名のとおり淡い褐色の体表に細かな模様が広がる南方系のゲンゴロウ。コガタノゲンゴロウと同じように徐々に北上しているような気もします。2025年には東京都港区からも初記録個体を得ました。（//2026年11月に発行されるニッチェ・ライフのPDFかURLを添付する予定）'},
 {id:'monji',
   name:'オオイチモンジシマゲンゴロウ',
   bodyLength:'15-17 mm',
