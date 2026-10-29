@@ -238,15 +238,7 @@ window.OCHA_QUIZ = [
     id: 'ocha-040',
     published: true,
     question: '火星で一番高い山はオリンポス山ですが、金星で一番高い山は何でしょう？',
-    answers: ['マクスウェル山']
-    choices: ['MM', 'マクスウェル山'', 'MM', 'MM']
-  },
-  {
-    id: 'ocha-041',
-    published: true,
-    question: '火星で一番高い山はオリンポス山ですが、一番深い谷は何でしょう？',
-    answers: ['マリネリス峡谷']
-    choices: ['MM', 'MM', 'マリネリス峡谷', 'MM']
+    answers: ['マクスウェル山', 'マクスウェル']
   },
   {
     id: 'ocha-042',
@@ -284,7 +276,7 @@ window.OCHA_QUIZ = [
     id: 'ocha-047',
     published: true,
     question: '日本で一番「寺」が多い都道府県は愛知県ですが、日本で一番「神社」が多いのはどの都道府県でしょう？',
-    answers: ['新潟県']
+    answers: ['新潟県'],
     choices: ['青森県', '新潟県', '愛知県', '広島県']
   },
   {
@@ -292,14 +284,13 @@ window.OCHA_QUIZ = [
     published: true,
     question: '「IT技術」や「BB弾」などがこれにあたる、頭字語などの略語を使う時に、元々その言葉に含まれていた単語を重ねて使ってしまうことを「冗長頭字語症候群」を意味する英語の略で何症候群というでしょう？',
     answers: ['RAS症候群'],
-    choices: ['RAS症候群', 'SAS症候群', 'RLS症候群', 'TAS症候群']
+    choices: ['RAS症候群', 'SAS症候群', 'RLS症候群', 'TAS症候群'],
   },
-  {
   {
     id: 'ocha-050',
     published: true,
     question: '新人が初めて登場することを意味する「デビュー」をアルファベットで正しく綴ったとき、最後の文字は何でしょう？',
-    answers: ['t']
+    answers: ['t'],
     choices: ['d', 't', 'v', 'u']
   },
   {
@@ -366,7 +357,7 @@ window.OCHA_QUIZ = [
     id: 'ocha-061',
     published: true,
     question: '太宰治の『人間失格』では「酔いの早く発する」飲み物と書かれている、東京・浅草にある神谷バーの創業者・神谷伝兵衛（かみやでんべえ）が作った、ブランデーが混合されたアルコール飲料を何というでしょう？',
-    answers: ['電気ブラン']
+    answers: ['電気ブラン', 'でんきブラン']
   },
   {
     id: 'ocha-062',
