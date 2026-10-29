@@ -51,7 +51,7 @@ const PASSWORD = 'MM';
   }
   function openRoom() { opened=true; gate.hidden=true;room.hidden=false;remember(true);render();room.querySelector('h1').focus(); }
   function closeRoom() { opened=false;remember(false);room.hidden=true;gate.hidden=false;postView.replaceChildren();input.value='';error.textContent='';document.title='ひみつの部屋｜お茶。';input.focus(); }
-  document.querySelector('#password-form').addEventListener('submit',event=>{event.preventDefault();if(input.value===PASSWORD){error.textContent='';openRoom();}else{error.textContent='合言葉が違うようです。もう一度どうぞ。';input.select();}});
+  document.querySelector('#password-form').addEventListener('submit',event=>{event.preventDefault();if(input.value===PASSWORD){error.textContent='';openRoom();}else{error.textContent='合言葉が違うよ';input.select();}});
   document.querySelector('#lock-room').addEventListener('click',closeRoom);
   try{if(sessionStorage.getItem('secret-room-open')==='yes')openRoom();}catch(_){}
 })();

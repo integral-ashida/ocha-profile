@@ -4,7 +4,7 @@ window.OCHA_SPECIES_MEDIA = {
   shima: [
     {
       url: 'https://youtu.be/kJ2upvcHEpg',
-      title: 'シマゲンゴロウが繭をつくる',
+      title: '繭をつくるシマゲンゴロウの幼虫',
       caption: '',
       poster: ''
     }
@@ -12,7 +12,7 @@ window.OCHA_SPECIES_MEDIA = {
   nami: [
     {
       url: 'https://youtu.be/UWL-w1W6fv8',
-      title: 'ゲンゴロウが飛び立つ',
+      title: '飛び立つナミゲンゴロウ',
       caption: '',
       poster: ''
     }
