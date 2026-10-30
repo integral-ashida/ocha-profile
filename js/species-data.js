@@ -187,7 +187,7 @@ const SPECIES=[
   bodyLength:'',
   habitat:'',
   redList:'',
-  latin:'Leiodytes frontalis',genus:'マルチビゲンゴロウ属',image:'images/web/maruchibi_h.webp',gallery:['images/web/maruchibi_h.webp'],description:''},
+  latin:'Leiodytes frontalis',genus:'マルチビゲンゴロウ属',image:'images/web/maruchibi.webp',gallery:['images/web/maruchibi_b.webp'],description:''},
 {id:'tohokunagakeshi',
   name:'トウホクナガケシゲンゴロウ',
   bodyLength:'',
