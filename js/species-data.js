@@ -148,7 +148,7 @@ const SPECIES=[
   bodyLength:'3.8-4.3 mm',
   habitat:'北海道・本州・四国・九州・トカラ・奄美・沖縄',
   redList:'-',
-  latin:'Noterus japonicus',genus:'コツブゲンゴロウ属',image:'images/web/kotsubu.webp',gallery:['images/web/kotsubu.webp'],description:''},
+  latin:'Noterus japonicus',genus:'コツブゲンゴロウ属',image:'images/web/kotsubu.webp',gallery:['images/web/kotsubu.webp'],description:'全身が褐色で丸くなめらかです。ため池や水田の植物の根際などに生息します。幼虫は泥の中に生息しており、泥ごと掬うと発見できます。'},
 {id:'tuyakotsubu',
   name:'ツヤコツブゲンゴロウ',
   bodyLength:'3.2-3.5 mm',
