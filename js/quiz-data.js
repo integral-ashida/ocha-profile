@@ -449,7 +449,8 @@ window.OCHA_QUIZ = [
     id: 'ocha-076',
     published: true,
     question: 'ウェブブラウザ「Google Chrome」のアイコンにおいて、真ん中の丸の色は何色でしょう？',
-    answers: ['青']
+    answers: ['青'],
+    choices: ['赤', '青', '緑', '黄']
   },
   {
     id: 'ocha-077',
