@@ -277,7 +277,7 @@ const SPECIES=[
   bodyLength:'',
   habitat:'',
   redList:'',
-  latin:'Platambus optatus',genus:'モンキマメゲンゴロウ属',image:'images/web/hosokuromame_1.webp',gallery:['images/web/hosokuromame_h.webp','images/web/hosokuromame_hb.webp'],description:''},
+  latin:'Platambus optatus',genus:'モンキマメゲンゴロウ属',image:'images/web/hosokuromame_1.webp',gallery:['images/web/hosokuromame_h.webp','images/web/hosokuromame_hb.webp','images/web/hosokuromame_k.webp'],description:''},
 {id:'mame',
   name:'マメゲンゴロウ',
   bodyLength:'',
