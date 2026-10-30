@@ -316,7 +316,7 @@ const SPECIES=[
   bodyLength:'18-20 mm',
   habitat:'北海道・本州（青森県）',
   redList:'-',
-  latin:'Colymbetes pseudostriatus',genus:'ヒラタヒメゲンゴロウ属',image:'images/web/ezohiratahime.webp',gallery:['images/web/ezohiratahime_s1.webp'],description:'上翅には指紋のような細かな横方向の皺が刻まれています。なめらかな背中をもつ種の多いゲンゴロウのなかでは極めて独特な質感です。},
+  latin:'Colymbetes pseudostriatus',genus:'ヒラタヒメゲンゴロウ属',image:'images/web/ezohiratahime.webp',gallery:['images/web/ezohiratahime_s1.webp'],description:'上翅には指紋のような細かな横方向の皺が刻まれています。なめらかな背中をもつ種の多いゲンゴロウのなかでは極めて独特な質感です。'},
 {id:'haiiro',
   name:'ハイイロゲンゴロウ',
   bodyLength:'9.5-17 mm',
