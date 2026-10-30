@@ -50,6 +50,18 @@ const PASSWORD = '0607';
   function openRoom() { opened=true; gate.hidden=true;room.hidden=false;remember(true);render();room.querySelector('h1').focus(); }
   function closeRoom() { opened=false;remember(false);room.hidden=true;gate.hidden=false;postView.replaceChildren();input.value='';error.textContent='';document.title='ひみつの部屋｜お茶。';input.focus(); }
   document.querySelector('#password-form').addEventListener('submit',event=>{event.preventDefault();if(input.value===PASSWORD){error.textContent='';openRoom();}else{error.textContent='合言葉が違うよ';input.select();}});
-  document.querySelector('#lock-room').addEventListener('click',closeRoom);
+  document.querySelector('#lock-room')?.addEventListener('click',closeRoom);
+  room.addEventListener('click', event => {
+    const link = event.target.closest('a');
+    if (!opened || !link || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button !== 0) return;
+    const url = new URL(link.href, location.href);
+    if (url.origin !== location.origin || url.pathname !== location.pathname) return;
+    event.preventDefault();
+    history.pushState(null, '', url.href);
+    render();
+    const heading = room.querySelector(postView.hidden ? 'h1' : '#journal-post h2');
+    if (heading) { heading.tabIndex = -1; heading.focus(); }
+  });
+  window.addEventListener('popstate', () => { if (opened) render(); });
   try{if(sessionStorage.getItem('secret-room-open-0607')==='yes')openRoom();}catch(_){}
 })();
