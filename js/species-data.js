@@ -1,6 +1,3 @@
-// 大きさ・生息地・環境省カテゴリーを編集します。空欄 '' の項目は非表示。
-// bodyLength: 大きさ（mmまで記入） / habitat: 生息地 / redList: 環境省カテゴリー
-
 const SPECIES=[
 {id:'nami',
   name:'ゲンゴロウ',
@@ -111,7 +108,7 @@ const SPECIES=[
   bodyLength:'14-15 mm',
   habitat:'沖縄（本島）',
   redList:'-',
-  latin:'Hydaticus yambaruensis',genus:'シマゲンゴロウ属',image:'images/web/yamonji_h_z.webp',gallery:['images/web/yamonji_h_z.webp'],description:'ほかのモンジの仲間に比べて、模様が派手です。轍に溜まった水場、コンクリートの桝、干上がりそうな水溜り、、どこにでもいる（と言われています）。ただし、種保なので捕まえてはなりません。'},
+  latin:'Hydaticus yambaruensis',genus:'シマゲンゴロウ属',image:'images/web/yamonji_hh.webp',gallery:['images/web/yamonji_hh.webp'],description:'ほかのモンジの仲間に比べて、模様が派手です。林道の轍に溜まった水場、コンクリートの桝、いまにも干上がりそうな水溜り、どこにでもいる（と言われています）。ただし種保なので捕まえてはなりません。'},
 {id:'ryumonji',
   name:'リュウキュウオオイチモンジシマゲンゴロウ',
   bodyLength:'15-16 mm',
@@ -307,13 +304,13 @@ const SPECIES=[
   bodyLength:'11-13 mm',
   habitat:'北海道・本州・四国・九州・トカラ・奄美・沖縄',
   redList:'-',
-  latin:'Rhantus suturalis',genus:'ヒメゲンゴロウ属',image:'images/web/hime_1.webp',gallery:['images/web/hime_1.webp'],description:''},
+  latin:'Rhantus suturalis',genus:'ヒメゲンゴロウ属',image:'images/web/hime.webp',gallery:['images/web/hime.webp'],description:''},
 {id:'oohime',
   name:'オオヒメゲンゴロウ',
   bodyLength:'13-14 mm',
   habitat:'北海道・本州',
   redList:'-',
-  latin:'Rhantus erraticus',genus:'ヒメゲンゴロウ属',image:'images/web/oohime_1.webp',gallery:['images/web/oohime_1.webp'],description:''},
+  latin:'Rhantus erraticus',genus:'ヒメゲンゴロウ属',image:'images/web/oohime.webp',gallery:['images/web/oohime.webp'],description:''},
 {id:'ezohiratahime',
   name:'エゾヒラタヒメゲンゴロウ',
   bodyLength:'18-20 mm',
