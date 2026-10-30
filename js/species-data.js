@@ -4,7 +4,7 @@ const SPECIES=[
   bodyLength:'35–43 mm',
   habitat:'北海道・本州・四国・九州',
   redList:'絶滅危惧II類（VU）',
-  latin:'Cybister chinensis',genus:'ゲンゴロウ属',image:'images/web/nami.webp',gallery:['images/web/nami_s1.webp','images/web/nami_s2.webp','images/web/nami_s3.webp','images/web/nami_s4.webp','images/web/nami_s5.webp','images/web/nami_s6.webp','images/web/nami_y1.webp','images/web/nami_y2.webp','images/web/nami_y3.webp','images/web/nami_p1.webp','images/web/nami_s7.webp','images/web/nami_s8.webp','images/web/nami_s9.webp','images/web/nami_s10.webp'],description:'日本最大のゲンゴロウ。一般にゲンゴロウといえば本種を指しますが、ほかのゲンゴロウ類と区別するためナミゲンゴロウやホンゲンゴロウと呼ばれることもあります。ゲンゴロウ界の代表のような名前を背負っていますが、実際にその堂々たる体格はなかなかのもの。初めてタモ網に入ったときのあの心臓が震えるような感動はいつになっても忘れられません。数多くの種類がいるゲンゴロウ類のなかでもやはり特別な存在のひとつです。<br>オスとメスの違い<br>ゲンゴロウの一部には、皺や溝があります。ゲンゴロウは水中を自由に遊泳すべく、なめらかな体表構造をしていますが、交尾の際、このなめらかさは厄介なのです。そこでオスはメスの背中に貼り付いて交尾するために、前脚や中脚に吸盤を持ちます。しかし、メスにとって水中でオスが上に貼り付くという行為は溺死の可能性がありとっても危険です。そこで、メスはオスの吸盤が貼り付きにくいような皺や溝を持つ個体が生き残ったと考えられています。'},
+  latin:'Cybister chinensis',genus:'ゲンゴロウ属',image:'images/web/nami.webp',gallery:['images/web/nami_s1.webp','images/web/nami_s2.webp','images/web/nami_s3.webp','images/web/nami_s4.webp','images/web/nami_s5.webp','images/web/nami_s6.webp','images/web/nami_y1.webp','images/web/nami_y2.webp','images/web/nami_y3.webp','images/web/nami_p1.webp','images/web/nami_s7.webp','images/web/nami_s8.webp','images/web/nami_s9.webp','images/web/nami_s10.webp'],description:'日本最大のゲンゴロウ。一般にゲンゴロウといえば本種を指しますが、ほかのゲンゴロウ類と区別するためナミゲンゴロウやホンゲンゴロウと呼ばれることもあります。ゲンゴロウ界の代表のような名前を背負っていますが、実際にその堂々たる体格はなかなかのもの。初めてタモ網に入ったときのあの心臓が震えるような感動はいつになっても忘れられません。数多くの種類がいるゲンゴロウ類のなかでもやはり特別な存在のひとつです。\nオスとメスの違い\nゲンゴロウの一部には、皺や溝があります。ゲンゴロウは水中を自由に遊泳すべく、なめらかな体表構造をしていますが、交尾の際、このなめらかさは厄介なのです。そこでオスはメスの背中に貼り付いて交尾するために、前脚や中脚に吸盤を持ちます。しかし、メスにとって水中でオスが上に貼り付くという行為は溺死の可能性がありとっても危険です。そこで、メスはオスの吸盤が貼り付きにくいような皺や溝を持つ個体が生き残ったと考えられています。'},
 {id:'fuchitori',
   name:'フチトリゲンゴロウ',
   bodyLength:'33-39 mm',
@@ -322,5 +322,5 @@ const SPECIES=[
   bodyLength:'9.5-17 mm',
   habitat:'北海道・本州・四国・九州・トカラ・奄美・沖縄',
   redList:'-',
-  latin:'Eretes griseus',genus:'ハイイロゲンゴロウ属',image:'images/web/haiiro.webp',gallery:['images/web/haiiro.webp'],description:'ラストはゲンゴロウ界の異端児！なんと、体を震わせて鳴いたり、水面が氷で覆われている真冬のため池でも元気に泳いでいたり、上陸することなく直接水面から飛翔したり、水中で翅を広げたり！？ほかのゲンゴロウでは見かけないような珍行動をとります。晴れの日に活発に活動し、雨の日は水底でじっとしていることが多いイメージです。背中の模様をよくみると無数の黒点で形成されているため集合体恐怖症の方は要注意です。<br>東京都の公立中学校でしたが、まれに屋上プールでみかけることがありました。なんと都市部にも適応しているのです。ゲンゴロウの常識をガラッと変えてくれる不思議な種です。'}
+  latin:'Eretes griseus',genus:'ハイイロゲンゴロウ属',image:'images/web/haiiro.webp',gallery:['images/web/haiiro.webp'],description:'ラストはゲンゴロウ界の異端児！なんと、体を震わせて鳴いたり、水面が氷で覆われている真冬のため池でも元気に泳いでいたり、上陸することなく直接水面から飛翔したり、水中で翅を広げたり！？ほかのゲンゴロウでは見かけないような珍行動をとります。晴れの日に活発に活動し、雨の日は水底でじっとしていることが多いイメージです。背中の模様をよくみると無数の黒点で形成されているため集合体恐怖症の方は要注意です。\n東京都の公立中学校でしたが、まれに屋上プールでみかけることがありました。なんと都市部にも適応しているのです。ゲンゴロウの常識をガラッと変えてくれる不思議な種です。'}
 ];
