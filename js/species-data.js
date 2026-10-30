@@ -13,7 +13,7 @@ const SPECIES=[
   bodyLength:'33-39 mm',
   habitat:'トカラ・奄美・沖縄',
   redList:'絶滅危惧IA類（CR）',
-  latin:'Cybister limbatus',genus:'ゲンゴロウ属',image:'images/web/fuchitori_h1.webp',gallery:['images/web/fuchitori_k.webp'],description:'名のとおり黄色い縁取りがあるためフチトリゲンゴロウです。（そんなこと言ったら大型ゲンゴロウはほとんどフチトリじゃないか！というツッコミはさておき...）ナミゲンゴロウよりわずかに小さいですが体に厚みがあるため、並べても負けない程の迫力感があります。'},
+  latin:'Cybister limbatus',genus:'ゲンゴロウ属',image:'images/web/fuchitori_h1.webp',gallery:['images/web/fuchitori_k.webp'],description:'名のとおり黄色い縁取りがあるためフチトリゲンゴロウです。（そんなこと言ったら大型ゲンゴロウはほとんどフチトリじゃないか！というツッコミはさておき...）ナミゲンゴロウよりわずかに小さいですが体に厚みがあるため、並べても負けない程の迫力感があります。また、東南アジアにはフチトリゲンゴロウに酷似したニセフチトリゲンゴロウ（Cybister guerini）が生息しています。外見は非常に酷似していますが、見慣れると感覚でわかります。最も、雄交尾器を観察すればフチトリゲンゴロウは先端のくびれが明確に大きいため識別できます。'},
 {id:'himefuchitori',
   name:'画像準備中',
   bodyLength:'28-33 mm',
