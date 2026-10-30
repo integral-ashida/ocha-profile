@@ -1,8 +1,13 @@
-長い種名２種の表示調整
+「このwebについて」への表記統一
 
-上書き：db.html、species.html
-追加：js/species-name-fit.js
+対象：quiz.html、pk.html、play.html の3ファイル。文言だけ変更しています。
 
-リュウキュウオオイチモンジシマゲンゴロウとヤンバルオオイチモンジシマゲンゴロウを、同じ表示箇所・同じ画面幅で同じ文字サイズにします。長い方の名称を基準に計算し、１行に収めます。一覧・詳細の見出しは通常の90%を上限とし、必要ならさらに縮小します。検索結果の再表示・画面幅変更にも追従します。ほかの種名、写真、学名のフォント、種データは変更しません。
+1. GitHub Desktopで Fetch origin。Pull originが出たら押す。
+2. Repository → Show in Finder。
+3. このZIP内の3つのHTMLを、ocha-profileフォルダの同名ファイルへ上書き。
+   css・js・imagesフォルダは変更・削除しません。README.txtはコピー不要です。
+4. GitHub Desktopで変更が3ファイルであることを確認。
+5. Summaryに「案内リンクの表記を統一」と入力しCommit to main。
+6. Push origin。公開反映後、競技クイズ・ポケモンダブル・クイズの部屋の末尾を確認。
 
-GitHub DesktopでFetch/Pull → Repository → Show in Finder → HTML２ファイルを上書きし、js内へ新しいJSを追加 → Commit → Push origin。jsフォルダを削除しないでください。
+基準コミット：8d3bff4b2d0acabaff8512e87011e8eb44513208
