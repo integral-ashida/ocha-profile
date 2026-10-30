@@ -127,7 +127,7 @@ const SPECIES=[
   bodyLength:'12-14 mm',
   habitat:'北海道',
   redList:'準絶滅危惧（NT）',
-  latin:'Graphoderus elatus',genus:'マルガタゲンゴロウ属',image:'images/web/karafutomarugata_z',gallery:['images/web/karafutomarugata_z'],description:'北海道の北部に生息するマルガタゲンゴロウの近縁種です。頭部・胸部の模様が異なることや腹側がワインレッドであることから区別が容易です。'},
+  latin:'Graphoderus elatus',genus:'マルガタゲンゴロウ属',image:'images/web/karafutomarugata.webp',gallery:['images/web/karafutomarugata.webp'],description:'北海道の北部に生息するマルガタゲンゴロウの近縁種です。頭部・胸部の模様が異なることや腹側がワインレッドであることから区別が容易です。'},
 
 {id:'mesusuji',
   name:'メススジゲンゴロウ',
