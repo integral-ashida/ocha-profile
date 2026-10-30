@@ -6,7 +6,7 @@
 @media(max-width:900px){.catalog-intro{grid-template-columns:1fr 1fr}.catalog-copy{padding:24px 20px}.catalog-photo{border-top:0}.catalog-tools{top:var(--header-height)}.species-index{position:static;height:auto}.species-main{padding:28px 20px}.catalog-body{padding:32px 20px 48px}}
 @media(max-width:540px){.catalog-intro{grid-template-columns:1fr}.catalog-copy{padding:24px 16px 16px}.catalog-copy h1{font-size:2rem}.catalog-photo{border-top:1px solid var(--line);padding:8px}.catalog-photo img{max-height:180px}.catalog-tools{padding:10px 16px}.search-wrap input{padding-left:80px;font-size:1rem}.search-wrap label{font-size:.875rem}}
 
-.catalog-copy h1,.genus-head h2,.species-card h3,.species-title h1,.empty-state strong{font-family:var(--gothic);font-weight:700;letter-spacing:.01em}.species-card .latin,.species-title .latin{font-family:Georgia,"Times New Roman",serif}.search-wrap label{letter-spacing:0}
+.catalog-copy h1,.genus-head h2,.species-card h3,.species-title h1,.empty-state strong{font-family:var(--gothic);font-weight:700;letter-spacing:.01em}.species-card .latin,.species-title .latin{font-family:"Times New Roman",Times,serif}.search-wrap label{letter-spacing:0}
 
 /* Keep Japanese catalog headings consistently Gothic on macOS and Windows. */
 .catalog-copy h1,

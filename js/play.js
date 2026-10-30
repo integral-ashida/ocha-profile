@@ -26,7 +26,7 @@
     if (!deck.length) { root.append(el('h2', '問題を読み込めませんでした。'), el('p', '再読み込みしても直らない場合は、問題データを確認してください。')); return; }
     if (cursor === deck.length) {
       root.append(el('h2', 'ひと巡り、おつかれさまでした。'), el('p', `${deck.length}問中 ${correctCount}問正解（わからない：${unknownCount}問）`));
-      root.append(el('p', `最高 ${bestStreak}問連続正解`, 'quiz-streak'));
+      if (bestStreak >= 2) root.append(el('p', `最高 ${bestStreak}問連続正解`, 'quiz-streak'));
       root.append(button('もう一度遊ぶ', 'quiz-primary', () => {
         const last = deck[deck.length - 1].id; deck = shuffled(questions);
         if (deck.length > 1 && deck[0].id === last) [deck[0],deck[1]] = [deck[1],deck[0]];
@@ -35,8 +35,8 @@
     }
     const q = deck[cursor];
     const title = el('h2', '問題'); title.tabIndex = -1;
-    root.append(el('p', `${cursor}問回答 · ${correctCount}問正解 · 最高${bestStreak}連続`, 'quiz-progress'), title, el('p', q.question, 'question-text'));
-    if (streak > 0) root.append(el('p', `${streak}問連続正解中`, 'quiz-streak'));
+    root.append(el('p', `${cursor}問回答 · ${correctCount}問正解${bestStreak >= 2 ? ` · 最高${bestStreak}連続` : ''}`, 'quiz-progress'), title, el('p', q.question, 'question-text'));
+    if (streak >= 2) root.append(el('p', `${streak}問連続正解中`, 'quiz-streak'));
     const form = el('form');
     const controls = el('div', '', 'quiz-controls');
     const feedback = el('section', '', 'quiz-result'); feedback.hidden = true;
