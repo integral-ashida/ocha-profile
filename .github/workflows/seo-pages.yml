@@ -1,0 +1,35 @@
+name: Generate SEO species pages
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'seo/generate.cjs'
+      - '.github/workflows/seo-pages.yml'
+      - 'species.html'
+      - 'js/species.js'
+      - 'js/species-data.js'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Generate pages
+        run: node seo/generate.cjs
+      - name: Commit generated files if changed
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- sitemap.xml js/species-seo.js
+          find . -maxdepth 1 -name 'species-*.html' -type f -print0 | xargs -0 -r git add --
+          if ! git diff --cached --quiet; then
+            git commit -m 'Generate search-indexable species pages'
+            git push
+          fi

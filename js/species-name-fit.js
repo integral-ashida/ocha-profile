@@ -1,4 +1,3 @@
-// 長い２種名だけ、表示幅に合わせて同じ文字サイズに整えます。
 (() => {
   'use strict';
   const names = ['リュウキュウオオイチモンジシマゲンゴロウ', 'ヤンバルオオイチモンジシマゲンゴロウ'];
@@ -21,7 +20,6 @@
         context.font = `${style.fontStyle} ${style.fontWeight} ${original}px ${style.fontFamily}`;
         const spacing = parseFloat(style.letterSpacing) || 0;
         const longest = Math.max(...names.map(name => context.measureText(name).width + name.length * spacing));
-        // 見出しは少し小さく。２種とも長い方の名前を基準にします。
         const ceiling = selector === '.species-index-list a' ? original : original * 0.9;
         size = Math.min(size, ceiling, original * (available - 2) / longest);
       }
