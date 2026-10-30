@@ -5,17 +5,17 @@
 // {type:'image',src:'images/web/写真.webp',alt:'写真の説明',caption:'キャプション'}。
 // 本文に半角の ' を入れる場合は \' と書くか、日本語の「」を使ってください。
 window.OCHA_JOURNAL = {
-  intro: '日々のこと、考えていること。ここに少しずつ。',
+  intro: 'MM',
   posts: [
     {
       id: 'about-this-room',
       published: true,
       date: '',
       title: 'やっぱり冒険していたい',
-      category: 'ブログ',
+      category: 'エッセイ',
       summary: '水槽から多様性を学ぶ',
       blocks: [
-        { type: 'p', text: '趣味の記録から少し離れて、日々のことや考えていることを書き留める場所です。' },
+        { type: 'p', text: '日々のことや考えていることを書き留める場所です。' },
         { type: 'p', text: '記事はこの部屋の一覧に追加していきます。気になるタイトルから、どうぞ。' }
       ]
     },
