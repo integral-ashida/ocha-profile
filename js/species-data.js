@@ -267,7 +267,7 @@ const SPECIES=[
   name:'サワダマメゲンゴロウ',
   bodyLength:'8.0-9.0 mm',
   habitat:'北海道・本州・四国・九州',
-  redList:'',
+  redList:'-',
   latin:'Platambus sawadai',genus:'モンキマメゲンゴロウ属',image:'images/web/sawadamame_h.webp',gallery:['images/web/sawadamame_h.webp'],description:'主に河川の上流に生息しています。山地の清流、とりわけ源流に近いような環境です。なので流水性ゲンゴロウの中でも上流に偏った生息をする種として知られています。体表は刻点が多くあるので、ザラザラしているように見えます。'},
 {id:'hosokuromame',
   name:'ホソクロマメゲンゴロウ',
