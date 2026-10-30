@@ -1,16 +1,8 @@
-連続正解表示・学名フォントの修正
+長い種名２種の表示調整
 
-上書きする5ファイル：
-play.html
-db.html
-species.html
-js/play.js
-css/catalog.css
+上書き：db.html、species.html
+追加：js/species-name-fit.js
 
-現在公開中のコードを基に修正。問題・記事・種データは含めていません。
-1問目は「正解！」のみ。2問目から連続正解を表示。途中の最高連続数、終了画面でも0・1問連続は表示しません。
-学名は一覧・詳細ともTimes New Roman優先（未搭載時はTimes、serifの順）。斜体は維持。
+リュウキュウオオイチモンジシマゲンゴロウとヤンバルオオイチモンジシマゲンゴロウを、同じ表示箇所・同じ画面幅で同じ文字サイズにします。長い方の名称を基準に計算し、１行に収めます。一覧・詳細の見出しは通常の90%を上限とし、必要ならさらに縮小します。検索結果の再表示・画面幅変更にも追従します。ほかの種名、写真、学名のフォント、種データは変更しません。
 
-GitHub DesktopでFetch/Pull → Repository → Show in Finder → 同名ファイルを上書き → Commit → Push origin。
-js/cssフォルダ自体は削除せず、中の該当ファイルだけを上書きしてください。
-競合が出たらそのまま確定せず画面を送ってください。
+GitHub DesktopでFetch/Pull → Repository → Show in Finder → HTML２ファイルを上書きし、js内へ新しいJSを追加 → Commit → Push origin。jsフォルダを削除しないでください。
