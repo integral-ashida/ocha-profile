@@ -59,7 +59,7 @@ const SPECIES=[
   bodyLength:'28-33 mm',
   habitat:'本州（石川県や千葉県など）',
   redList:'絶滅危惧IA類（CR）',
-  latin:'Dytiscus sharpi',genus:'ゲンゴロウモドキ属',image:'images/web/shapu.webp',gallery:['images/web/shapu_s1.webp','images/web/shapu_h1.webp'],description:'ほかのゲンゴロウモドキと比べてやや小型ですが異様な存在感があります。国内希少野生動植物種に指定されている大変珍しい種です。小学生のとき、ひと掬いで毎度5-6匹ほどタモ網に入る池をみつけたときには大興奮しました。'},
+  latin:'Dytiscus sharpi',genus:'ゲンゴロウモドキ属',image:'images/web/shapugenmo.webp',gallery:['images/web/shapugenmo_s1.webp','images/web/shapugenmo_h1.webp'],description:'ほかのゲンゴロウモドキと比べてやや小型ですが異様な存在感があります。国内希少野生動植物種に指定されている大変珍しい種です。小学生のとき、ひと掬いで毎度5-6匹ほどタモ網に入る池をみつけたときには大興奮しました。'},
 
 {id:'shima',
   name:'シマゲンゴロウ',
