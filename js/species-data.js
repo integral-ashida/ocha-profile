@@ -47,7 +47,7 @@ const SPECIES=[
   bodyLength:'30-36 mm',
   habitat:'北海道・本州',
   redList:'-',
-  latin:'Dytiscus dauricus',genus:'ゲンゴロウモドキ属',image:'images/web/genmo.webp',gallery:['images/web/genmo_h1.webp','images/web/genmo_h2.webp','images/web/genmo_k.webp'],description:'モドキとつきますが、れっきとしたゲンゴロウの仲間です。メスは背中に10条の溝を持つのがゲンゴロウモドキの特徴です。しかし、しばしば溝を持たないメスもいます。腹側に黒色の縞模様が目立つことから、近縁種のエゾゲンゴロウモドキとの区別が容易です。エゾゲンモはこの縞模様が控えめで目立ちません。トップ写真は東北で採集した個体です。'},
+  latin:'Dytiscus dauricus',genus:'ゲンゴロウモドキ属',image:'images/web/genmo.webp',gallery:['images/web/genmo_h1.webp','images/web/genmo_h2.webp','images/web/genmo_k.webp'],description:'モドキと言いますが、歴としたゲンゴロウの仲間です。メスは背中に10条の溝を持つのがゲンゴロウモドキの特徴です。しかし、しばしば溝を持たないメスもいます。腹側に黒色の縞模様が目立つことから、近縁種のエゾゲンゴロウモドキとの区別が容易です。エゾゲンモはこの縞模様が控えめで目立ちません。トップ写真は東北で採集した個体です。'},
 {id:'ezogenmo',
   name:'エゾゲンゴロウモドキ',
   bodyLength:'31-36 mm',
@@ -134,7 +134,7 @@ const SPECIES=[
   bodyLength:'14-17 mm',
   habitat:'北海道・本州',
   redList:'-',
-  latin:'Acilius japonicus',genus:'メススジゲンゴロウ属',image:'images/web/mesusuji_hh.webp',gallery:['images/web/mesusuji_hh.webp'],description:'名のとおりメスにはスジが通っているのでメススジです。この筋は単なる飾りではありません。通常ゲンゴロウのオスは前脚の吸盤でメスの背中にしがみつき交尾しますが、このときメスがよく溺死するためメスは吸盤による付着を妨げるように進化した説があります。福井県に生息するヤシャゲンゴロウと非常によく似ています。'},
+  latin:'Acilius japonicus',genus:'メススジゲンゴロウ属',image:'images/web/mesusuji_hh.webp',gallery:['images/web/mesusuji_hh.webp'],description:'名のとおりメスにはスジが通っているのでメススジです。この筋は単なる飾りではありません。通常ゲンゴロウのオスは前脚の吸盤でメスの背中にしがみつき交尾しますが、このときメスがよく溺死するためメスは、オスの吸盤による付着を妨げるように進化した説があります。福井県の夜叉ヶ池に生息するヤシャゲンゴロウと非常によく似ています。（遺伝子的には本州メススジと北海道メススジよりも本州メススジとヤシャゲンゴロウの方が近いらしいです）'},
 
 {id:'mumonchibikotsubu',
   name:'ムモンチビコツブゲンゴロウ',
