@@ -91,3 +91,18 @@ body[data-section="home"] .activity-list { display:grid; grid-template-columns:1
  body[data-section="home"] .also-liked { padding-top:24px; }
 }
 .play-invitation{margin:24px 0 48px;padding:36px 0;border-top:1px solid var(--ink);border-bottom:1px solid var(--line)}.play-invitation p{color:var(--muted);font-size:.875rem}.play-invitation h2{font-size:1.5rem;margin:12px 0 24px}.play-invitation a{display:inline-block;background:#234b42;color:#fff;padding:14px 28px;text-decoration:none}
+body[data-section="db"] .catalog-copy .editing-note {
+  margin-top: 16px;
+  margin-bottom: 0;
+  padding-left: 12px;
+  border-left: 2px solid var(--line);
+  color: var(--muted);
+  font-size: .875rem;
+  line-height: 1.8;
+}
+body[data-section="db"] .catalog-copy .editing-note {
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: .75rem;
+  line-height: 1.6;
+}
