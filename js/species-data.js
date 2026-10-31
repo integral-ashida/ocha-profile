@@ -16,7 +16,7 @@ const SPECIES=[
   bodyLength:'28-33 mm',
   habitat:'奄美・沖縄',
   redList:'絶滅危惧II類（VU）',
-  latin:'Cybister rugosus',genus:'ゲンゴロウ属',image:'images/web/himefuchitori.webp',gallery:['images/web/himefuchitori_s1.webp','images/web/himefuchitori_y1.webp','images/web/himefuchitori_p1.webp','images/web/himefuchitori_s2.webp','images/web/himefuchitori_s3.webp','images/web/himefuchitori_s4.webp','images/web/himefuchitori_h1.webp','images/web/himefuchitori_h2.webp','images/web/himefuchitori_h3.webp'],description:'フチトリゲンゴロウによく似てますが、比較的小さく腹側は一部に黄色模様があるので区別が容易です。幼虫の頭部は縞模様が特徴的です。'},
+  latin:'Cybister rugosus',genus:'ゲンゴロウ属',image:'images/web/himefuchitori.webp',gallery:['images/web/himefuchitori_s1.webp','images/web/himefuchitori_y1.webp','images/web/himefuchitori_p1.webp','images/web/himefuchitori_s2.webp','images/web/himefuchitori_s3.webp','images/web/himefuchitori_s4.webp','images/web/himefuchitori_h1.webp','images/web/himefuchitori_h2.webp','images/web/himefuchitori_h3.webp'],description:'フチトリゲンゴロウによく似てますが、ひと回り小さく腹側は一部に黄色模様があるので区別が容易です。幼虫の頭部は縞模様が特徴的です。'},
 {id:'kogatano',
   name:'コガタノゲンゴロウ',
   bodyLength:'20-29 mm',
