@@ -22,7 +22,7 @@ const SPECIES=[
   bodyLength:'20-29 mm',
   habitat:'本州・四国・九州・奄美・沖縄',
   redList:'絶滅危惧II類（VU）',
-  latin:'Cybister tripunctatus lateralis',genus:'ゲンゴロウ属',image:'images/web/kogatano.webp',gallery:['images/web/kogatano_hh.webp','images/web/kogatano_s1.webp','images/web/kogatano_s2.webp','images/web/kogatano_b1.webp'],description:'近年、日本国内で分布を拡大している南方系のゲンゴロウです。大型ゲンゴロウのなかでも比較的飛翔頻度が高く、餌をめぐる競争でも優れた能力を示します。また、比較的獰猛で同じ湿地に暮らすナミゲンゴロウの後脚が食いちぎられていることもしばしばあります。'},
+  latin:'Cybister tripunctatus lateralis',genus:'ゲンゴロウ属',image:'images/web/kogatano.webp',gallery:['images/web/kogatano_hh.webp','images/web/kogatano_s1.webp','images/web/kogatano_s2.webp','images/web/kogatano_s3.webp','images/web/kogatano_s4.webp','images/web/kogatano_b1.webp'],description:'近年、日本国内で分布を拡大している南方系のゲンゴロウです。大型ゲンゴロウのなかでも比較的飛翔頻度が高く、餌をめぐる競争でも優れた能力を示します。また、比較的獰猛で同じ湿地に暮らすナミゲンゴロウの後脚が食いちぎられていることもしばしばあります。'},
 {id:'marukogatano',
   name:'マルコガタノゲンゴロウ',
   bodyLength:'21-26 mm',
