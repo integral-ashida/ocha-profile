@@ -160,7 +160,7 @@ const SPECIES=[
   bodyLength:'2.5 mm',
   habitat:'北海道・本州・四国・九州',
   redList:'-',
-  latin:'Allopachria flavomaculata',genus:'キボシケシゲンゴロウ属',image:'images/web/kiboshikeshi_h.webp',gallery:['images/web/kiboshikeshi_h.webp'],description:'主に水質の良い河川に生息し、植物の根際や落ち葉、礫などの隙間に隠れています。'},
+  latin:'Allopachria flavomaculata',genus:'キボシケシゲンゴロウ属',image:'images/web/kiboshikeshi_h.webp',gallery:['images/web/kiboshikeshi_h.webp'],description:'華やかな黄色い斑点をもつ、丸く厚みのあるゲンゴロウです。渓流の岩陰や根際など流れが緩やかな場所に生息しています。東北で採集したときはキボシツブと同じ場所に生息しており、個体数はキボシツブと比べてかなり少なかった記憶があります。'},
 {id:'komarukeshi',
   name:'コマルケシゲンゴロウ',
   bodyLength:'2.0-2.5 mm',
