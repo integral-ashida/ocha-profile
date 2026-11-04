@@ -59,7 +59,7 @@ const SPECIES=[
   bodyLength:'28-33 mm',
   habitat:'本州（石川県や千葉県など）',
   redList:'絶滅危惧IA類（CR）',
-  latin:'Dytiscus sharpi',genus:'ゲンゴロウモドキ属',image:'images/web/shapugenmo.webp',gallery:['images/web/shapugenmo_s1.webp','images/web/shapugenmo_h1.webp'],description:'ほかのゲンゴロウモドキと比べてやや小型ですが異様な存在感があります。腹側は黒色をしています。国内希少野生動植物種に指定されている大変珍しい種です。小学生のとき、ひと掬いで毎度5-6匹ほどタモ網に入る池をみつけたときには大興奮しました。'},
+  latin:'Dytiscus sharpi',genus:'ゲンゴロウモドキ属',image:'images/web/shapugenmo.webp',gallery:['images/web/shapugenmo_s1.webp','images/web/shapugenmo_h1.webp'],description:'ほかのゲンゴロウモドキと比べてやや小型ですが異様な存在感があります。腹側は黒色です。国内希少野生動植物種に指定されている大変珍しい種です。小学生のとき、ひと掬いで毎度5-6匹ほどタモ網に入る池をみつけたときには大興奮しました。'},
 
 {id:'shima',
   name:'シマゲンゴロウ',
@@ -78,7 +78,7 @@ const SPECIES=[
   bodyLength:'12-15 mm',
   habitat:'-',
   redList:'絶滅（EX）',
-  latin:'Hydaticus satoi',genus:'シマゲンゴロウ属',image:'images/web/suji.webp',gallery:['images/web/suji_h1.webp'],description:'日本国内では絶滅した可能性が高い。胸部の黄色の模様が太いこと・左右のラインが腹部中央より下側で接続していることから、オキナワスジゲンゴロウとの区別が容易です。1955年に愛知県稲沢市（旧平和町）で採集された１個体のみを所持しています。（譲渡個体）'},
+  latin:'Hydaticus satoi',genus:'シマゲンゴロウ属',image:'images/web/suji.webp',gallery:['images/web/suji_h1.webp'],description:'日本国内では絶滅した可能性が高いです。胸部の黄色の模様が太いこと・左右のラインが腹部中央より下側で接続していることから、オキナワスジゲンゴロウとの区別が容易です。1955年に愛知県稲沢市（旧平和町）で採集された１個体のみを所持しています。（譲渡個体）'},
 {id:'okinawasuji',
   name:'オキナワスジゲンゴロウ',
   bodyLength:'11-14 mm',
