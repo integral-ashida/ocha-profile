@@ -1,0 +1,30 @@
+/* 詳細ページの検索を、一覧の白地・角型入力欄に統一。 */
+.species-index .species-search label {
+  color: #222;
+  line-height: 1.6;
+}
+.species-search-field { position: relative; }
+.species-index .species-search input {
+  -webkit-appearance: none;
+  appearance: none;
+  padding-right: 48px;
+  border-radius: 0;
+}
+.species-index .species-search .clear-search {
+  top: 4px;
+  right: 2px;
+  min-width: 44px;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  color: #222;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+.species-search .clear-search:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -3px;
+}
+.species-layout .species-index {
+  scroll-margin-top: calc(var(--header-height, 64px) + 12px);
+}
