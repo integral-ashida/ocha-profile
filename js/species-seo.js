@@ -1,5 +1,5 @@
 // Automatically generated. Do not edit.
-const params=new URLSearchParams(location.search),selected=SPECIES.find(s=>s.id===(params.get('id') || document.documentElement.dataset.speciesId))||SPECIES[0],title=document.querySelector('#species-name'),latin=document.querySelector('#species-latin'),hero=document.querySelector('#species-hero'),description=document.querySelector('#species-description'),gallery=document.querySelector('#species-gallery'),indexList=document.querySelector('#species-index-list'),indexSearch=document.querySelector('#species-index-search');document.title=`${selected.name}｜日本の主なゲンゴロウ`;title.textContent=selected.name;latin.textContent=selected.latin;latin.hidden=!selected.latin;hero.src=selected.image;hero.alt=selected.name;description.textContent=selected.description||'編集中、もうしばらくお待ちください';gallery.innerHTML=selected.gallery.map((src,i)=>`<img src="${src}" alt="${selected.name}の写真 ${i+1}" loading="lazy">`).join('');function renderIndex(q=''){const term=q.trim().toLowerCase();indexList.innerHTML=SPECIES.filter(s=>s.name.toLowerCase().includes(term)).map(s=>`<a href="species.html?id=${s.id}" class="${s.id===selected.id?'current':''}">${s.name}</a>`).join('')||'<p>該当する種はありません</p>'}indexSearch.addEventListener('input',e=>renderIndex(e.target.value));renderIndex();
+const params=new URLSearchParams(location.search),selected=SPECIES.find(s=>s.id===(params.get('id') || document.documentElement.dataset.speciesId))||SPECIES[0],title=document.querySelector('#species-name'),latin=document.querySelector('#species-latin'),hero=document.querySelector('#species-hero'),description=document.querySelector('#species-description'),gallery=document.querySelector('#species-gallery'),indexList=document.querySelector('#species-index-list'),indexSearch=document.querySelector('#species-index-search');document.title=`${selected.name}｜日本の主なゲンゴロウ`;title.textContent=selected.name;latin.textContent=selected.latin;latin.hidden=!selected.latin;hero.src=selected.image;hero.alt=selected.name;description.textContent=selected.description||'編集中、もうしばらくお待ちください';gallery.innerHTML=selected.gallery.map((src,i)=>`<img src="${src}" alt="${selected.name}の写真 ${i+1}" loading="lazy">`).join('');function renderIndex(q=''){const term=q.trim().toLowerCase();indexList.innerHTML=SPECIES.filter(s=>`${s.name} ${s.latin || ''} ${s.genus || ''}`.toLowerCase().includes(term)).map(s=>`<a href="species.html?id=${s.id}" class="${s.id===selected.id?'current':''}">${s.name}</a>`).join('')||'<p>該当する種はありません</p>'}indexSearch.addEventListener('input',e=>renderIndex(e.target.value));renderIndex();
 
 
 // 基本情報：すべて textContent で表示するため、HTMLを書く必要はありません。
@@ -33,3 +33,17 @@ function renderSpeciesFacts(species) {
   heading.insertAdjacentElement('afterend', section);
 }
 renderSpeciesFacts(selected);
+
+// 一覧ページと同じ検索対象・消去操作。
+const indexClear = document.querySelector('#species-index-clear');
+function updateIndexClear() {
+  if (indexClear) indexClear.hidden = !indexSearch.value.length;
+}
+indexSearch.addEventListener('input', updateIndexClear);
+indexClear?.addEventListener('click', () => {
+  indexSearch.value = '';
+  renderIndex();
+  updateIndexClear();
+  indexSearch.focus();
+});
+updateIndexClear();
