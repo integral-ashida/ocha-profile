@@ -220,7 +220,7 @@ const SPECIES=[
   bodyLength:'3.5-4.2 mm',
   habitat:'北海道・本州・四国・九州・トカラ・奄美・沖縄',
   redList:'準絶滅危惧（NT）',
-  latin:'Laccophilus sharpi',genus:'ツブゲンゴロウ属',image:'images/web/sharptsubu_h.webp',gallery:['images/web/sharptsubu_h.webp'],description:''},
+  latin:'Laccophilus sharpi',genus:'ツブゲンゴロウ属',image:'images/web/sharptsubu.webp',gallery:['images/web/sharptsubu.webp'],description:''},
 {id:'kiboshitsubu',
   name:'キボシツブゲンゴロウ',
   bodyLength:'3.0-3.2 mm',
