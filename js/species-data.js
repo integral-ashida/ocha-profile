@@ -244,7 +244,7 @@ const SPECIES=[
   bodyLength:'4.8-5.8 mm',
   habitat:'沖縄（八重山）',
   redList:'-',
-  latin:'Copelatus masculinus',genus:'セスジゲンゴロウ属',image:'images/web/yaeyamasesuji_h.webp',gallery:['images/web/yaeyamasesuji_h.webp'],description:'幼虫が陸上の湿った土の中で56日間生息したという研究があります。一時的に水がなくなるような環境に適応した結果なのかもしれません。'},
+  latin:'Copelatus masculinus',genus:'セスジゲンゴロウ属',image:'images/web/yaeyamasesuji.webp',gallery:['images/web/yaeyamasesuji.webp'],description:'幼虫が陸上の湿った土の中で56日間生息したという研究があります。一時的に水がなくなるような環境に適応した結果なのかもしれません。'},
 {id:'atohoshihiratamame',
   name:'アトホシヒラタマメゲンゴロウ',
   bodyLength:'4.8-5.8 mm',
