@@ -34,7 +34,7 @@ const SPECIES=[
   bodyLength:'20-25 mm',
   habitat:'本州・四国・九州',
   redList:'準絶滅危惧（NT）',
-  latin:'Cybister brevis',genus:'ゲンゴロウ属',image:'images/web/kuro.webp',gallery:['images/web/kuro_hh.webp','images/web/kuro_y1.webp','images/web/kuro_y2.webp','images/web/kuro_p1.webp','images/web/kuro_s1.webp','images/web/kuro_s2.webp','images/web/kuro_s_aka.webp'],description:'名はクロですが、実際の体表は単純な黒色ではありません。光の当たり方によって深緑色にもみえてイメージが変わります。まれに赤い個体がいるのだがなぜだろう？（長期間飼育しても変化がないためテネラルが原因ではなさそうです）'},
+  latin:'Cybister brevis',genus:'ゲンゴロウ属',image:'images/web/kuro.webp',gallery:['images/web/kuro_hh.webp','images/web/kuro_y1.webp','images/web/kuro_y2.webp','images/web/kuro_p1.webp','images/web/kuro_s1.webp','images/web/kuro_s2.webp','images/web/kuro_s_aka.webp'],description:'名はクロですが、実際の体表は単純な黒色ではありません。光の当たり方によっては深緑色にも見えて一気にイメージが変わります。まれに赤い個体が見つかりますが何が原因なんでしょう？（長期間飼育しても変化がないためテネラルが原因ではなさそうです）'},
 {id:'tobiiro',
   name:'トビイロゲンゴロウ',
   bodyLength:'18-25 mm',
