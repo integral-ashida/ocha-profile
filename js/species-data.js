@@ -135,7 +135,7 @@ const SPECIES=[
   habitat:'北海道・本州',
   redList:'-',
   latin:'Acilius japonicus',genus:'メススジゲンゴロウ属',image:'images/web/mesusuji_hh.webp',gallery:['images/web/mesusuji_hh.webp'],description:'名のとおりメスにはスジが通っているのでメススジです。この筋は単なる飾りではありません。通常ゲンゴロウのオスは前脚の吸盤でメスの背中にしがみつき交尾しますが、このときメスがよく溺死するためメスは、オスの吸盤による付着を妨げるように進化した説があります。福井県の夜叉ヶ池に生息するヤシャゲンゴロウと非常によく似ています。（遺伝子的には本州メススジと北海道メススジよりも本州メススジとヤシャゲンゴロウの方が近いらしいです）'},
-
+  
 {id:'mumonchibikotsubu',
   name:'ムモンチビコツブゲンゴロウ',
   bodyLength:'2.3 mm',
@@ -155,12 +155,14 @@ const SPECIES=[
   habitat:'トカラ・奄美・沖縄',
   redList:'-',
   latin:'Cauthydrus nitidulus',genus:'ツヤコツブゲンゴロウ属',image:'images/web/tsuyakotsubu.webp',gallery:['images/web/tsuyakotsubu.webp'],description:''},
+
 {id:'kiboshikeshi',
   name:'キボシケシゲンゴロウ',
   bodyLength:'2.5 mm',
   habitat:'北海道・本州・四国・九州',
   redList:'-',
   latin:'Allopachria flavomaculata',genus:'キボシケシゲンゴロウ属',image:'images/web/kiboshikeshi_h.webp',gallery:['images/web/kiboshikeshi_h.webp'],description:'華やかな黄色い斑点をもつ、丸く厚みのあるゲンゴロウです。渓流の岩陰や根際など流れが緩やかな場所に生息します。東北で採集したときはキボシツブゲンゴロウと同じ場所に生息しており、個体数はキボシツブに比べてかなり少なかった記憶があります。'},
+
 {id:'komarukeshi',
   name:'コマルケシゲンゴロウ',
   bodyLength:'2.0-2.5 mm',
@@ -173,18 +175,21 @@ const SPECIES=[
   habitat:'本州・四国・九州',
   redList:'-',
   latin:'Hydrovatus onigiri',genus:'マルケシゲンゴロウ属',image:'images/web/onigirimarukeshi.webp',gallery:['images/web/onigirimarukeshi_s1.webp'],description:'なんとも可愛らしい名のゲンゴロウ。しかし、全身がおにぎりの形に似ているから名付けられたのではありません。名の由来は腹側にある「前胸腹板突起」という構造が三角形でおにぎりの形をしていることからです。以前はマルケシゲンゴロウという和名で扱われていましたが、分類学的な研究によって日本国内の個体群が新種として記載されました。'},
+
 {id:'chibi',
   name:'チビゲンゴロウ',
   bodyLength:'2.0 mm',
   habitat:'北海道・本州・四国・九州・トカラ',
   redList:'-',
   latin:'Hydroglyphus japonicus',genus:'チビゲンゴロウ属',image:'images/web/chibi.webp',gallery:['images/web/chibi_s1.webp'],description:'名のとおり、とっても小さなゲンゴロウです。こんなに小さなゲンゴロウにも美しい模様があります。模様の個体変異がとても大きな種で、そのさまざまな模様を目的にチビゲンゴロウだけを集めている知り合いもいます。'},
+
 {id:'maruchibi',
   name:'マルチビゲンゴロウ',
   bodyLength:'1.5-2.0 mm',
   habitat:'本州・四国・九州',
   redList:'準絶滅危惧（NT）',
   latin:'Leiodytes frontalis',genus:'マルチビゲンゴロウ属',image:'images/web/maruchibi.webp',gallery:['images/web/maruchibi_b.webp'],description:'深く広いため池にも生息しますが、どちらかといえば水生植物の豊かな浅い湿地を好むイメージです。生息域が限られているようですが、小さすぎて見落としているだけですかね？若いうちに微小種は楽しんでおきたいものです。'},
+
 {id:'tohokunagakeshi',
   name:'トウホクナガケシゲンゴロウ',
   bodyLength:'3.7-4.1 mm',
@@ -203,12 +208,14 @@ const SPECIES=[
   habitat:'北海道（大雪山）',
   redList:'-',
   latin:'Hydroporus morio',genus:'ナガケシゲンゴロウ属',image:'images/web/watanabenagakeshi.webp',gallery:['images/web/watanabenagakeshi_h1.webp','images/web/watanabenagakeshi_hb.webp'],description:'日本国内では北海道の大雪山のみに生息します。背側は光沢のない黒褐色、点刻が密に分布し、灰白色の微細な毛が密生します。水生植物のないような岩場水域で暮らしているため、長い脚や鉤爪がとても特徴的です。1992年に北海道の大雪山で採集された１個体のみを所持しています。（譲渡個体）'},
+
 {id:'gomadarachibi',
   name:'ゴマダラチビゲンゴロウ',
   bodyLength:'2.9-3.7 mm',
   habitat:'北海道・本州・四国',
   redList:'-',
   latin:'Neonectes natrix',genus:'マルガタシマチビゲンゴロウ属',image:'images/web/gomadarachibi.webp',gallery:['images/web/gomadarachibi.webp'],description:'河川の中流域などの清流に生息し、砂や小石が溜まった浅瀬で見られます。生息地にはモンキマメゲンゴロウやキベリマメゲンゴロウなどが一緒にいることが多いです。'},
+
 {id:'tsubu',
   name:'ツブゲンゴロウ',
   bodyLength:'4.0-4.9 mm',
@@ -220,13 +227,15 @@ const SPECIES=[
   bodyLength:'3.5-4.2 mm',
   habitat:'北海道・本州・四国・九州・トカラ・奄美・沖縄',
   redList:'準絶滅危惧（NT）',
-  latin:'Laccophilus sharpi',genus:'ツブゲンゴロウ属',image:'images/web/sharptsubu.webp',gallery:['images/web/sharptsubu.webp'],description:''},
+  latin:'Laccophilus sharpi',genus:'ツブゲンゴロウ属',image:'images/web/shaputsubu.webp',gallery:['images/web/shaputsubu.webp'],description:''},
+
 {id:'kiboshitsubu',
   name:'キボシツブゲンゴロウ',
   bodyLength:'3.0-3.2 mm',
   habitat:'北海道・本州・四国・九州',
   redList:'準絶滅危惧（NT）',
   latin:'Japanolaccophilus niponensis',genus:'キボシツブゲンゴロウ属',image:'images/web/kiboshitsubu.webp',gallery:['images/web/kiboshitsubu.webp'],description:''},
+
 {id:'hososesuji',
   name:'ホソセスジゲンゴロウ',
   bodyLength:'4.6-5.5 mm',
@@ -245,12 +254,14 @@ const SPECIES=[
   habitat:'沖縄（八重山）',
   redList:'-',
   latin:'Copelatus masculinus',genus:'セスジゲンゴロウ属',image:'images/web/yaeyamasesuji.webp',gallery:['images/web/yaeyamasesuji.webp'],description:'幼虫が陸上の湿った土の中で56日間生息したという研究があります。一時的に水がなくなるような環境に適応した結果なのかもしれません。'},
+
 {id:'atohoshihiratamame',
   name:'アトホシヒラタマメゲンゴロウ',
   bodyLength:'4.8-5.8 mm',
   habitat:'沖縄（八重山）',
   redList:'-',
   latin:'Platynectes chujoi',genus:'ヒラタマメゲンゴロウ属',image:'images/web/atohoshihiratamame.webp',gallery:['images/web/atohoshihiratamame.webp'],description:''},
+
 {id:'monkimame',
   name:'モンキマメゲンゴロウ',
   bodyLength:'6.5-7.8 mm',
@@ -275,6 +286,7 @@ const SPECIES=[
   habitat:'北海道・本州・四国・九州',
   redList:'-',
   latin:'Platambus optatus',genus:'モンキマメゲンゴロウ属',image:'images/web/hosokuromame.webp',gallery:['images/web/hosokuromame_h.webp','images/web/hosokuromame_hb.webp','images/web/hosokuromame_k.webp','images/web/hosokuromame_b.webp'],description:'山間部の湿地や落ち葉の溜まった染み出し水などに生息するゲンゴロウです。体は細長く、比較的光沢があります。お尻の模様が三角形なのでクロマメゲンゴロウと区別できますが、やはり雄交尾器を確認するのが確実です。'},
+
 {id:'mame',
   name:'マメゲンゴロウ',
   bodyLength:'6.5-7.5 mm',
@@ -293,12 +305,14 @@ const SPECIES=[
   habitat:'北海道・本州・四国・九州',
   redList:'-',
   latin:'Agabus conspicuus',genus:'マメゲンゴロウ属',image:'images/web/kurozumame.webp',gallery:['images/web/kurozumame.webp'],description:'体表の中央付近が大きく隆起しており厚みがあります。冬でも活動しているイメージです。'},
+
 {id:'kiberikurohime',
   name:'キベリクロヒメゲンゴロウ',
   bodyLength:'8.0-10 mm',
   habitat:'北海道・本州・四国・九州・トカラ',
   redList:'準絶滅危惧（NT）',
   latin:'Ilybius apicalis',genus:'クロヒメゲンゴロウ属',image:'images/web/kiberikurohime.webp',gallery:['images/web/kiberikurohime_b1.webp','images/web/kiberikurohime_b2.webp'],description:'背中が細く黄色のラインで縁取られているためキベリ（黄縁）です。唯一、クロヒメゲンゴロウ属の中で北海道以外にも生息する種です。'},
+
 {id:'hime',
   name:'ヒメゲンゴロウ',
   bodyLength:'11-13 mm',
@@ -311,12 +325,14 @@ const SPECIES=[
   habitat:'北海道・本州',
   redList:'-',
   latin:'Rhantus erraticus',genus:'ヒメゲンゴロウ属',image:'images/web/oohime.webp',gallery:['images/web/oohime.webp'],description:'ヒメゲンゴロウをひと回り・ふた回りほど大きくしたような種です。ただし頭部と胸部の模様が異なります。真冬、新潟県の山で凍傷になりながら採集した辛い思い出があるので冬でも活動していると思います。'},
+
 {id:'ezohiratahime',
   name:'エゾヒラタヒメゲンゴロウ',
   bodyLength:'18-20 mm',
   habitat:'北海道・本州（青森県）',
   redList:'-',
-  latin:'Colymbetes pseudostriatus',genus:'ヒラタヒメゲンゴロウ属',image:'images/web/ezohiratahime.webp',gallery:['images/web/ezohiratahime_s1.webp'],description:'上翅には指紋のような細かな横方向の皺が刻まれています。なめらかな背中をもつ種の多いゲンゴロウのなかでは極めて独特な質感です。'},
+  latin:'Colymbetes pseudostriatus',genus:'ヒラタヒメゲンゴロウ属',image:'images/web/ezohiratahime.webp',gallery:['images/web/ezohiratahime_h1.webp'],description:'上翅には指紋のような細かな横方向の皺が刻まれています。なめらかな背中をもつ種の多いゲンゴロウのなかでは極めて独特な質感です。'},
+
 {id:'haiiro',
   name:'ハイイロゲンゴロウ',
   bodyLength:'9.5-17 mm',
