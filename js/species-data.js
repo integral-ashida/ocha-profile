@@ -134,7 +134,7 @@ const SPECIES=[
   bodyLength:'14-17 mm',
   habitat:'北海道・本州',
   redList:'-',
-  latin:'Acilius japonicus',genus:'メススジゲンゴロウ属',image:'images/web/mesusuji_hh.webp',gallery:['images/web/mesusuji_hh.webp'],description:'名のとおりメスにはスジが通っているのでメススジです。この筋は単なる飾りではありません。通常ゲンゴロウのオスは前脚の吸盤でメスの背中にしがみつき交尾しますが、このときメスがよく溺死するためメスは、オスの吸盤による付着を妨げるように進化した説があります。福井県の夜叉ヶ池に生息するヤシャゲンゴロウと非常によく似ています。（遺伝子的には本州メススジと北海道メススジよりも本州メススジとヤシャゲンゴロウの方が近いらしいです）'},
+  latin:'Acilius japonicus',genus:'メススジゲンゴロウ属',image:'images/web/mesusuji_hh.webp',gallery:['images/web/mesusuji_hh.webp','images/web/mesusuji_s1.webp'],description:'名のとおりメスにはスジが通っているのでメススジです。この筋は単なる飾りではありません。通常ゲンゴロウのオスは前脚の吸盤でメスの背中にしがみつき交尾しますが、このときメスがよく溺死するためメスは、オスの吸盤による付着を妨げるように進化した説があります。福井県の夜叉ヶ池に生息するヤシャゲンゴロウと非常によく似ています。（遺伝子的には本州メススジと北海道メススジよりも本州メススジとヤシャゲンゴロウの方が近いらしいです）'},
   
 {id:'mumonchibikotsubu',
   name:'ムモンチビコツブゲンゴロウ',
