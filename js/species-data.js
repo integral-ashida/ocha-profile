@@ -32,7 +32,7 @@ const SPECIES=[
   habitat:'本州・九州',
   redList:'絶滅危惧IA類（CR）',
   latin:'Cybister lewisianus',genus:'ゲンゴロウ属',
-  image:'images/web/marukogatano_hh.webp',gallery:['images/web/marukogatano_hh.webp'],description:'わたしが最も好きなゲンゴロウです。体表は非常に美しいエメラルドグリーンでほかの大型ゲンゴロウとは一線を画すような鮮やかさがあります。クロゲンゴロウより大きく、コガタノゲンゴロウよりも小さいくらい。ヒルムシロが生育する比較的大きな池でみつかるイメージがあり、分散能力は低いように思えます。'},
+  image:'images/web/marukogatano_hh.webp',gallery:['images/web/marukogatano_hh.webp'],description:'わたしが最も好きなゲンゴロウです。体表は非常に美しいエメラルドグリーンに明るい黄色の縁取りで、ほかの大型ゲンゴロウとは一線を画すような鮮やかさがあります。クロゲンゴロウより大きく、コガタノゲンゴロウよりも小さいくらい。ヒルムシロが生育する比較的大きな池でみつかるイメージです。分散能力は低いように思えます。'},
 {id:'kuro',
   name:'クロゲンゴロウ',
   bodyLength:'20-25 mm',
