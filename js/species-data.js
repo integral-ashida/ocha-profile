@@ -354,7 +354,7 @@ const SPECIES=[
   redList:'絶滅危惧II類（VU）',
   latin:'Neohydrocoptus sp.',genus:'チビコツブゲンゴロウ属',image:'images/web/mumonchibikotsubu.webp',
   imageLocation:'三重県 伊賀市',
-  imageDate:'2026/7/18/',
+  imageDate:'2026/7/18',
   galleryTitles:{
     'images/web/mumonchibikotsubu.webp':'',
     'images/web/mumonchibikotsubu_b.webp':''
