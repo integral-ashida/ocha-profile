@@ -362,7 +362,7 @@ const SPECIES=[
     'images/web/mumonchibikotsubu.webp':'',
     'images/web/mumonchibikotsubu_b.webp':''
   },
-  gallery:['images/web/mumonchibikotsubu.webp','images/web/mumonchibikotsubu_b.webp'],description:'水生植物の豊かな浅い湿地に生息して、ガマやマコモの根際などに潜り込んでいるらしいです。1990年代から存在が知られているにも関わらず、現在も正式な学名が決まっていません。'},
+  gallery:['images/web/mumonchibikotsubu.webp','images/web/mumonchibikotsubu_b.webp'],description:'水生植物の豊かな浅い湿地に生息して、ガマやマコモの根際などに潜り込んでいるらしいです。マルケシゲンゴロウの仲間と一緒に得られることが多いです。1990年代から存在が知られているにも関わらず、現在も正式な学名が決まっていません。トップ写真は三重県で採集した個体です。'},
 
 {id:'kotsubu',
   name:'コツブゲンゴロウ',
@@ -387,7 +387,7 @@ const SPECIES=[
   galleryTitles:{
     'images/web/tsuyakotsubu.webp':''
   },
-  gallery:['images/web/tsuyakotsubu.webp'],description:''},
+  gallery:['images/web/tsuyakotsubu.webp'],description:'ムツボシツヤコツブゲンゴロウより大きいが、斑点は小さい。'},
 
 {id:'kiboshikeshi',
   name:'キボシケシゲンゴロウ',
@@ -414,7 +414,7 @@ const SPECIES=[
     'images/web/komarukeshi.webp':'',
     'images/web/komarukeshi_b.webp':''
   },
-  gallery:['images/web/komarukeshi.webp','images/web/komarukeshi_b.webp'],description:'浅い湿地にいるイメージです。'},
+  gallery:['images/web/komarukeshi.webp','images/web/komarukeshi_b.webp'],description:'オキギリマルケシゲンゴロウよりやや細長く、浅い湿地にいるイメージです。'},
 {id:'onigirimarukeshi',
   name:'オニギリマルケシゲンゴロウ',
   bodyLength:'2.6 mm',
