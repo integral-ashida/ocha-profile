@@ -414,7 +414,7 @@ const SPECIES=[
     'images/web/komarukeshi.webp':'',
     'images/web/komarukeshi_b.webp':''
   },
-  gallery:['images/web/komarukeshi.webp','images/web/komarukeshi_b.webp'],description:'オキギリマルケシゲンゴロウよりやや細長く、浅い湿地にいるイメージです。'},
+  gallery:['images/web/komarukeshi.webp','images/web/komarukeshi_b.webp'],description:'オニギリマルケシゲンゴロウよりやや細長く、浅い湿地に生息し、オニギリマルケシゲンゴロウやムモンチビコツブゲンゴロウなどと一緒に得られるイメージです。'},
 {id:'onigirimarukeshi',
   name:'オニギリマルケシゲンゴロウ',
   bodyLength:'2.6 mm',
