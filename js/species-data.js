@@ -163,7 +163,7 @@ const SPECIES=[
   bodyLength:'2.3 mm',
   habitat:'本州・四国・九州',
   redList:'絶滅危惧II類（VU）',
-  latin:'Neohydrocoptus sp.',genus:'チビコツブゲンゴロウ属',image:'images/web/mumonchibikotsubu.webp',gallery:['images/web/mumonchibikotsubu.webp','images/web/mumonchibikotsubu_b.webp'],description:'水生植物の豊かな浅い湿地に生息して、ガマやマコモの根際などに潜り込んでいるらしいです。1990年代から存在が知られているにも関わらず、現在も正式な学名が決まっていません。'},
+  latin:'Neohydrocoptus sp.',genus:'チビコツブゲンゴロウ属',image:'images/web/mumonchibikotsubu.webp',gallery:['images/web/mumonchibikotsubu.webp','images/web/mumonchibikotsubu_b.webp'],description:'水生植物の豊かな浅い湿地に生息して、ガマやマコモの根際などに潜り込んでいるらしいです。マルケシゲンゴロウの仲間と一緒に得られることが多いです。1990年代から存在が知られているにも関わらず、現在も正式な学名が決まっていません。トップ写真は三重県で採集した個体です。'},
 
 {id:'kotsubu',
   name:'コツブゲンゴロウ',
