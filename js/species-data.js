@@ -538,7 +538,7 @@ const SPECIES=[
   galleryTitles:{
     'images/web/kiboshitsubu.webp':''
   },
-  gallery:['images/web/kiboshitsubu.webp'],description:''},
+  gallery:['images/web/kiboshitsubu.webp'],description:'渓流の岩陰や根際など流れが緩やかな場所に生息します。東北で採集したときはキボシケシゲンゴロウと一緒に生息していました。'},
 
 {id:'hososesuji',
   name:'ホソセスジゲンゴロウ',
@@ -551,7 +551,7 @@ const SPECIES=[
   galleryTitles:{
     'images/web/hososesuji_h.webp':''
   },
-  gallery:['images/web/hososesuji_h.webp'],description:'背中には６対の溝が刻まれています。トップ写真は東京都品川区で採集した個体です。'},
+  gallery:['images/web/hososesuji_h.webp'],description:'セスジゲンゴロウ類のなかで最も普通種です。背中には６対の溝が刻まれています。トップ写真は東京都品川区で採集した個体です。'},
 {id:'todasesuji',
   name:'トダセスジゲンゴロウ',
   bodyLength:'3.9-4.6 mm',
@@ -561,7 +561,7 @@ const SPECIES=[
   imageLocation:'',
   imageDate:'',
   galleryTitles:{
-    'images/web/todasesuji_h.webp':''
+    'images/web/todasesuji_h.webp':'かつては、タテオビセスジゲンゴロウとも呼ばれていました。埼玉県 戸田市から記載されました。地味な種が多いセスジゲンゴロウ類ですが、本種は例外的に美しい模様です。'
   },
   gallery:['images/web/todasesuji_h.webp'],description:'河川敷の木々に囲まれた薄暗い湿地に生息しているそうです。トップ写真は東京都板橋区で採集した個体です。'},
 {id:'yaeyamasesuji',
