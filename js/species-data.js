@@ -462,7 +462,7 @@ const SPECIES=[
   galleryTitles:{
     'images/web/tohokunagakeshi.webp':''
   },
-  gallery:['images/web/tohokunagakeshi.webp'],description:'細長い種類が多いナガケシゲンゴロウ属のなかでもこの種は逆卵型で非常に分かりやすいです。黄褐色の斑点があります。トップ写真は山形県で採集した個体で、オオイチモンジシマゲンゴロウと一緒に生息していました。'},
+  gallery:['images/web/tohokunagakeshi.webp'],description:'細長い種が多いナガケシゲンゴロウ属のなかでもこの種は逆卵型で非常に特徴的です。黄褐色の斑点があります。トップ写真は山形県で採集した個体で、オオイチモンジシマゲンゴロウやクロズマメゲンゴロウと一緒に生息していました。'},
 {id:'usuironagakeshi',
   name:'ウスイロナガケシゲンゴロウ',
   bodyLength:'3.4-3.8 mm',
@@ -487,7 +487,7 @@ const SPECIES=[
     'images/web/watanabenagakeshi_h1.webp':'',
     'images/web/watanabenagakeshi_hb.webp':''
   },
-  gallery:['images/web/watanabenagakeshi_h1.webp','images/web/watanabenagakeshi_hb.webp'],description:'日本国内では北海道の大雪山のみに生息します。背側は光沢のない黒褐色、点刻が密に分布し、灰白色の微細な毛が密生します。水生植物のないような岩場水域で暮らしているため、長い脚や鉤爪がとても特徴的です。1992年に北海道の大雪山で採集された１個体のみを所持しています。（譲渡個体）'},
+  gallery:['images/web/watanabenagakeshi_h1.webp','images/web/watanabenagakeshi_hb.webp'],description:'日本国内では北海道の大雪山のみに生息します。背側は光沢のない黒褐色で、点刻が密に分布し、灰白色の微細な毛が密生します。水生植物のないような岩場水域で暮らしているため、長い脚や鉤爪など特異性のある構造が目立ちます。1992年に北海道の大雪山で採集された１個体のみを所持しています。（譲渡個体）'},
 
 {id:'gomadarachibi',
   name:'ゴマダラチビゲンゴロウ',
@@ -500,7 +500,7 @@ const SPECIES=[
   galleryTitles:{
     'images/web/gomadarachibi.webp':''
   },
-  gallery:['images/web/gomadarachibi.webp'],description:'河川の中流域などの清流に生息し、砂や小石が溜まった浅瀬で見られます。生息地にはモンキマメゲンゴロウやキベリマメゲンゴロウなどが一緒にいることが多いです。'},
+  gallery:['images/web/gomadarachibi.webp'],description:'河川の中流域などの清流に生息し、砂や小石が溜まった浅瀬で見られます。モンキマメゲンゴロウやキベリマメゲンゴロウなどが一緒に得られるイメージです。'},
 
 {id:'tsubu',
   name:'ツブゲンゴロウ',
