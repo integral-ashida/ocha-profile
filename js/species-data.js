@@ -353,8 +353,8 @@ const SPECIES=[
   habitat:'本州・四国・九州',
   redList:'絶滅危惧II類（VU）',
   latin:'Neohydrocoptus sp.',genus:'チビコツブゲンゴロウ属',image:'images/web/mumonchibikotsubu.webp',
-  imageLocation:'',
-  imageDate:'',
+  imageLocation:'三重県 伊賀市',
+  imageDate:'2026/7/18/',
   galleryTitles:{
     'images/web/mumonchibikotsubu.webp':'',
     'images/web/mumonchibikotsubu_b.webp':''
@@ -481,8 +481,8 @@ const SPECIES=[
   habitat:'北海道（大雪山）',
   redList:'-',
   latin:'Hydroporus morio',genus:'ナガケシゲンゴロウ属',image:'images/web/watanabenagakeshi.webp',
-  imageLocation:'',
-  imageDate:'',
+  imageLocation:'北海道 美瑛町',
+  imageDate:'1992/8/4',
   galleryTitles:{
     'images/web/watanabenagakeshi_h1.webp':'',
     'images/web/watanabenagakeshi_hb.webp':''
