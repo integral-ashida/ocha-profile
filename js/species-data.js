@@ -69,7 +69,7 @@ const SPECIES=[
   habitat:'本州（石川県や千葉県など）',
   redList:'絶滅危惧IA類（CR）',
   latin:'Dytiscus sharpi',genus:'ゲンゴロウモドキ属',
-  image:'images/web/shapugenmo.webp',gallery:['images/web/shapugenmo_s1.webp','images/web/shapugenmo_h1.webp'],description:'ほかのゲンゴロウモドキと比べてやや小型ですが異様な存在感があります。腹側は黒色です。国内希少野生動植物種に指定されている大変珍しい種です。小学生のとき、ひと掬いで毎度5-6匹ほどタモ網に入る池をみつけたときには大興奮しました。'},
+  image:'images/web/shapugenmo.webp',gallery:['images/web/shapugenmo_s1.webp','images/web/shapugenmo_h1.webp'],description:'ほかのゲンゴロウモドキと比べてやや小型ですが異様な存在感があります。モドキの特徴である頭部の^マークは控えめです。腹側は黒色。脚は非常に長く、水中で静止するときは後脚を胸のあたりまで大きく前に引き寄せる独特の姿勢をとります。学術的には二亜種にわけることができ、関東に生息するアズマゲンゴロウモドキ（Dytiscus sharpi sharpi）と日本海側に生息するコゲンゴロウモドキ（Dytiscus sharpi validus）があります。アズマゲンゴロウモドキのメスには溝がない個体も散見されます。国内希少野生動植物種に指定されている大変珍しい種です。小学生のとき、ひと掬いで毎度5-6匹ほどタモ網に入る池をみつけたときには大興奮しました。'},
 
 {id:'shima',
   name:'シマゲンゴロウ',
