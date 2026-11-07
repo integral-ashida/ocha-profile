@@ -268,8 +268,8 @@ const SPECIES=[
   redList:'絶滅危惧IB類（EN）',
   latin:'Hydaticus conspersus',genus:'シマゲンゴロウ属',
   image:'images/web/monji.webp',
-  imageLocation:'',
-  imageDate:'',
+  imageLocation:'滋賀県',
+  imageDate:'2025/4/19',
   galleryTitles:{
     'images/web/monji_s1.webp':'',
     'images/web/monji_s2.webp':'',
