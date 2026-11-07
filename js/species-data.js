@@ -1,6 +1,3 @@
-// メイン写真のラベル：imageLocation（都道府県 市町村）、imageDate（YYYY/MM/DD）。
-// 各写真のタイトル：galleryTitles の画像パスに対応する '' の中へ記入。
-// 空欄は非表示。採集日・撮影日など、掲載したい記録の日付を入力してください。
 const SPECIES=[
 {id:'nami',
   name:'ゲンゴロウ',
@@ -219,8 +216,8 @@ const SPECIES=[
   redList:'絶滅（EX）',
   latin:'Hydaticus satoi',genus:'シマゲンゴロウ属',
   image:'images/web/suji.webp',
-  imageLocation:'',
-  imageDate:'',
+  imageLocation:'愛知県 稲沢市（旧平和町）',
+  imageDate:'1955/8/5',
   galleryTitles:{
     'images/web/suji_h1.webp':''
   },
@@ -271,8 +268,8 @@ const SPECIES=[
   redList:'絶滅危惧IB類（EN）',
   latin:'Hydaticus conspersus',genus:'シマゲンゴロウ属',
   image:'images/web/monji.webp',
-  imageLocation:'',
-  imageDate:'',
+  imageLocation:'滋賀県',
+  imageDate:'2025/4/19',
   galleryTitles:{
     'images/web/monji_s1.webp':'',
     'images/web/monji_s2.webp':'',
@@ -356,13 +353,13 @@ const SPECIES=[
   habitat:'本州・四国・九州',
   redList:'絶滅危惧II類（VU）',
   latin:'Neohydrocoptus sp.',genus:'チビコツブゲンゴロウ属',image:'images/web/mumonchibikotsubu.webp',
-  imageLocation:'',
-  imageDate:'',
+  imageLocation:'三重県 伊賀市',
+  imageDate:'2026/7/18',
   galleryTitles:{
     'images/web/mumonchibikotsubu.webp':'',
     'images/web/mumonchibikotsubu_b.webp':''
   },
-  gallery:['images/web/mumonchibikotsubu.webp','images/web/mumonchibikotsubu_b.webp'],description:'水生植物の豊かな浅い湿地に生息して、ガマやマコモの根際などに潜り込んでいるらしいです。1990年代から存在が知られているにも関わらず、現在も正式な学名が決まっていません。'},
+  gallery:['images/web/mumonchibikotsubu.webp','images/web/mumonchibikotsubu_b.webp'],description:'水生植物の豊かな浅い湿地に生息して、ガマやマコモの根際などに潜り込んでいるらしいです。マルケシゲンゴロウの仲間と一緒に得られることが多いです。1990年代から存在が知られているにも関わらず、現在も正式な学名が決まっていません。トップ写真は三重県で採集した個体です。'},
 
 {id:'kotsubu',
   name:'コツブゲンゴロウ',
@@ -387,7 +384,7 @@ const SPECIES=[
   galleryTitles:{
     'images/web/tsuyakotsubu.webp':''
   },
-  gallery:['images/web/tsuyakotsubu.webp'],description:''},
+  gallery:['images/web/tsuyakotsubu.webp'],description:'ムツボシツヤコツブゲンゴロウより大きいが、斑点は小さい。'},
 
 {id:'kiboshikeshi',
   name:'キボシケシゲンゴロウ',
@@ -414,7 +411,7 @@ const SPECIES=[
     'images/web/komarukeshi.webp':'',
     'images/web/komarukeshi_b.webp':''
   },
-  gallery:['images/web/komarukeshi.webp','images/web/komarukeshi_b.webp'],description:'浅い湿地にいるイメージです。'},
+  gallery:['images/web/komarukeshi.webp','images/web/komarukeshi_b.webp'],description:'オニギリマルケシゲンゴロウよりやや細長く、浅い湿地に生息し、オニギリマルケシゲンゴロウやムモンチビコツブゲンゴロウなどと一緒に得られるイメージです。'},
 {id:'onigirimarukeshi',
   name:'オニギリマルケシゲンゴロウ',
   bodyLength:'2.6 mm',
@@ -484,8 +481,8 @@ const SPECIES=[
   habitat:'北海道（大雪山）',
   redList:'-',
   latin:'Hydroporus morio',genus:'ナガケシゲンゴロウ属',image:'images/web/watanabenagakeshi.webp',
-  imageLocation:'',
-  imageDate:'',
+  imageLocation:'北海道 美瑛町',
+  imageDate:'1992/8/4',
   galleryTitles:{
     'images/web/watanabenagakeshi_h1.webp':'',
     'images/web/watanabenagakeshi_hb.webp':''
