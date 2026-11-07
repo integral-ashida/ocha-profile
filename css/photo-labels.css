@@ -1,0 +1,25 @@
+/* 標本画像の上には文字を重ねず、写真直下に記録を添える。 */
+.species-photo-label {
+  padding: 10px 14px;
+  border-top: 1px solid var(--line, #d9deda);
+  color: var(--ink, #222);
+  font-family: var(--gothic, sans-serif);
+  font-size: .8125rem;
+  line-height: 1.7;
+  font-variant-numeric: tabular-nums;
+  overflow-wrap: anywhere;
+}
+.species-photo-label span { display: block; white-space: pre-line; }
+.species-photo-label span + span { color: var(--muted, #626b67); }
+.species-gallery .species-photo { min-width: 0; margin: 0; align-self: start; }
+.species-gallery .species-photo > .photo-open { display: block; width: 100%; }
+.species-gallery .species-photo figcaption {
+  margin: 0;
+  padding: 8px 2px 12px;
+  font-family: var(--gothic, sans-serif);
+  font-size: .875rem;
+  line-height: 1.65;
+  color: var(--ink, #222);
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+}

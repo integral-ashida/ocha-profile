@@ -2,7 +2,8 @@
 (() => {
   const gallery = document.querySelector('#species-gallery');
   if (!gallery) return;
-  const id = new URLSearchParams(location.search).get('id');
+  const id = new URLSearchParams(location.search).get('id')
+    || document.documentElement.dataset.speciesId;
   const entries = window.OCHA_SPECIES_MEDIA?.[id] || [];
   function youtubeId(raw) {
     try {
