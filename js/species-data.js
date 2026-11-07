@@ -1,6 +1,3 @@
-// メイン写真のラベル：imageLocation（都道府県 市町村）、imageDate（YYYY/MM/DD）。
-// 各写真のタイトル：galleryTitles の画像パスに対応する '' の中へ記入。
-// 空欄は非表示。採集日・撮影日など、掲載したい記録の日付を入力してください。
 const SPECIES=[
 {id:'nami',
   name:'ゲンゴロウ',
@@ -219,8 +216,8 @@ const SPECIES=[
   redList:'絶滅（EX）',
   latin:'Hydaticus satoi',genus:'シマゲンゴロウ属',
   image:'images/web/suji.webp',
-  imageLocation:'',
-  imageDate:'',
+  imageLocation:'愛知県 稲沢市（旧平和町）',
+  imageDate:'1955/8/5',
   galleryTitles:{
     'images/web/suji_h1.webp':''
   },
