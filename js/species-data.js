@@ -411,7 +411,7 @@ const SPECIES=[
     'images/web/komarukeshi.webp':'',
     'images/web/komarukeshi_b.webp':''
   },
-  gallery:['images/web/komarukeshi.webp','images/web/komarukeshi_b.webp'],description:'オニギリマルケシゲンゴロウよりやや細長く、浅い湿地に生息し、オニギリマルケシゲンゴロウやムモンチビコツブゲンゴロウなどと一緒に得られるイメージです。'},
+  gallery:['images/web/komarukeshi.webp','images/web/komarukeshi_b.webp'],description:'オニギリマルケシゲンゴロウよりやや細いです。浅い湿地に生息し、オニギリマルケシゲンゴロウやムモンチビコツブゲンゴロウなどと一緒に得られるイメージです。'},
 {id:'onigirimarukeshi',
   name:'オニギリマルケシゲンゴロウ',
   bodyLength:'2.6 mm',
@@ -423,7 +423,7 @@ const SPECIES=[
   galleryTitles:{
     'images/web/onigirimarukeshi_s1.webp':''
   },
-  gallery:['images/web/onigirimarukeshi_s1.webp'],description:'なんとも可愛らしい名のゲンゴロウ。しかし、全身がおにぎりの形に似ているから名付けられたのではありません。名の由来は腹側にある「前胸腹板突起」という構造が三角形でおにぎりの形をしていることからです。以前はマルケシゲンゴロウという和名で扱われていましたが、分類学的な研究によって日本国内の個体群が新種として記載されました。'},
+  gallery:['images/web/onigirimarukeshi_s1.webp'],description:'可愛らしい名のゲンゴロウです。しかし、決して全身がおにぎりの形に似ているから名付けられたのではありません。名の由来は腹側にある「前胸腹板突起」という構造がおにぎりのような形をしていることからです。以前はマルケシゲンゴロウという和名で扱われていましたが、分類学的な研究によって日本国内の個体群が新種として記載されました。浅い湿地に生息し、コマルケシゲンゴロウやムモンチビコツブゲンゴロウなどと一緒に得られるイメージです。'},
 
 {id:'chibi',
   name:'チビゲンゴロウ',
