@@ -500,7 +500,7 @@ const SPECIES=[
   galleryTitles:{
     'images/web/gomadarachibi.webp':''
   },
-  gallery:['images/web/gomadarachibi.webp'],description:'河川の中流域などの清流に生息し、砂や小石が溜まった浅瀬で見られます。モンキマメゲンゴロウやキベリマメゲンゴロウなどが一緒に得られるイメージです。'},
+  gallery:['images/web/gomadarachibi.webp'],description:'河川の中流域などの清流に生息し、砂や小石が溜まった浅瀬で見られます。モンキマメゲンゴロウやキベリマメゲンゴロウなどが一緒に得られるイメージです。福井県の夜叉ヶ池では止水にも関わらず、本種が多産するらしいです。（図説 日本のゲンゴロウより）'},
 
 {id:'tsubu',
   name:'ツブゲンゴロウ',
@@ -513,7 +513,7 @@ const SPECIES=[
   galleryTitles:{
     'images/web/tsubu.webp':''
   },
-  gallery:['images/web/tsubu.webp'],description:''},
+  gallery:['images/web/tsubu.webp'],description:'微小種の代表とも言えるゲンゴロウです。逆卵型で綺麗な模様をしています。'},
 {id:'sharptsubu',
   name:'シャープツブゲンゴロウ',
   bodyLength:'3.5-4.2 mm',
@@ -525,7 +525,7 @@ const SPECIES=[
   galleryTitles:{
     'images/web/shaputsubu.webp':''
   },
-  gallery:['images/web/shaputsubu.webp'],description:''},
+  gallery:['images/web/shaputsubu.webp'],description:'かつては、アヤナミツブゲンゴロウとも呼ばれていました。沖縄では普通種ですが、本州ではかなり珍しいイメージです。模様は個体変異が大きく、ときおりサザナミツブゲンゴロウと間違えそうになることもあります。'},
 
 {id:'kiboshitsubu',
   name:'キボシツブゲンゴロウ',
