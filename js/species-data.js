@@ -79,7 +79,7 @@ const SPECIES=[
     'images/web/kogatano_s4.webp':'',
     'images/web/kogatano_b1.webp':''
   },
-  gallery:['images/web/kogatano_hh.webp','images/web/kogatano_s1.webp','images/web/kogatano_s2.webp','images/web/kogatano_s3.webp','images/web/kogatano_s4.webp','images/web/kogatano_b1.webp'],description:'近年、日本国内で分布を拡大している南方系のゲンゴロウです。大型ゲンゴロウのなかでも比較的飛翔頻度が高く、餌をめぐる競争でも優れた能力を示します。また、比較的獰猛で同じ湿地に暮らすナミゲンゴロウの後脚が食いちぎられていることもしばしばあります。ナミゲンゴロウとも比べてみました。大きさが全然違いますね。'},
+  gallery:['images/web/kogatano_hh.webp','images/web/kogatano_s1.webp','images/web/kogatano_s2.webp','images/web/kogatano_s3.webp','images/web/kogatano_s4.webp','images/web/kogatano_b1.webp'],description:'近年、日本国内で分布を拡大している南方系のゲンゴロウです。大型ゲンゴロウのなかでも比較的飛翔頻度が高く、餌をめぐる競争でも優れた能力を示します。また、比較的獰猛で同じ湿地に暮らすナミゲンゴロウの後脚が食いちぎられていることもしばしばあります。ナミゲンゴロウとも比べてみました、大きさが全然違いますね。'},
 {id:'marukogatano',
   name:'マルコガタノゲンゴロウ',
   bodyLength:'21-26 mm',
@@ -111,7 +111,7 @@ const SPECIES=[
     'images/web/kuro_s2.webp':'',
     'images/web/kuro_s_aka.webp':''
   },
-  gallery:['images/web/kuro_hh.webp','images/web/kuro_y1.webp','images/web/kuro_y2.webp','images/web/kuro_p1.webp','images/web/kuro_s1.webp','images/web/kuro_s2.webp','images/web/kuro_s_aka.webp'],description:'名はクロですが、実際の体表は単純な黒色ではありません。光の当たり方によっては深緑色にも見えてがらりとイメージが変わります。まれに赤い個体が見つかりますが何が原因なんでしょう？（長期間飼育しても変化がないためテネラルが原因ではなさそうです）'},
+  gallery:['images/web/kuro_hh.webp','images/web/kuro_y1.webp','images/web/kuro_y2.webp','images/web/kuro_p1.webp','images/web/kuro_s1.webp','images/web/kuro_s2.webp','images/web/kuro_s_aka.webp'],description:'名はクロですが、実際の体表は単純な黒色ではありません。光の当たり方によっては深緑色にも見えてがらりとイメージが変わります。まれに赤い個体が見つかりますが何が原因なんでしょう？（長期間飼育しても変化がないためテネラルが原因ではなさそうです）ナミゲンゴロウと混生している水域では、ナミゲンゴロウの幼虫が上陸する頃に、クロゲンゴロウの幼虫が発生し始めるイメージがあります。'},
 {id:'tobiiro',
   name:'トビイロゲンゴロウ',
   bodyLength:'18-25 mm',
@@ -190,7 +190,7 @@ const SPECIES=[
     'images/web/shima_s5.webp':'',
     'images/web/shima_s6.webp':''
   },
-  gallery:['images/web/shima_s1.webp','images/web/shima_s2.webp','images/web/shima_s3.webp','images/web/shima_y1.webp','images/web/shima_p1.webp','images/web/shima_s4.webp','images/web/shima_s5.webp','images/web/shima_s6.webp'],description:'体表に２つのポチと４本のラインがあります。模様の個体変異がとても多い種で、２つのポチがない子や４本のラインが途切れる子もいます。（まれに赤色のシマゲンもいるんだとか！？）10月頃から上陸越冬するため、野外ではほとんど見られなくなります。幼虫はほかのゲンゴロウのように地中に空洞を作るのではなく、地上に繭を作ってそのなかで蛹になります。なんと繭は天井から作り始めるらしいです。とっても器用で可愛らしいですね。'},
+  gallery:['images/web/shima_s1.webp','images/web/shima_s2.webp','images/web/shima_s3.webp','images/web/shima_y1.webp','images/web/shima_p1.webp','images/web/shima_s4.webp','images/web/shima_s5.webp','images/web/shima_s6.webp'],description:'体表に２つのポチと４本のラインがあります。模様の個体変異がとても多い種で、２つのポチがない子や４本のラインが途切れる子もいます。（まれに赤色のシマゲンもいるんだとか！？）10月頃から上陸越冬するため、野外ではほとんど見られなくなります。幼虫はほかのゲンゴロウのように地中に空洞を作るのではなく、地上に繭を作ってそのなかで蛹になります。なんと繭は天井から作り始めるらしいです。とっても器用で可愛らしいです。'},
 {id:'koshima',
   name:'コシマゲンゴロウ',
   bodyLength:'9-11 mm',
@@ -234,7 +234,7 @@ const SPECIES=[
   galleryTitles:{
     'images/web/okinawasuji_s1.webp':''
   },
-  gallery:['images/web/okinawasuji_s1.webp'],description:'胸部の黄色の模様が細いこと・左右のラインが腹部中央より上側で接続していることから、スジゲンゴロウとの区別が容易です。'},
+  gallery:['images/web/okinawasuji_s1.webp'],description:'かつては、ミナミスジゲンゴロウとも呼ばれていました。胸部の黄色の模様が細いこと・左右のラインが腹部中央より上側で接続していることから、スジゲンゴロウとの区別が容易です。'},
 {id:'ooshima',
   name:'オオシマゲンゴロウ',
   bodyLength:'14-15 mm',
@@ -575,7 +575,7 @@ const SPECIES=[
   galleryTitles:{
     'images/web/yaeyamasesuji.webp':''
   },
-  gallery:['images/web/yaeyamasesuji.webp'],description:'幼虫が陸上の湿った土の中で56日間生息したという研究があります。一時的に水がなくなるような環境に適応した結果なのかもしれません。'},
+  gallery:['images/web/yaeyamasesuji.webp'],description:'幼虫が陸上の湿った土の中で56日間生息したという研究報告があります。一時的に水がなくなるような環境に適応した結果なのかもしれません。'},
 
 {id:'atohoshihiratamame',
   name:'アトホシヒラタマメゲンゴロウ',
@@ -588,7 +588,7 @@ const SPECIES=[
   galleryTitles:{
     'images/web/atohoshihiratamame.webp':''
   },
-  gallery:['images/web/atohoshihiratamame.webp'],description:''},
+  gallery:['images/web/atohoshihiratamame.webp'],description:'八重山の流水域に生息するゲンゴロウです。鮮やかな模様をもっているため比較的簡単に目に入ります。岩の下に隠れていることが多いです。'},
 
 {id:'monkimame',
   name:'モンキマメゲンゴロウ',
@@ -656,7 +656,7 @@ const SPECIES=[
   galleryTitles:{
     'images/web/mame_h.webp':''
   },
-  gallery:['images/web/mame_h.webp'],description:'池の浅い部分によくいるイメージです。冬でも活動しているイメージです。'},
+  gallery:['images/web/mame_h.webp'],description:'池の浅い部分によく集まっているイメージです。冬でも元気に活動しています。'},
 {id:'chairomame',
   name:'チャイロマメゲンゴロウ',
   bodyLength:'10-12 mm',
@@ -680,7 +680,7 @@ const SPECIES=[
   galleryTitles:{
     'images/web/kurozumame.webp':''
   },
-  gallery:['images/web/kurozumame.webp'],description:'体表の中央付近が大きく隆起しており厚みがあります。冬でも活動しているイメージです。'},
+  gallery:['images/web/kurozumame.webp'],description:'体表の中央付近が大きく隆起しており厚みがあります。冬でも元気に活動しています。'},
 
 {id:'kiberikurohime',
   name:'キベリクロヒメゲンゴロウ',
@@ -694,7 +694,7 @@ const SPECIES=[
     'images/web/kiberikurohime_b1.webp':'',
     'images/web/kiberikurohime_b2.webp':''
   },
-  gallery:['images/web/kiberikurohime_b1.webp','images/web/kiberikurohime_b2.webp'],description:'背中が細く黄色のラインで縁取られているためキベリ（黄縁）です。唯一、クロヒメゲンゴロウ属の中で北海道以外にも生息する種です。'},
+  gallery:['images/web/kiberikurohime_b1.webp','images/web/kiberikurohime_b2.webp'],description:'背中が細く黄色のラインで縁取られているためキベリ（黄縁）です。かつては、スナムグリゲンゴロウと呼ばれていました。唯一、クロヒメゲンゴロウ属の中で北海道以外にも生息する種です。生息は局所的ですが、かなり個体数が多いです。'},
 
 {id:'hime',
   name:'ヒメゲンゴロウ',
@@ -707,7 +707,7 @@ const SPECIES=[
   galleryTitles:{
     'images/web/hime_h1.webp':''
   },
-  gallery:['images/web/hime_h1.webp'],description:'どこにでもいます。初めて捕まえたゲンゴロウが本種だった方は多いのではないでしょうか？私もそのひとりです。私の初採集は祖父母が住んでいる愛知県。近場にあった植生に恵まれた湿地にタモ網を入れてガサガサをしました。ヒメゲンゴロウ・コシマゲンゴロウ・ハイイロゲンゴロウを捕まえました。生まれて初めてみるゲンゴロウの仲間ですから大！大！大興奮です。次の日から旅行だったので、庭のバケツに入れておいたらハイイロゲンゴロウだけいなくなっていたのは良い思い出です。（なぜかハイイロくんだけ水面から飛び立てるんですよね）日本だけでなく、ヨーロッパや北アフリカ、オーストラリアなどにも分布します。遠くの世界にも同じ種が生息しているのは不思議な感覚です。'},
+  gallery:['images/web/hime_h1.webp'],description:'どこにでもいます。初めて捕まえたゲンゴロウが本種だった方は多いのではないでしょうか？私もそのひとりです。私の初採集は祖父母が住んでいる愛知県。近場にあった植生に恵まれた湿地にタモ網を入れてガサガサをしました。ヒメゲンゴロウ・コシマゲンゴロウ・ハイイロゲンゴロウを捕まえました。生まれて初めてみるゲンゴロウの仲間ですから大！大！大興奮です。次の日から旅行だったので、庭のバケツに入れておいたらハイイロゲンゴロウだけいなくなっていたのは良い思い出です。（なぜかハイイロは水面から飛び立てるんですよね）話が逸れましたが、ヒメゲンゴロウは日本だけでなく、ヨーロッパや北アフリカ、オーストラリアなどにも分布します。遠くの世界にも同じ種が生息しているのは不思議な感覚です。'},
 {id:'oohime',
   name:'オオヒメゲンゴロウ',
   bodyLength:'13-14 mm',
@@ -719,7 +719,7 @@ const SPECIES=[
   galleryTitles:{
     'images/web/oohime.webp':''
   },
-  gallery:['images/web/oohime.webp'],description:'ヒメゲンゴロウをひと回り・ふた回りほど大きくしたような種です。ただし頭部と胸部の模様が異なります。真冬、新潟県の山で凍傷になりながら採集した辛い思い出があるので冬でも活動していると思います。'},
+  gallery:['images/web/oohime.webp'],description:'ヒメゲンゴロウをひと回り・ふた回りほど大きくしたような種です。ただし頭部と胸部の模様が異なります。真冬、新潟県の山で凍傷になりながら採集した辛い思い出があります。ノーマルのヒメゲンゴロウとともに得られることが多いです。'},
 
 {id:'ezohiratahime',
   name:'エゾヒラタヒメゲンゴロウ',
