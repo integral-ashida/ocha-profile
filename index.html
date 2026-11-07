@@ -17,6 +17,12 @@
   gtag('config', 'G-3XXVHW8Y2G');
 </script>
 
+<style>
+.profile-intro .intro-copy > span { display: block; }
+@media (max-width: 600px) {
+  .profile-intro .intro-copy { line-height: 1.8; }
+}
+</style>
 </head>
 
 <body data-section="home">
@@ -33,13 +39,12 @@
   </header>
 
   <main class="home-main">
-    <!-- 自己紹介 -->
     <section class="profile-intro">
       <h1>お茶。って何者？</h1>
-      <p>日々の活動を記録していくweb</p>
+      <p class="intro-copy"><span>私の好きなことを少しずつ記録していきます</span><span>あとから振り返って楽しむためのいわば自己満webです</span></p>
 
       <p class="editing-note">
-        最終更新：2026/11/4<br>
+        最終更新：2026/11/7<br>
       </p>
     </section>
 
@@ -93,5 +98,6 @@
 </footer>
 
   <script src="js/main.js?v=20261030room"></script>
+<script src="js/intro-fit.js?v=20261107"></script>
 </body>
 </html>

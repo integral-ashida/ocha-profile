@@ -1,16 +1,42 @@
-/* 標本画像の上には文字を重ねず、写真直下に記録を添える。 */
+/* 写真と一体の小さな記録欄。標本画像には重ねない。 */
 .species-photo-label {
-  padding: 10px 14px;
-  border-top: 1px solid var(--line, #d9deda);
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2px 18px;
+  padding: 5px 12px 7px;
+  border: 0;
   color: var(--ink, #222);
   font-family: var(--gothic, sans-serif);
-  font-size: .8125rem;
-  line-height: 1.7;
+  font-size: .75rem;
+  line-height: 1.5;
   font-variant-numeric: tabular-nums;
+}
+.species-photo-label span {
+  display: block;
+  min-width: 0;
+  white-space: pre-line;
   overflow-wrap: anywhere;
 }
-.species-photo-label span { display: block; white-space: pre-line; }
-.species-photo-label span + span { color: var(--muted, #626b67); }
+.species-photo-label span:first-child {
+  flex: 1 1 auto;
+  letter-spacing: .035em;
+}
+.species-photo-label span + span {
+  flex: 0 0 auto;
+  margin-left: auto;
+  color: var(--muted, #626b67);
+  letter-spacing: .04em;
+  white-space: nowrap;
+}
+/* ラベルがあるときだけ、直後の基本情報との余白も詰める。 */
+.species-hero:has(.species-photo-label) { margin-bottom: 14px; }
+.species-hero:has(.species-photo-label) + .species-facts { margin-top: 14px; }
+@media (max-width: 540px) {
+  .species-photo-label { padding: 5px 9px 7px; gap: 2px 12px; }
+}
+
 .species-gallery .species-photo { min-width: 0; margin: 0; align-self: start; }
 .species-gallery .species-photo > .photo-open { display: block; width: 100%; }
 .species-gallery .species-photo figcaption {
