@@ -6,14 +6,17 @@
   border: 0;
   background: transparent;
   text-align: right;
-  color: #626863;
+  color: #666;
   font-family: var(--gothic, sans-serif);
   font-size: .75rem;
   line-height: 1.55;
   font-variant-numeric: tabular-nums;
   overflow-wrap: anywhere;
 }
-.species-photo-label > span { display: block; white-space: pre-line; }
+.species-photo-label > span { display: inline; white-space: normal; }
+/* 自動生成HTMLの日本語ラベルも、同じ1行表記にする。 */
+.species-photo-label > span + span::before { content: "（"; }
+.species-photo-label > span + span::after { content: "）"; }
 .species-hero:has(.species-photo-label) { margin-bottom: 14px; }
 .species-hero:has(.species-photo-label) + .species-facts { margin-top: 14px; }
 .species-photo-label .photo-record-toggle {
@@ -48,13 +51,13 @@
   -webkit-backface-visibility: hidden;
   transition: transform .3s ease, opacity .3s ease;
 }
-.photo-record-line { display: block; white-space: pre-line; overflow-wrap: anywhere; }
+.photo-record-line { display: block; white-space: normal; overflow-wrap: anywhere; }
 .photo-record-ja { transform: rotateX(0deg); opacity: 1; }
 .photo-record-en { transform: rotateX(-180deg); opacity: 0; }
 .is-english .photo-record-ja { transform: rotateX(180deg); opacity: 0; }
 .is-english .photo-record-en { transform: rotateX(0deg); opacity: 1; }
 .photo-record-language { display: block; font-size: .625rem; white-space: nowrap; letter-spacing: .04em; }
-@media (hover: hover) { .photo-record-toggle:hover { color: #333b35; } }
+@media (hover: hover) { .photo-record-toggle:hover { color: #333; } }
 @media (prefers-reduced-motion: reduce) { .photo-record-face { transition: none; } }
 
 .species-gallery .species-photo { min-width: 0; margin: 0; align-self: start; }

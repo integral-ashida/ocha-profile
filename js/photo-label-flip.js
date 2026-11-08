@@ -12,6 +12,9 @@
   const englishPlace = clean(species.imageLocationEn);
   const englishDate = clean(species.imageDateEn) || translateDate(date);
 
+  // 日本語だけの記録も、場所（日付）の表記に統一する。
+  label.textContent = formatRecord(place, date, 'ja');
+
   // 英語の地名は推測しない。翻訳が未入力なら日本語のまま表示する。
   if ((place && !englishPlace) || (!place && !date)) return;
   if (date && !englishDate) return;
@@ -21,8 +24,8 @@
   button.setAttribute('aria-pressed', 'false');
   const faces = document.createElement('span');
   faces.className = 'photo-record-faces';
-  const japanese = makeFace([place, date], 'ja');
-  const english = makeFace([englishPlace, englishDate], 'en');
+  const japanese = makeFace(formatRecord(place, date, 'ja'), 'ja');
+  const english = makeFace(formatRecord(englishPlace, englishDate, 'en'), 'en');
   english.setAttribute('aria-hidden', 'true');
   faces.append(japanese, english);
   const hint = document.createElement('span');
@@ -48,16 +51,19 @@
       ? [englishPlace, englishDate, 'Switch collection record to Japanese'].filter(Boolean).join(', ')
       : [place, date, '採集記録を英語に切り替える'].filter(Boolean).join('、');
   }
-  function makeFace(lines, language) {
+  function formatRecord(place, date, language) {
+    if (!place) return date;
+    if (!date) return place;
+    return language === 'ja' ? place + '（' + date + '）' : place + ' (' + date + ')';
+  }
+  function makeFace(text, language) {
     const face = document.createElement('span');
     face.className = 'photo-record-face photo-record-' + language;
     face.lang = language;
-    lines.filter(Boolean).forEach(text => {
-      const line = document.createElement('span');
-      line.className = 'photo-record-line';
-      line.textContent = text;
-      face.append(line);
-    });
+    const line = document.createElement('span');
+    line.className = 'photo-record-line';
+    line.textContent = text;
+    face.append(line);
     return face;
   }
   function translateDate(value) {
