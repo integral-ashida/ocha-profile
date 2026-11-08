@@ -1,41 +1,61 @@
-/* 写真と一体の小さな記録欄。標本画像には重ねない。 */
+/* 写真の外側の右下に、採集地・採集日を近接して表示。 */
 .species-photo-label {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 2px 18px;
-  padding: 5px 12px 7px;
+  display: block;
+  margin: 0;
+  padding: 6px 0 2px;
   border: 0;
-  color: var(--ink, #222);
+  background: transparent;
+  text-align: right;
+  color: #626863;
   font-family: var(--gothic, sans-serif);
   font-size: .75rem;
-  line-height: 1.5;
+  line-height: 1.55;
   font-variant-numeric: tabular-nums;
-}
-.species-photo-label span {
-  display: block;
-  min-width: 0;
-  white-space: pre-line;
   overflow-wrap: anywhere;
 }
-.species-photo-label span:first-child {
-  flex: 1 1 auto;
-  letter-spacing: .035em;
-}
-.species-photo-label span + span {
-  flex: 0 0 auto;
-  margin-left: auto;
-  color: var(--muted, #626b67);
-  letter-spacing: .04em;
-  white-space: nowrap;
-}
-/* ラベルがあるときだけ、直後の基本情報との余白も詰める。 */
+.species-photo-label > span { display: block; white-space: pre-line; }
 .species-hero:has(.species-photo-label) { margin-bottom: 14px; }
 .species-hero:has(.species-photo-label) + .species-facts { margin-top: 14px; }
-@media (max-width: 540px) {
-  .species-photo-label { padding: 5px 9px 7px; gap: 2px 12px; }
+.species-photo-label .photo-record-toggle {
+  display: inline-grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 12px;
+  max-width: 100%;
+  min-height: 44px;
+  margin: 0;
+  padding: 2px 0 2px 8px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  color: inherit;
+  font: inherit;
+  text-align: right;
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-appearance: none;
+  appearance: none;
 }
+.photo-record-toggle:focus-visible { outline: 2px solid #626863; outline-offset: 3px; }
+.photo-record-faces { display: grid; min-width: 0; perspective: 600px; }
+.photo-record-face {
+  display: block;
+  grid-area: 1 / 1;
+  align-self: center;
+  min-width: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transition: transform .3s ease, opacity .3s ease;
+}
+.photo-record-line { display: block; white-space: pre-line; overflow-wrap: anywhere; }
+.photo-record-ja { transform: rotateX(0deg); opacity: 1; }
+.photo-record-en { transform: rotateX(-180deg); opacity: 0; }
+.is-english .photo-record-ja { transform: rotateX(180deg); opacity: 0; }
+.is-english .photo-record-en { transform: rotateX(0deg); opacity: 1; }
+.photo-record-language { display: block; font-size: .625rem; white-space: nowrap; letter-spacing: .04em; }
+@media (hover: hover) { .photo-record-toggle:hover { color: #333b35; } }
+@media (prefers-reduced-motion: reduce) { .photo-record-face { transition: none; } }
 
 .species-gallery .species-photo { min-width: 0; margin: 0; align-self: start; }
 .species-gallery .species-photo > .photo-open { display: block; width: 100%; }
