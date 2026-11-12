@@ -27,6 +27,7 @@ const SPECIES=[
   gallery:['images/web/nami_s1.webp','images/web/nami_s2.webp','images/web/nami_s3.webp','images/web/nami_s4.webp','images/web/nami_s5.webp','images/web/nami_s6.webp','images/web/nami_y1.webp','images/web/nami_y2.webp','images/web/nami_y3.webp','images/web/nami_p1.webp','images/web/nami_s7.webp','images/web/nami_s8.webp','images/web/nami_s9.webp','images/web/nami_s10.webp'],description:'日本最大のゲンゴロウ。一般にゲンゴロウといえば本種を指しますが、ほかのゲンゴロウ類と区別するためナミゲンゴロウやホンゲンゴロウと呼ばれることもあります。ゲンゴロウ界の代表のような名前を背負っていますが、実際にその堂々たる体格はなかなかのもの。初めてタモ網に入ったときのあの心臓が震えるような感動はいつになっても忘れられません。数多くの種類がいるゲンゴロウ類のなかでもやはり特別な存在のひとつです。\n\nゲンゴロウのメスには皺があります。ゲンゴロウは水中を自由に遊泳すべく、なめらかな体表構造をしていますが、交尾の際にこのなめらかさは厄介なのです。そこでオスはメスの背中に貼り付いて交尾するために、前脚に吸盤を持ちます。しかし、メスにとって水中でオスが上に貼り付くという行為は溺死の可能性がありとっても危険です。そこで、メスはオスの吸盤が貼り付きにくいような皺を持つ個体が生き残ったと考えられています。（性的対立）'},
 {id:'fuchitori',
   name:'フチトリゲンゴロウ',
+  rare: true,
   bodyLength:'33-39 mm',
   habitat:'トカラ・奄美・沖縄',
   redList:'絶滅危惧IA類（CR）',
@@ -82,6 +83,7 @@ const SPECIES=[
   gallery:['images/web/kogatano_hh.webp','images/web/kogatano_s1.webp','images/web/kogatano_s2.webp','images/web/kogatano_s3.webp','images/web/kogatano_s4.webp','images/web/kogatano_b1.webp'],description:'近年、日本国内で分布を拡大している南方系のゲンゴロウです。大型ゲンゴロウのなかでも比較的飛翔頻度が高く、餌をめぐる競争でも優れた能力を示します。また、比較的獰猛で同じ湿地に暮らすナミゲンゴロウの後脚が食いちぎられていることもしばしばあります。ナミゲンゴロウとも比べてみました、大きさが全然違いますね。'},
 {id:'marukogatano',
   name:'マルコガタノゲンゴロウ',
+  rare: true,
   bodyLength:'21-26 mm',
   habitat:'本州・九州',
   redList:'絶滅危惧IA類（CR）',
@@ -158,6 +160,7 @@ const SPECIES=[
   gallery:['images/web/ezogenmo_s1.webp','images/web/ezogenmo_s2.webp','images/web/ezogenmo_b.webp'],description:'ゲンゴロウモドキによく似ていますが、腹側に黒色の縞模様が目立たないことから区別が容易です。さらに、ゲンゴロウモドキよりも横幅が広く、胸部下側の黄色の縁取りが太いイメージです。トップ写真は長野県で観察した個体です。'},
 {id:'shapu',
   name:'シャープゲンゴロウモドキ',
+  rare: true,
   bodyLength:'28-33 mm',
   habitat:'本州（石川県や千葉県など）',
   redList:'絶滅危惧IA類（CR）',
@@ -211,6 +214,7 @@ const SPECIES=[
   gallery:['images/web/koshima_y1.webp','images/web/koshima_y2.webp','images/web/koshima_s2.webp','images/web/koshima_s1.webp','images/web/koshima_h1.webp','images/web/koshima_h2.webp'],description:'大きさ9-11mmの小型種。比較的普通にみられるゲンゴロウでなおかつこんなにも美麗種なので非常にお得なゲンゴロウですね（？）'},
 {id:'suji',
   name:'スジゲンゴロウ',
+  rare: true,
   bodyLength:'12-15 mm',
   habitat:'-',
   redList:'絶滅（EX）',
@@ -288,7 +292,8 @@ const SPECIES=[
   imageDate:'',
   galleryTitles:{
     'images/web/yamonji_hh.webp':'',
-    'images/web/yamonji_s1.webp':''
+    'images/web/yamonji_s1.webp':'',
+    'images/web/yamonji_h1.webp':''
   },
   gallery:['images/web/yamonji_hh.webp','images/web/yamonji_s1.webp'],description:'ほかのモンジの仲間に比べて模様が派手です。林道の轍に溜まった水場、コンクリートの桝、いまにも干上がりそうな水溜り、どこにでもいる（と言われています）。ただし国内希少野生動植物種なので捕まえてはなりません。'},
 {id:'ryumonji',
