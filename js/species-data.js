@@ -295,7 +295,7 @@ const SPECIES=[
     'images/web/yamonji_s1.webp':'',
     'images/web/yamonji_h1.webp':''
   },
-  gallery:['images/web/yamonji_hh.webp','images/web/yamonji_s1.webp'],description:'ほかのモンジの仲間に比べて模様が派手です。林道の轍に溜まった水場、コンクリートの桝、いまにも干上がりそうな水溜り、どこにでもいる（と言われています）。ただし国内希少野生動植物種なので捕まえてはなりません。'},
+  gallery:['images/web/yamonji_hh.webp','images/web/yamonji_s1.webp'],description:'ほかのモンジの仲間に比べて模様が派手です。生きている状態では非常に白く見える個体もいます。林道の轍に溜まった水場、コンクリートの桝、いまにも干上がりそうな水溜り、どこにでもいる（と言われています）。ただし国内希少野生動植物種なので捕まえてはなりません。'},
 {id:'ryumonji',
   name:'リュウキュウオオイチモンジシマゲンゴロウ',
   bodyLength:'15-16 mm',
@@ -482,6 +482,7 @@ const SPECIES=[
   gallery:['images/web/usuironagakeshi.webp'],description:'長野県を原産地としたナガケシゲンゴロウに対して、北海道から記載された前胸背側縁の丸みが強いものをウスイロナガケシゲンゴロウと区別しているらしいです。ただし、この２種は変異が大きく外見からのみでは明確に区別することはできません。そこで、大まかに生息域から判断して本州産=ナガケシ｜北海道産=ウスイロナガケシとされることが多いです。'},
 {id:'watanabenagakeshi',
   name:'ワタナベナガケシゲンゴロウ',
+  rare: true,
   bodyLength:'3.3-3.8 mm',
   habitat:'北海道（大雪山）',
   redList:'-',
