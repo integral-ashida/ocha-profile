@@ -52,6 +52,10 @@
       : [place, date, '採集記録を英語に切り替える'].filter(Boolean).join('、');
   }
   function formatRecord(place, date, language) {
+    if (language === 'ja' && translateDate(date)) {
+      const [year, month, day] = date.split(/[/-]/);
+      date = year + '/' + month.padStart(2, '0') + '/' + day.padStart(2, '0');
+    }
     if (!place) return date;
     if (!date) return place;
     return language === 'ja' ? place + '（' + date + '）' : place + ' (' + date + ')';

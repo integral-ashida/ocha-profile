@@ -3,11 +3,35 @@
   const names = ['リュウキュウオオイチモンジシマゲンゴロウ', 'ヤンバルオオイチモンジシマゲンゴロウ'];
   const canvas = document.createElement('canvas');
   const context = canvas.getContext('2d');
-  if (!context) return;
+  // rare: true の種だけに表示する。未指定・false はオフ。
+  const rareIds = new Set(typeof SPECIES === 'undefined' ? [] :
+    SPECIES.filter(item => item.rare === true).map(item => item.id));
+  function markHeading(node, id) {
+    if (!node || !rareIds.has(id) || node.classList.contains('has-rare-mark')) return;
+    const mark = document.createElement('span');
+    mark.className = 'rare-species-mark';
+    mark.setAttribute('role', 'img');
+    mark.setAttribute('aria-label', '珍しい種');
+    mark.title = '珍しい種';
+    node.classList.add('has-rare-mark');
+    node.append(mark);
+  }
+  function showMarks() {
+    if (!rareIds.size) return;
+    for (const card of document.querySelectorAll('.species-card')) {
+      const id = new URL(card.href).searchParams.get('id');
+      markHeading(card.querySelector('h3'), id);
+    }
+    const heading = document.getElementById('species-name');
+    if (heading && typeof selected !== 'undefined') markHeading(heading, selected.id);
+  }
   const selectors = ['.species-card h3', '#species-name', '.species-index-list a'];
   function fit() {
+    showMarks();
+    if (!context) return;
     for (const selector of selectors) {
-      const nodes = [...document.querySelectorAll(selector)].filter(node => names.includes(node.textContent.trim()));
+      const targetNames = selector === '#species-name' ? [...names, 'オオイチモンジシマゲンゴロウ'] : names;
+      const nodes = [...document.querySelectorAll(selector)].filter(node => targetNames.includes(node.textContent.trim()));
       if (!nodes.length) continue;
       let size = Infinity;
       for (const node of nodes) {

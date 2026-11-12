@@ -1,0 +1,67 @@
+/* 標本箱自身の木枠を額として使い、外側には枠を足さない。 */
+.catalog-intro .catalog-photo {
+  box-sizing: border-box;
+  display: grid;
+  place-items: center;
+  align-self: center;
+  background: transparent;
+  border: 0;
+  padding: clamp(12px, 2vw, 28px);
+  margin: 0;
+}
+.catalog-intro .catalog-photo > .photo-open,
+.catalog-intro .catalog-photo > img {
+  width: min(100%, 30rem);
+  height: auto;
+}
+.catalog-intro .catalog-photo img {
+  display: block;
+  aspect-ratio: 4 / 3;
+  min-height: 0;
+  max-height: none;
+  height: auto;
+  object-fit: contain;
+  box-shadow: 0 5px 12px -8px rgba(40, 29, 17, .48);
+}
+@media (max-width: 900px) {
+  .catalog-intro .catalog-photo { padding: 0 16px 18px; }
+  .catalog-intro .catalog-photo > .photo-open,
+  .catalog-intro .catalog-photo > img { width: min(82%, 23rem); }
+}
+
+/* 写真だけに従来の枠を残す。キャプションは枠の外に。 */
+.species-main .species-hero { border: 0; background: transparent; }
+.species-main .species-hero img {
+  box-sizing: border-box;
+  border: 1px solid var(--line);
+  background: #fff;
+}
+.species-hero .species-photo-label {
+  text-align: center;
+  border: 0;
+  padding: 5px 0 0;
+  background: transparent;
+  color: #505050;
+}
+.species-hero .species-photo-label .photo-record-toggle {
+  grid-template-columns: minmax(0, 1fr);
+  justify-items: center;
+  gap: 0;
+  text-align: center;
+  padding: 0 4px;
+}
+
+/* 和名の左端にだけしおりを付ける。文字のために幅を確保する。 */
+.species-card h3.has-rare-mark, .species-title h1.has-rare-mark {
+  position: relative;
+  padding-inline-start: 14px;
+}
+.rare-species-mark {
+  position: absolute;
+  inset-inline-start: 0;
+  top: .32em;
+  width: 7px;
+  height: 12px;
+  background: #72283e;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 76%, 0 100%);
+}
