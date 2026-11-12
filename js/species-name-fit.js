@@ -22,8 +22,6 @@
       const id = new URL(card.href).searchParams.get('id');
       markHeading(card.querySelector('h3'), id);
     }
-    const heading = document.getElementById('species-name');
-    if (heading && typeof selected !== 'undefined') markHeading(heading, selected.id);
   }
   const selectors = ['.species-card h3', '#species-name', '.species-index-list a'];
   function fit() {
@@ -38,7 +36,7 @@
         node.style.removeProperty('font-size');
         node.style.whiteSpace = 'nowrap';
         const style = getComputedStyle(node);
-        const available = node.clientWidth - parseFloat(style.paddingLeft || 0) - parseFloat(style.paddingRight || 0);
+        const available = node.clientWidth - parseFloat(style.paddingLeft || 0) - parseFloat(style.paddingRight || 0) - (node.classList.contains('has-rare-mark') ? 13 : 0);
         if (available <= 0) continue;
         const original = parseFloat(style.fontSize);
         context.font = `${style.fontStyle} ${style.fontWeight} ${original}px ${style.fontFamily}`;

@@ -1,34 +1,62 @@
-/* 標本箱自身の木枠を額として使い、外側には枠を足さない。 */
-.catalog-intro .catalog-photo {
-  box-sizing: border-box;
-  display: grid;
-  place-items: center;
-  align-self: center;
-  background: transparent;
+/* 図鑑の表紙：淡い緑の扉と、端まで続く標本写真。 */
+.catalog-intro {
+  display: block;
+  max-width: none;
   border: 0;
-  padding: clamp(12px, 2vw, 28px);
+  padding: 0;
+  background: #e5efe5;
+}
+.catalog-intro .catalog-copy {
+  box-sizing: border-box;
+  width: 100%;
+  margin: auto;
+  padding: clamp(23px, 3.8vw, 48px) 16px clamp(20px, 3vw, 32px);
+  text-align: center;
+}
+.catalog-intro .catalog-copy h1 {
   margin: 0;
+  color: #203d33;
+  font-size: clamp(1.45rem, 6vw, 3.1rem);
+  line-height: 1.25;
+  letter-spacing: .025em;
 }
-.catalog-intro .catalog-photo > .photo-open,
-.catalog-intro .catalog-photo > img {
-  width: min(100%, 30rem);
-  height: auto;
+.catalog-intro .catalog-intro-copy {
+  margin: .7em auto 0;
+  color: #344e42;
+  line-height: 1.65;
 }
+body[data-section="db"] .catalog-intro .catalog-copy .editing-note {
+  margin: 8px 0 0;
+  padding: 0;
+  border: 0;
+  color: #506356;
+  font-size: .75rem;
+}
+.catalog-intro .catalog-photo {
+  display: block;
+  width: 100%;
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+.catalog-intro .catalog-photo .photo-open,
 .catalog-intro .catalog-photo img {
   display: block;
-  aspect-ratio: 4 / 3;
-  min-height: 0;
-  max-height: none;
+  width: 100%;
   height: auto;
-  object-fit: contain;
-  box-shadow: 0 5px 12px -8px rgba(40, 29, 17, .48);
+  max-height: none;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
 }
+.catalog-intro .catalog-photo img { object-fit: contain; }
 @media (max-width: 900px) {
-  .catalog-intro .catalog-photo { padding: 0 16px 18px; }
-  .catalog-intro .catalog-photo > .photo-open,
-  .catalog-intro .catalog-photo > img { width: min(82%, 23rem); }
+  .catalog-intro .catalog-photo { max-width: none; }
 }
-
 /* 写真だけに従来の枠を残す。キャプションは枠の外に。 */
 .species-main .species-hero { border: 0; background: transparent; }
 .species-main .species-hero img {
@@ -51,17 +79,13 @@
   padding: 0 4px;
 }
 
-/* 和名の左端にだけしおりを付ける。文字のために幅を確保する。 */
-.species-card h3.has-rare-mark, .species-title h1.has-rare-mark {
-  position: relative;
-  padding-inline-start: 14px;
-}
-.rare-species-mark {
-  position: absolute;
-  inset-inline-start: 0;
-  top: .32em;
+/* 一覧の和名の末尾だけに小さなしおりを添える。 */
+.species-card h3 > .rare-species-mark {
+  display: inline-block;
   width: 7px;
   height: 12px;
+  margin-inline-start: 6px;
+  vertical-align: .05em;
   background: #72283e;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 76%, 0 100%);
 }
