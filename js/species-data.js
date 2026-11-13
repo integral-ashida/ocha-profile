@@ -225,7 +225,7 @@ const SPECIES=[
   galleryTitles:{
     'images/web/suji_h1.webp':''
   },
-  gallery:['images/web/suji_h1.webp'],description:'日本国内では絶滅した可能性が高いです。胸部の黄色の模様が太いこと・左右のラインが腹部中央より下側で接続していることから、オキナワスジゲンゴロウとの区別が容易です。1955年に愛知県 稲沢市（旧平和町）で採集された１個体のみを所持しています。（譲渡個体）'},
+  gallery:['images/web/suji_h1.webp'],description:'日本国内では絶滅した可能性が高いです。胸部の黄色の模様が太いこと・左右のラインが腹部中央より下側で接続していることから、オキナワスジゲンゴロウとの区別が容易です。1955年に愛知県稲沢市（旧平和町）で採集された１個体のみを所持しています。（譲渡個体）'},
 {id:'okinawasuji',
   name:'オキナワスジゲンゴロウ',
   bodyLength:'11-14 mm',
@@ -558,7 +558,7 @@ const SPECIES=[
   galleryTitles:{
     'images/web/hososesuji_h.webp':''
   },
-  gallery:['images/web/hososesuji_h.webp'],description:'セスジゲンゴロウ類のなかで最も普通種です。背中には６対の溝が刻まれています。トップ写真は東京都品川区で採集した個体です。'},
+  gallery:['images/web/hososesuji_h.webp'],description:'国内のセスジゲンゴロウ属では最も広く見られる種で、北海道から九州まで分布します。南方系の種が多い本属において、北海道にまで分布を広げているのは本種だけであり、寒冷な環境にも適応していることがわかります。湿地や休耕田のほか、降雨によって一時的に生じた水たまりなどにも生息します。背中には６対の溝が刻まれています。トップ写真は東京都品川区で採集した個体です。'},
 {id:'todasesuji',
   name:'トダセスジゲンゴロウ',
   bodyLength:'3.9-4.6 mm',
