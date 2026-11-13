@@ -80,7 +80,7 @@ const SPECIES=[
     'images/web/kogatano_s4.webp':'',
     'images/web/kogatano_b1.webp':''
   },
-  gallery:['images/web/kogatano_hh.webp','images/web/kogatano_s1.webp','images/web/kogatano_s2.webp','images/web/kogatano_s3.webp','images/web/kogatano_s4.webp','images/web/kogatano_b1.webp'],description:'近年、日本国内で分布を拡大している南方系のゲンゴロウです。大型ゲンゴロウのなかでも比較的飛翔頻度が高く、餌をめぐる競争でも優れた能力を示します。また、比較的獰猛で同じ湿地に暮らすナミゲンゴロウの後脚が食いちぎられていることもしばしばあります。ナミゲンゴロウとも比べてみました、大きさが全然違いますね。'},
+  gallery:['images/web/kogatano_hh.webp','images/web/kogatano_s1.webp','images/web/kogatano_s2.webp','images/web/kogatano_s3.webp','images/web/kogatano_s4.webp','images/web/kogatano_b1.webp'],description:'近年では、日本国内で分布を拡大している南方系のゲンゴロウです。大型ゲンゴロウのなかでも比較的飛翔頻度が高く、餌をめぐる競争でも優れた能力を示します。また、比較的獰猛で同じ湿地に暮らすナミゲンゴロウの後脚が食いちぎられていることもしばしばあります。かつて各地で普通に見られた本種は、20世紀後半に急減して南西諸島などの一部の地域を除いてほとんど姿を消しました。ところが2000年代後半から再び記録が増え始め、長らく絶滅したと思われていた地域にも戻ってきています。分布回復の要因として地球温暖化も指摘されています。しかし、かつて普通に生息していた地域への再出現を、地球温暖化だけで説明するには、いささか決め手に欠けます。最後に、ナミゲンゴロウとも比べてみました、大きさが全然違いますね。'},
 {id:'marukogatano',
   name:'マルコガタノゲンゴロウ',
   rare: true,
@@ -94,7 +94,7 @@ const SPECIES=[
   galleryTitles:{
     'images/web/marukogatano_hh.webp':''
   },
-  gallery:['images/web/marukogatano_hh.webp'],description:'わたしが最も好きなゲンゴロウです。体表は非常に美しいエメラルドグリーンに明るい黄色の縁取りで、ほかの大型ゲンゴロウとは一線を画すような鮮やかさがあります。クロゲンゴロウより大きく、コガタノゲンゴロウよりも小さいくらい。ヒルムシロが生育する比較的大きな池でみつかるイメージです。分散能力は低いように思えます。'},
+  gallery:['images/web/marukogatano_hh.webp'],description:'わたしが最も好きなゲンゴロウです。体表は非常に美しいエメラルドグリーンに明るい黄色の縁取りで、ほかの大型ゲンゴロウとは一線を画すような鮮やかさがあります。クロゲンゴロウより大きく、コガタノゲンゴロウよりも小さいくらい。ヒルムシロが生育する比較的大きな池でみつかるイメージです。原記載地は大阪府箕面。しかし、今やその地はもぬけの殻。コガタノゲンゴロウに比べて翅が小さく、飛翔することも少ないため、限られた池で一生を過ごす傾向があります。環境が悪化しても、容易に別の水域へ逃げにくいという性質が、本種の減少に関係しているのかもしれません。'},
 {id:'kuro',
   name:'クロゲンゴロウ',
   bodyLength:'20-25 mm',
