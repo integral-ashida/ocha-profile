@@ -41,7 +41,7 @@ const SPECIES=[
     'images/web/fuchitori_k.webp':'',
     'images/web/fuchitori_s1.webp':''
   },
-  gallery:['images/web/fuchitori.webp','images/web/fuchitori_hb.webp','images/web/fuchitori_k.webp','images/web/fuchitori_s1.webp'],description:'名のとおり黄色い縁取りがあるためフチトリゲンゴロウです。（それを言ってしまったら大型ゲンゴロウはほとんどフチトリじゃないか！というツッコミはさておき...）ナミゲンゴロウよりわずかに小さいですが体に厚みがあるため、並べても負けない程の迫力感があります。ほかの大型ゲンゴロウに比べてやや青みが強い個体が多いような気がしています。腹側は赤褐色です。農薬使用や土地開発のような環境変化で個体数を急激に減らしてしまいました。\n東南アジアはフチトリゲンゴロウに非常によく似たニセフチトリゲンゴロウ（Cybister guerini）が生息します。ニセの方はフチトリに比べてやや丸いので見慣れると感覚でわかります。もっとも雄交尾器を観察すればフチトリゲンゴロウは先端のくびれが明確なため区別できます。'},
+  gallery:['images/web/fuchitori.webp','images/web/fuchitori_hb.webp','images/web/fuchitori_k.webp','images/web/fuchitori_s1.webp'],description:'名のとおり黄色い縁取りがあるためフチトリゲンゴロウです。（それを言ってしまったら大型ゲンゴロウはほとんどフチトリじゃないか！というツッコミはさておき...）ナミゲンゴロウよりわずかに小さいものの、体に厚みがあるため、並べても引けを取らない迫力があります。また、ほかの大型ゲンゴロウに比べてやや青みが強い個体が多いような気がしています。腹側は赤褐色です。農薬使用や土地開発のような環境変化で個体数を急激に減らしてしまいました。\n東南アジアはフチトリゲンゴロウに非常によく似たニセフチトリゲンゴロウ（Cybister guerini）が生息します。ニセの方はフチトリに比べてやや丸いので見慣れると感覚でわかります。もっとも雄交尾器を観察すればフチトリゲンゴロウは先端のくびれが明確なため区別できます。'},
 {id:'himefuchitori',
   name:'ヒメフチトリゲンゴロウ',
   bodyLength:'28-33 mm',
@@ -62,7 +62,7 @@ const SPECIES=[
     'images/web/himefuchitori_h2.webp':'',
     'images/web/himefuchitori_h3.webp':''
   },
-  gallery:['images/web/himefuchitori_s1.webp','images/web/himefuchitori_y1.webp','images/web/himefuchitori_p1.webp','images/web/himefuchitori_s2.webp','images/web/himefuchitori_s3.webp','images/web/himefuchitori_s4.webp','images/web/himefuchitori_h1.webp','images/web/himefuchitori_h2.webp','images/web/himefuchitori_h3.webp'],description:'フチトリゲンゴロウによく似ていますが、ひと回り小さく腹側は一部に黄色模様があるので区別が容易です。この種を捕まえると沖縄に来たんだなって実感します。比較的大きな池に生息します。ナミゲンゴロウよりもゆったりと泳ぐイメージです。幼虫の頭部は縞模様が特徴的です。'},
+  gallery:['images/web/himefuchitori_s1.webp','images/web/himefuchitori_y1.webp','images/web/himefuchitori_p1.webp','images/web/himefuchitori_s2.webp','images/web/himefuchitori_s3.webp','images/web/himefuchitori_s4.webp','images/web/himefuchitori_h1.webp','images/web/himefuchitori_h2.webp','images/web/himefuchitori_h3.webp'],description:'フチトリゲンゴロウによく似ていますが、ひと回り小さく腹側は一部に黄色模様があるので区別が容易です。この種を捕まえると沖縄に来たんだなって実感します。比較的大きな池に生息します。大型ゲンゴロウのなかでも大人しく、非常にゆったりと遊泳するので大変上品に感ぜられます。'},
 {id:'kogatano',
   name:'コガタノゲンゴロウ',
   bodyLength:'20-29 mm',
@@ -80,7 +80,7 @@ const SPECIES=[
     'images/web/kogatano_s4.webp':'',
     'images/web/kogatano_b1.webp':''
   },
-  gallery:['images/web/kogatano_hh.webp','images/web/kogatano_s1.webp','images/web/kogatano_s2.webp','images/web/kogatano_s3.webp','images/web/kogatano_s4.webp','images/web/kogatano_b1.webp'],description:'近年、日本国内で分布を拡大している南方系のゲンゴロウです。大型ゲンゴロウのなかでも比較的飛翔頻度が高く、餌をめぐる競争でも優れた能力を示します。また、比較的獰猛で同じ湿地に暮らすナミゲンゴロウの後脚が食いちぎられていることもしばしばあります。ナミゲンゴロウとも比べてみました、大きさが全然違いますね。'},
+  gallery:['images/web/kogatano_hh.webp','images/web/kogatano_s1.webp','images/web/kogatano_s2.webp','images/web/kogatano_s3.webp','images/web/kogatano_s4.webp','images/web/kogatano_b1.webp'],description:'近年では、日本国内で分布を拡大している南方系のゲンゴロウです。大型ゲンゴロウのなかでも比較的飛翔頻度が高く、餌をめぐる競争でも優れた能力を示します。また、比較的獰猛で同じ湿地に暮らすナミゲンゴロウの後脚が食いちぎられていることもしばしばあります。かつて各地で普通に見られた本種は、20世紀後半に急減して南西諸島などの一部の地域を除いてほとんど姿を消しました。ところが2000年代後半から再び記録が増え始め、長らく絶滅したと思われていた地域にも戻ってきています。分布回復の要因として地球温暖化も指摘されています。しかし、かつて普通に生息していた地域への再出現を、地球温暖化だけで説明するには、いささか決め手に欠けます。最後に、ナミゲンゴロウとも比べてみました、大きさが全然違いますね。'},
 {id:'marukogatano',
   name:'マルコガタノゲンゴロウ',
   rare: true,
@@ -94,7 +94,7 @@ const SPECIES=[
   galleryTitles:{
     'images/web/marukogatano_hh.webp':''
   },
-  gallery:['images/web/marukogatano_hh.webp'],description:'わたしが最も好きなゲンゴロウです。体表は非常に美しいエメラルドグリーンに明るい黄色の縁取りで、ほかの大型ゲンゴロウとは一線を画すような鮮やかさがあります。クロゲンゴロウより大きく、コガタノゲンゴロウよりも小さいくらい。ヒルムシロが生育する比較的大きな池でみつかるイメージです。分散能力は低いように思えます。'},
+  gallery:['images/web/marukogatano_hh.webp'],description:'わたしが最も好きなゲンゴロウです。体表は非常に美しいエメラルドグリーンに明るい黄色の縁取りで、ほかの大型ゲンゴロウとは一線を画すような鮮やかさがあります。クロゲンゴロウより大きく、コガタノゲンゴロウよりも小さいくらい。ヒルムシロが生育する比較的大きな池でみつかるイメージです。原記載地は大阪府箕面。しかし、今やその地はもぬけの殻。コガタノゲンゴロウに比べて翅が小さく、飛翔することも少ないため、限られた池で一生を過ごす傾向があります。環境が悪化しても、容易に別の水域へ逃げにくいという性質が、本種の減少に関係しているのかもしれません。'},
 {id:'kuro',
   name:'クロゲンゴロウ',
   bodyLength:'20-25 mm',
@@ -126,7 +126,7 @@ const SPECIES=[
   galleryTitles:{
     'images/web/tobiiro_hh.webp':''
   },
-  gallery:['images/web/tobiiro_hh.webp'],description:'クロゲンゴロウによく似ていますが、比べるとわずかに小さく、胸部の左右に鳶色（赤褐色）があることからトビイロゲンゴロウ。標本からだとあまり鳶色は目立ちませんが、この小さなチャームポイントから名が付けられています。'},
+  gallery:['images/web/tobiiro_hh.webp'],description:'クロゲンゴロウによく似ていますが、比べるとわずかに小さく、胸部の左右に鳶色（赤褐色）があることからトビイロゲンゴロウ。標本からだとあまり鳶色は目立ちませんが、この小さなチャームポイントから名が付けられています。学名のsugillatusは、ラテン語で「打ち身」による青黒い変色を意味する言葉です。和名も学名もどうやら体の模様に注目しているようです。'},
 
 {id:'genmo',
   name:'ゲンゴロウモドキ',
@@ -225,7 +225,7 @@ const SPECIES=[
   galleryTitles:{
     'images/web/suji_h1.webp':''
   },
-  gallery:['images/web/suji_h1.webp'],description:'日本国内では絶滅した可能性が高いです。胸部の黄色の模様が太いこと・左右のラインが腹部中央より下側で接続していることから、オキナワスジゲンゴロウとの区別が容易です。1955年に愛知県 稲沢市（旧平和町）で採集された１個体のみを所持しています。（譲渡個体）'},
+  gallery:['images/web/suji_h1.webp'],description:'日本国内では絶滅した可能性が高いです。胸部の黄色の模様が太いこと・左右のラインが腹部中央より下側で接続していることから、オキナワスジゲンゴロウとの区別が容易です。1955年に愛知県稲沢市（旧平和町）で採集された１個体のみを所持しています。（譲渡個体）'},
 {id:'okinawasuji',
   name:'オキナワスジゲンゴロウ',
   bodyLength:'11-14 mm',
@@ -350,10 +350,11 @@ const SPECIES=[
     'images/web/mesusuji_hh.webp':'',
     'images/web/mesusuji_s1.webp':''
   },
-  gallery:['images/web/mesusuji_hh.webp','images/web/mesusuji_s1.webp'],description:'名のとおりメスにはスジが通っているのでメススジです。この筋は単なる飾りではありません。通常ゲンゴロウのオスは前脚の吸盤でメスの背中にしがみつき交尾しますが、このときメスがよく溺死するためメスは、オスの吸盤による付着を妨げるように進化した説があります。福井県の夜叉ヶ池に生息するヤシャゲンゴロウと非常によく似ています。（遺伝子的には本州メススジと北海道メススジよりも本州メススジとヤシャゲンゴロウの方が近いらしいです）'},
+  gallery:['images/web/mesusuji_hh.webp','images/web/mesusuji_s1.webp'],description:'北海道から本州中部にかけて分布し、主に魚類の生息しない池沼に生息します。名のとおりメスにはスジが通っているのでメススジです。この筋は単なる飾りではありません。通常ゲンゴロウのオスは前脚の吸盤でメスの背中にしがみつき交尾しますが、このときメスがよく溺死するためメスは、オスの吸盤による付着を妨げるように進化した説があります。福井県の夜叉ヶ池に生息する近縁のヤシャゲンゴロウとはメスの上翅にある縦溝の有無で区別されます。が、雄交尾器を含めて形態的には極めてよく似ています。近年の遺伝子解析では、ヤシャゲンゴロウが本州産メススジゲンゴロウの系統内に含まれる一方、北海道産メススジはより離れた系統に位置することが示されています。両種の分類には議論の余地があるものの、現在は別種として扱われています。\nまた、本属では陸上に産卵する珍しい習性が知られ、幼虫はマルガタゲンゴロウ属と同様に水中を浮遊するように泳ぎながらミジンコやボウフラなどを捕食します。こうした生活様式から魚類による捕食を受けやすく、繁殖には魚類のいない水域が重要となります。'},
   
 {id:'mumonchibikotsubu',
   name:'ムモンチビコツブゲンゴロウ',
+  rare: true,
   bodyLength:'2.3 mm',
   habitat:'本州・四国・九州',
   redList:'絶滅危惧II類（VU）',
@@ -557,7 +558,7 @@ const SPECIES=[
   galleryTitles:{
     'images/web/hososesuji_h.webp':''
   },
-  gallery:['images/web/hososesuji_h.webp'],description:'セスジゲンゴロウ類のなかで最も普通種です。背中には６対の溝が刻まれています。トップ写真は東京都品川区で採集した個体です。'},
+  gallery:['images/web/hososesuji_h.webp'],description:'国内のセスジゲンゴロウ属では最も広く見られる種で、北海道から九州まで分布します。南方系の種が多い本属において、北海道にまで分布を広げているのは本種だけであり、寒冷な環境にも適応していることがわかります。湿地や休耕田のほか、降雨によって一時的に生じた水たまりなどにも生息します。背中には６対の溝が刻まれています。トップ写真は東京都品川区で採集した個体です。'},
 {id:'todasesuji',
   name:'トダセスジゲンゴロウ',
   bodyLength:'3.9-4.6 mm',
@@ -567,7 +568,7 @@ const SPECIES=[
   imageLocation:'',
   imageDate:'',
   galleryTitles:{
-    'images/web/todasesuji_h.webp':'かつては、タテオビセスジゲンゴロウとも呼ばれていました。埼玉県 戸田市から記載されました。地味な種が多いセスジゲンゴロウ類ですが、本種は例外的に美しい模様です。'
+    'images/web/todasesuji_h.webp':'かつては、タテオビセスジゲンゴロウとも呼ばれていました。和名の「トダ」は埼玉県 戸田市に由来します。本種は1988年にCopelatus hasegawaiとして記載された際にこの和名が付けられましたが、のちに東京都を模式産地として1970年に記載されていたCopelatus nakamuraiと同種であることが判明しました。そのため、現在ではCopelatus nakamuraiが有効な学名として用いられています。が、和名にはトダを採用しているということです。'
   },
   gallery:['images/web/todasesuji_h.webp'],description:'河川敷の木々に囲まれた薄暗い湿地に生息しているそうです。トップ写真は東京都板橋区で採集した個体です。'},
 {id:'yaeyamasesuji',
