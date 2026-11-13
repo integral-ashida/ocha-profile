@@ -354,6 +354,7 @@ const SPECIES=[
   
 {id:'mumonchibikotsubu',
   name:'ムモンチビコツブゲンゴロウ',
+  rare: true,
   bodyLength:'2.3 mm',
   habitat:'本州・四国・九州',
   redList:'絶滅危惧II類（VU）',
