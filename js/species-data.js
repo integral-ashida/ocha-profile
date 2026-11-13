@@ -62,7 +62,7 @@ const SPECIES=[
     'images/web/himefuchitori_h2.webp':'',
     'images/web/himefuchitori_h3.webp':''
   },
-  gallery:['images/web/himefuchitori_s1.webp','images/web/himefuchitori_y1.webp','images/web/himefuchitori_p1.webp','images/web/himefuchitori_s2.webp','images/web/himefuchitori_s3.webp','images/web/himefuchitori_s4.webp','images/web/himefuchitori_h1.webp','images/web/himefuchitori_h2.webp','images/web/himefuchitori_h3.webp'],description:'フチトリゲンゴロウによく似ていますが、ひと回り小さく腹側は一部に黄色模様があるので区別が容易です。この種を捕まえると沖縄に来たんだなって実感します。比較的大きな池に生息します。ナミゲンゴロウよりもゆったりと泳ぐイメージです。幼虫の頭部は縞模様が特徴的です。'},
+  gallery:['images/web/himefuchitori_s1.webp','images/web/himefuchitori_y1.webp','images/web/himefuchitori_p1.webp','images/web/himefuchitori_s2.webp','images/web/himefuchitori_s3.webp','images/web/himefuchitori_s4.webp','images/web/himefuchitori_h1.webp','images/web/himefuchitori_h2.webp','images/web/himefuchitori_h3.webp'],description:'フチトリゲンゴロウによく似ていますが、ひと回り小さく腹側は一部に黄色模様があるので区別が容易です。この種を捕まえると沖縄に来たんだなって実感します。比較的大きな池に生息します。大型ゲンゴロウのなかでも大人しく、非常にゆったりと遊泳するので大変上品に感ぜられます。'},
 {id:'kogatano',
   name:'コガタノゲンゴロウ',
   bodyLength:'20-29 mm',
