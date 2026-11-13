@@ -568,7 +568,7 @@ const SPECIES=[
   imageLocation:'',
   imageDate:'',
   galleryTitles:{
-    'images/web/todasesuji_h.webp':'かつては、タテオビセスジゲンゴロウとも呼ばれていました。埼玉県 戸田市から記載されました。地味な種が多いセスジゲンゴロウ類ですが、本種は例外的に美しい模様です。'
+    'images/web/todasesuji_h.webp':'かつては、タテオビセスジゲンゴロウとも呼ばれていました。和名の「トダ」は埼玉県 戸田市に由来します。本種は1988年にCopelatus hasegawaiとして記載された際にこの和名が付けられましたが、のちに東京都を模式産地として1970年に記載されていたCopelatus nakamuraiと同種であることが判明しました。そのため、現在ではCopelatus nakamuraiが有効な学名として用いられています。が、和名にはトダを採用しているということです。'
   },
   gallery:['images/web/todasesuji_h.webp'],description:'河川敷の木々に囲まれた薄暗い湿地に生息しているそうです。トップ写真は東京都板橋区で採集した個体です。'},
 {id:'yaeyamasesuji',
