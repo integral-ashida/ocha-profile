@@ -295,7 +295,7 @@ const SPECIES=[
     'images/web/yamonji_s1.webp':'',
     'images/web/yamonji_h1.webp':''
   },
-  gallery:['images/web/yamonji_hh.webp','images/web/yamonji_s1.webp'],description:'ほかのモンジの仲間に比べて模様が派手です。生きている状態では非常に白く見える個体もいます。林道の轍に溜まった水場、コンクリートの桝、いまにも干上がりそうな水溜り、どこにでもいる（と言われています）。ただし国内希少野生動植物種なので捕まえてはなりません。'},
+  gallery:['images/web/yamonji_hh.webp','images/web/yamonji_s1.webp','images/web/yamonji_h1.webp':''],description:'ほかのモンジの仲間に比べて模様が派手です。生きている状態では非常に白く見える個体もいます。林道の轍に溜まった水場、コンクリートの桝、いまにも干上がりそうな水溜り、どこにでもいる（と言われています）。ただし国内希少野生動植物種なので捕まえてはなりません。'},
 {id:'ryumonji',
   name:'リュウキュウオオイチモンジシマゲンゴロウ',
   bodyLength:'15-16 mm',
