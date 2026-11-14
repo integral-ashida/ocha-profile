@@ -301,7 +301,7 @@ const SPECIES=[
   bodyLength:'15-16 mm',
   habitat:'沖縄（離島）',
   redList:'準絶滅危惧（NT）',
-  latin:'Hydaticus pacificus',genus:'シマゲンゴロウ属',
+  latin:'Hydaticus conspersus',genus:'シマゲンゴロウ属',
   image:'images/web/ryumonji_hh.webp',
   imageLocation:'',
   imageDate:'',
