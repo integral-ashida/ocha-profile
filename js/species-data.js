@@ -225,7 +225,7 @@ const SPECIES=[
   galleryTitles:{
     'images/web/suji_h1.webp':''
   },
-  gallery:['images/web/suji_h1.webp'],description:'日本国内では絶滅した可能性が高いです。胸部の黄色の模様が太いこと・左右のラインが腹部中央より下側で接続していることから、オキナワスジゲンゴロウとの区別が容易です。1955年に愛知県稲沢市（旧平和町）で採集された１個体のみを所持しています。（譲渡個体）'},
+  gallery:['images/web/suji_h1.webp'],description:'かつて関東以西の本州、四国、九州に分布していましたが、現在は日本国内で絶滅したと考えられています。近縁種が多く分類が混乱してきたグループで、かつては *Hydaticus satoi* とされていましたが、現在は *Hydaticus bipunctatus* が有効な学名とされています。前胸部の黄色い模様が太く、上翅の2本の黄色い縦条が中央より下側で合流することから、オキナワスジゲンゴロウと容易に区別できます。1955年に愛知県稲沢市（旧平和町）で採集された1個体を所蔵しています（譲渡個体）。'},
 {id:'okinawasuji',
   name:'オキナワスジゲンゴロウ',
   bodyLength:'11-14 mm',
@@ -238,7 +238,7 @@ const SPECIES=[
   galleryTitles:{
     'images/web/okinawasuji_s1.webp':''
   },
-  gallery:['images/web/okinawasuji_s1.webp'],description:'かつては、ミナミスジゲンゴロウとも呼ばれていました。胸部の黄色の模様が細いこと・左右のラインが腹部中央より上側で接続していることから、スジゲンゴロウとの区別が容易です。'},
+  gallery:['images/web/okinawasuji_s1.webp'],description:'かつては、ミナミスジゲンゴロウとも呼ばれていました。前胸部の黄色い模様が細く、上翅の2本の黄色い縦条が中央より上側で合流することから、スジゲンゴロウと容易に区別できます。'},
 {id:'ooshima',
   name:'オオシマゲンゴロウ',
   bodyLength:'14-15 mm',
