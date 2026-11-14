@@ -80,7 +80,7 @@ const SPECIES=[
     'images/web/kogatano_s4.webp':'',
     'images/web/kogatano_b1.webp':''
   },
-  gallery:['images/web/kogatano_hh.webp','images/web/kogatano_s1.webp','images/web/kogatano_s2.webp','images/web/kogatano_s3.webp','images/web/kogatano_s4.webp','images/web/kogatano_b1.webp'],description:'近年では、日本国内で分布を拡大している南方系のゲンゴロウです。大型ゲンゴロウのなかでも比較的飛翔頻度が高く、餌をめぐる競争でも優れた能力を示します。また、比較的獰猛で同じ湿地に暮らすナミゲンゴロウの後脚が食いちぎられていることもしばしばあります。かつて各地で普通に見られた本種は、20世紀後半に急減して南西諸島などの一部の地域を除いてほとんど姿を消しました。ところが2000年代後半から再び記録が増え始め、長らく絶滅したと思われていた地域にも戻ってきています。分布回復の要因として地球温暖化も指摘されています。しかし、かつて普通に生息していた地域への再出現を、地球温暖化だけで説明するには、いささか決め手に欠けます。最後に、ナミゲンゴロウとも比べてみました、大きさが全然違いますね。'},
+  gallery:['images/web/kogatano_hh.webp','images/web/kogatano_s1.webp','images/web/kogatano_s2.webp','images/web/kogatano_s3.webp','images/web/kogatano_s4.webp','images/web/kogatano_b1.webp'],description:'近年では、日本国内で分布を拡大している南方系のゲンゴロウです。大型ゲンゴロウのなかでも比較的飛翔頻度が高く、餌をめぐる競争でも優れた能力を示します。また、比較的獰猛で同じ湿地に暮らすナミゲンゴロウの後脚が食いちぎられていることもしばしばあります。かつて各地で普通に見られた本種は、1970年代に急減して南西諸島などの一部の地域を除いてほとんど姿を消しました。ところが2010年代から再び記録が増え始め、長らく絶滅したと思われていた地域にも戻ってきています。分布回復の要因として地球温暖化も指摘されています。しかし、かつて普通に生息していた地域への再出現を、地球温暖化だけで説明するには、いささか決め手に欠けます。最後に、ナミゲンゴロウとも比べてみました、大きさが全然違いますね。'},
 {id:'marukogatano',
   name:'マルコガタノゲンゴロウ',
   rare: true,
