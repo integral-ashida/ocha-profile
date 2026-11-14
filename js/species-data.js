@@ -218,7 +218,7 @@ const SPECIES=[
   bodyLength:'12-15 mm',
   habitat:'-',
   redList:'絶滅（EX）',
-  latin:'Hydaticus satoi',genus:'シマゲンゴロウ属',
+  latin:'Hydaticus bipunctatus',genus:'シマゲンゴロウ属',
   image:'images/web/suji.webp',
   imageLocation:'愛知県 稲沢市（旧平和町）',
   imageDate:'1955/8/5',
@@ -501,7 +501,7 @@ const SPECIES=[
   bodyLength:'2.9-3.7 mm',
   habitat:'北海道・本州・四国',
   redList:'-',
-  latin:'Neonectes natrix',genus:'マルガタシマチビゲンゴロウ属',image:'images/web/gomadarachibi.webp',
+  latin:'Neonectes natrix',genus:'ゴマダラチビゲンゴロウ属',image:'images/web/gomadarachibi.webp',
   imageLocation:'',
   imageDate:'',
   galleryTitles:{
