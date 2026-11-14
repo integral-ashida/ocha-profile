@@ -80,7 +80,7 @@ const SPECIES=[
     'images/web/kogatano_s4.webp':'',
     'images/web/kogatano_b1.webp':''
   },
-  gallery:['images/web/kogatano_hh.webp','images/web/kogatano_s1.webp','images/web/kogatano_s2.webp','images/web/kogatano_s3.webp','images/web/kogatano_s4.webp','images/web/kogatano_b1.webp'],description:'近年では、日本国内で分布を拡大している南方系のゲンゴロウです。大型ゲンゴロウのなかでも比較的飛翔頻度が高く、餌をめぐる競争でも優れた能力を示します。また、比較的獰猛で同じ湿地に暮らすナミゲンゴロウの後脚が食いちぎられていることもしばしばあります。かつて各地で普通に見られた本種は、20世紀後半に急減して南西諸島などの一部の地域を除いてほとんど姿を消しました。ところが2000年代後半から再び記録が増え始め、長らく絶滅したと思われていた地域にも戻ってきています。分布回復の要因として地球温暖化も指摘されています。しかし、かつて普通に生息していた地域への再出現を、地球温暖化だけで説明するには、いささか決め手に欠けます。最後に、ナミゲンゴロウとも比べてみました、大きさが全然違いますね。'},
+  gallery:['images/web/kogatano_hh.webp','images/web/kogatano_s1.webp','images/web/kogatano_s2.webp','images/web/kogatano_s3.webp','images/web/kogatano_s4.webp','images/web/kogatano_b1.webp'],description:'近年では、日本国内で分布を拡大している南方系のゲンゴロウです。大型ゲンゴロウのなかでも比較的飛翔頻度が高く、餌をめぐる競争でも優れた能力を示します。また、比較的獰猛で同じ湿地に暮らすナミゲンゴロウの後脚が食いちぎられていることもしばしばあります。かつて各地で普通に見られた本種は、1970年代に急減して南西諸島などの一部の地域を除いてほとんど姿を消しました。ところが2010年代から再び記録が増え始め、長らく絶滅したと思われていた地域にも戻ってきています。分布回復の要因として地球温暖化も指摘されています。しかし、かつて普通に生息していた地域への再出現を、地球温暖化だけで説明するには、いささか決め手に欠けます。最後に、ナミゲンゴロウとも比べてみました、大きさが全然違いますね。'},
 {id:'marukogatano',
   name:'マルコガタノゲンゴロウ',
   rare: true,
@@ -225,7 +225,7 @@ const SPECIES=[
   galleryTitles:{
     'images/web/suji_h1.webp':''
   },
-  gallery:['images/web/suji_h1.webp'],description:'日本国内では絶滅した可能性が高いです。胸部の黄色の模様が太いこと・左右のラインが腹部中央より下側で接続していることから、オキナワスジゲンゴロウとの区別が容易です。1955年に愛知県稲沢市（旧平和町）で採集された１個体のみを所持しています。（譲渡個体）'},
+  gallery:['images/web/suji_h1.webp'],description:'かつて関東以西の本州、四国、九州に分布していましたが、現在は日本国内で絶滅したと考えられています。近縁種が多く分類が混乱してきたグループで、かつては *Hydaticus satoi* とされていましたが、現在は *Hydaticus bipunctatus* が有効な学名とされています。前胸部の黄色い模様が太く、上翅の2本の黄色い縦条が中央より下側で合流することから、オキナワスジゲンゴロウと容易に区別できます。1955年に愛知県稲沢市（旧平和町）で採集された1個体を所蔵しています（譲渡個体）。'},
 {id:'okinawasuji',
   name:'オキナワスジゲンゴロウ',
   bodyLength:'11-14 mm',
@@ -238,7 +238,7 @@ const SPECIES=[
   galleryTitles:{
     'images/web/okinawasuji_s1.webp':''
   },
-  gallery:['images/web/okinawasuji_s1.webp'],description:'かつては、ミナミスジゲンゴロウとも呼ばれていました。胸部の黄色の模様が細いこと・左右のラインが腹部中央より上側で接続していることから、スジゲンゴロウとの区別が容易です。'},
+  gallery:['images/web/okinawasuji_s1.webp'],description:'かつては、ミナミスジゲンゴロウとも呼ばれていました。前胸部の黄色い模様が細く、上翅の2本の黄色い縦条が中央より上側で合流することから、スジゲンゴロウと容易に区別できます。'},
 {id:'ooshima',
   name:'オオシマゲンゴロウ',
   bodyLength:'14-15 mm',
@@ -295,7 +295,7 @@ const SPECIES=[
     'images/web/yamonji_s1.webp':'',
     'images/web/yamonji_h1.webp':''
   },
-  gallery:['images/web/yamonji_hh.webp','images/web/yamonji_s1.webp','images/web/yamonji_h1.webp':''],description:'ほかのモンジの仲間に比べて模様が派手です。生きている状態では非常に白く見える個体もいます。林道の轍に溜まった水場、コンクリートの桝、いまにも干上がりそうな水溜り、どこにでもいる（と言われています）。ただし国内希少野生動植物種なので捕まえてはなりません。'},
+  gallery:['images/web/yamonji_hh.webp','images/web/yamonji_s1.webp','images/web/yamonji_h1.webp'],description:'ほかのモンジの仲間に比べて模様が派手です。生きている状態では非常に白く見える個体もいます。林道の轍に溜まった水場、コンクリートの桝、いまにも干上がりそうな水溜り、どこにでもいる（と言われています）。ただし国内希少野生動植物種なので捕まえてはなりません。'},
 {id:'ryumonji',
   name:'リュウキュウオオイチモンジシマゲンゴロウ',
   bodyLength:'15-16 mm',
