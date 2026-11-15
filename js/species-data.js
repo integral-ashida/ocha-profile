@@ -327,7 +327,7 @@ const SPECIES=[
 {id:'karafutomarugata',
   name:'カラフトマルガタゲンゴロウ',
   bodyLength:'12-14 mm',
-  habitat:'北海道',
+  habitat:'北海道（北部）',
   redList:'準絶滅危惧（NT）',
   latin:'Graphoderus elatus',genus:'マルガタゲンゴロウ属',
   image:'images/web/karafutomarugata.webp',
