@@ -58,10 +58,11 @@ const SPECIES=[
     'images/web/himefuchitori_s3.webp':'',
     'images/web/himefuchitori_s4.webp':'',
     'images/web/himefuchitori_h4.webp':'',
+    'images/web/himefuchitori_hb.webp':'',
     'images/web/himefuchitori_h5.webp':'',
     'images/web/himefuchitori_k.webp':''
   },
-  gallery:['images/web/himefuchitori_s1.webp','images/web/himefuchitori_y1.webp','images/web/himefuchitori_p1.webp','images/web/himefuchitori_s2.webp','images/web/himefuchitori_s3.webp','images/web/himefuchitori_s4.webp','images/web/himefuchitori_h4.webp','images/web/himefuchitori_h5.webp','images/web/himefuchitori_k.webp'],description:'フチトリゲンゴロウによく似ていますがひと回り小さく腹側は一部黄色模様があるので区別が容易です。本種を捕まえると沖縄にやって来たんだなと実感します。比較的大きな池沼に生息します。大型ゲンゴロウのなかでも大人しく、非常にゆったりと遊泳するので大変上品に感ぜられます。'},
+  gallery:['images/web/himefuchitori_s1.webp','images/web/himefuchitori_y1.webp','images/web/himefuchitori_p1.webp','images/web/himefuchitori_s2.webp','images/web/himefuchitori_s3.webp','images/web/himefuchitori_s4.webp','images/web/himefuchitori_h4.webp','images/web/himefuchitori_hb.webp','images/web/himefuchitori_h5.webp','images/web/himefuchitori_k.webp'],description:'フチトリゲンゴロウによく似ていますがひと回り小さく腹側は一部黄色模様があるので区別が容易です。本種を捕まえると沖縄にやって来たんだなと実感します。比較的大きな池沼に生息します。大型ゲンゴロウのなかでも大人しく、非常にゆったりと遊泳するので大変上品に感ぜられます。'},
 {id:'kogatano',
   name:'コガタノゲンゴロウ',
   bodyLength:'20-29 mm',
@@ -612,9 +613,10 @@ const SPECIES=[
   imageDate:'2026/11/14',
   galleryTitles:{
     'images/web/nachisesuji.webp':'',
-    'images/web/nachisesuji_hb.webp':''
+    'images/web/nachisesuji_hb.webp':'',
+    'images/web/nachisesuji_b.webp':''
   },
-  gallery:['images/web/nachisesuji.webp','images/web/nachisesuji_hb.webp'],
+  gallery:['images/web/nachisesuji.webp','images/web/nachisesuji_hb.webp','images/web/nachisesuji_b.webp'],
   description:'ぬた場の周囲のやや湿っている程度の環境において、落ち葉をひっくり返したりするとよくいます。ただ、生息は局所的なようです。トップ写真は広島県で採集した個体です。'
 },
 
