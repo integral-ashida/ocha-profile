@@ -60,9 +60,10 @@ const SPECIES=[
     'images/web/himefuchitori_s4.webp':'',
     'images/web/himefuchitori_h1.webp':'',
     'images/web/himefuchitori_h2.webp':'',
-    'images/web/himefuchitori_h3.webp':''
+    'images/web/himefuchitori_h3.webp':'',
+    'images/web/himefuchitori_k.webp':''
   },
-  gallery:['images/web/himefuchitori_s1.webp','images/web/himefuchitori_y1.webp','images/web/himefuchitori_p1.webp','images/web/himefuchitori_s2.webp','images/web/himefuchitori_s3.webp','images/web/himefuchitori_s4.webp','images/web/himefuchitori_h1.webp','images/web/himefuchitori_h2.webp','images/web/himefuchitori_h3.webp'],description:'フチトリゲンゴロウによく似ていますが、ひと回り小さく腹側は一部に黄色模様があるので区別が容易です。この種を捕まえると沖縄に来たんだなって実感します。比較的大きな池に生息します。大型ゲンゴロウのなかでも大人しく、非常にゆったりと遊泳するので大変上品に感ぜられます。'},
+  gallery:['images/web/himefuchitori_s1.webp','images/web/himefuchitori_y1.webp','images/web/himefuchitori_p1.webp','images/web/himefuchitori_s2.webp','images/web/himefuchitori_s3.webp','images/web/himefuchitori_s4.webp','images/web/himefuchitori_h1.webp','images/web/himefuchitori_h2.webp','images/web/himefuchitori_h3.webp','images/web/himefuchitori_k.webp'],description:'フチトリゲンゴロウによく似ていますがひと回り小さく腹側は一部黄色模様があるので区別が容易です。本種を捕まえると沖縄にやって来たんだなと実感します。比較的大きな池沼に生息します。大型ゲンゴロウのなかでも大人しく、非常にゆったりと遊泳するので大変上品に感ぜられます。'},
 {id:'kogatano',
   name:'コガタノゲンゴロウ',
   bodyLength:'20-29 mm',
@@ -326,7 +327,7 @@ const SPECIES=[
 {id:'karafutomarugata',
   name:'カラフトマルガタゲンゴロウ',
   bodyLength:'12-14 mm',
-  habitat:'北海道',
+  habitat:'北海道（北部）',
   redList:'準絶滅危惧（NT）',
   latin:'Graphoderus elatus',genus:'マルガタゲンゴロウ属',
   image:'images/web/karafutomarugata.webp',
@@ -547,6 +548,23 @@ const SPECIES=[
   },
   gallery:['images/web/kiboshitsubu.webp'],description:'渓流の岩陰や根際など流れが緩やかな場所に生息します。東北で採集したときはキボシケシゲンゴロウと一緒に生息していました。'},
 
+{id:'kosesuji',
+  name:'コセスジゲンゴロウ',
+  bodyLength:'',
+  habitat:'',
+  redList:'',
+  latin:'Austrelatus parallelus',
+  genus:'コセスジゲンゴロウ属',
+  image:'images/web/kosesuji.webp',
+  imageLocation:'',
+  imageDate:'',
+  galleryTitles:{
+    'images/web/kosesuji.webp':''
+  },
+  gallery:['images/web/kosesuji.webp'],
+  description:''
+},
+
 {id:'hososesuji',
   name:'ホソセスジゲンゴロウ',
   bodyLength:'4.6-5.5 mm',
@@ -583,6 +601,23 @@ const SPECIES=[
     'images/web/yaeyamasesuji.webp':''
   },
   gallery:['images/web/yaeyamasesuji.webp'],description:'幼虫が陸上の湿った土の中で56日間生息したという研究報告があります。一時的に水がなくなるような環境に適応した結果なのかもしれません。'},
+
+{id:'nachisesuji',
+  name:'ナチセスジゲンゴロウ',
+  bodyLength:'',
+  habitat:'',
+  redList:'',
+  latin:'Copelatus tomokunii',
+  genus:'セスジゲンゴロウ属',
+  image:'images/web/nachisesuji.webp',
+  imageLocation:'',
+  imageDate:'',
+  galleryTitles:{
+    'images/web/nachisesuji.webp':''
+  },
+  gallery:['images/web/nachisesuji.webp'],
+  description:''
+},
 
 {id:'atohoshihiratamame',
   name:'アトホシヒラタマメゲンゴロウ',
