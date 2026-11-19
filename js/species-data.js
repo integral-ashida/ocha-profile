@@ -52,18 +52,18 @@ const SPECIES=[
   imageLocation:'',
   imageDate:'',
   galleryTitles:{
+    'images/web/himefuchitori_hh.webp':'',
     'images/web/himefuchitori_s1.webp':'',
     'images/web/himefuchitori_y1.webp':'',
     'images/web/himefuchitori_p1.webp':'',
     'images/web/himefuchitori_s2.webp':'',
     'images/web/himefuchitori_s3.webp':'',
     'images/web/himefuchitori_s4.webp':'',
-    'images/web/himefuchitori_h1.webp':'',
     'images/web/himefuchitori_h2.webp':'',
     'images/web/himefuchitori_h3.webp':'',
     'images/web/himefuchitori_k.webp':''
   },
-  gallery:['images/web/himefuchitori_s1.webp','images/web/himefuchitori_y1.webp','images/web/himefuchitori_p1.webp','images/web/himefuchitori_s2.webp','images/web/himefuchitori_s3.webp','images/web/himefuchitori_s4.webp','images/web/himefuchitori_h1.webp','images/web/himefuchitori_h2.webp','images/web/himefuchitori_h3.webp','images/web/himefuchitori_k.webp'],description:'フチトリゲンゴロウによく似ていますがひと回り小さく腹側は一部黄色模様があるので区別が容易です。本種を捕まえると沖縄にやって来たんだなと実感します。比較的大きな池沼に生息します。大型ゲンゴロウのなかでも大人しく、非常にゆったりと遊泳するので大変上品に感ぜられます。'},
+  gallery:['images/web/himefuchitori_hh.webp','images/web/himefuchitori_s1.webp','images/web/himefuchitori_y1.webp','images/web/himefuchitori_p1.webp','images/web/himefuchitori_s2.webp','images/web/himefuchitori_s3.webp','images/web/himefuchitori_s4.webp','images/web/himefuchitori_h2.webp','images/web/himefuchitori_h3.webp','images/web/himefuchitori_k.webp'],description:'フチトリゲンゴロウによく似ていますがひと回り小さく腹側は一部黄色模様があるので区別が容易です。本種を捕まえると沖縄にやって来たんだなと実感します。比較的大きな池沼に生息します。大型ゲンゴロウのなかでも大人しく、非常にゆったりと遊泳するので大変上品に感ぜられます。'},
 {id:'kogatano',
   name:'コガタノゲンゴロウ',
   bodyLength:'20-29 mm',
@@ -158,7 +158,7 @@ const SPECIES=[
     'images/web/ezogenmo_s2.webp':'',
     'images/web/ezogenmo_b.webp':''
   },
-  gallery:['images/web/ezogenmo_s1.webp','images/web/ezogenmo_s2.webp','images/web/ezogenmo_b.webp'],description:'ゲンゴロウモドキによく似ていますが、腹側に黒色の縞模様が目立たないことから区別が容易です。さらに、ゲンゴロウモドキよりも横幅が広く、胸部下側の黄色の縁取りが太いイメージです。トップ写真は長野県で観察した個体です。'},
+  gallery:['images/web/ezogenmo_s1.webp','images/web/ezogenmo_s2.webp','images/web/ezogenmo_b.webp'],description:'ゲンゴロウモドキによく似ていますが、腹側に黒色の縞模様が目立たないことから区別が容易です。さらに、ゲンゴロウモドキよりも横幅が広く、胸部下側の黄色の縁取りが太いイメージです。ゲンゴロウモドキと同様に、溝を持たないメスも存在しますが、かなり局所的で稀なように思います。以上、ゲンゴロウモドキと比べてばかりの説明でした。トップ写真は長野県で観察した個体です。'},
 {id:'shapu',
   name:'シャープゲンゴロウモドキ',
   rare: true,
@@ -194,7 +194,7 @@ const SPECIES=[
     'images/web/shima_s5.webp':'',
     'images/web/shima_s6.webp':''
   },
-  gallery:['images/web/shima_s1.webp','images/web/shima_s2.webp','images/web/shima_s3.webp','images/web/shima_y1.webp','images/web/shima_p1.webp','images/web/shima_s4.webp','images/web/shima_s5.webp','images/web/shima_s6.webp'],description:'体表に２つのポチと４本のラインがあります。模様の個体変異がとても多い種で、２つのポチがない子や４本のラインが途切れる子もいます。（まれに赤色のシマゲンもいるんだとか！？）10月頃から上陸越冬するため、野外ではほとんど見られなくなります。幼虫はほかのゲンゴロウのように地中に空洞を作るのではなく、地上に繭を作ってそのなかで蛹になります。なんと繭は天井から作り始めるらしいです。とっても器用で可愛らしいです。'},
+  gallery:['images/web/shima_s1.webp','images/web/shima_s2.webp','images/web/shima_s3.webp','images/web/shima_y1.webp','images/web/shima_p1.webp','images/web/shima_s4.webp','images/web/shima_s5.webp','images/web/shima_s6.webp'],description:'体表に黄色の２つのポチと４本のラインがあります。模様の個体変異がとても多い種で、２つのポチがない子や４本のラインが途切れる子もいます。（赤色のシマゲンもいるんだとか！？）10月頃から陸上越冬するため、野外ではほとんど見られなくなります。幼虫はほかのゲンゴロウのように地中に空洞を作るのではなく、地上に繭を作ってそのなかで蛹になります。さらになんと、繭は天井から作り始めるらしいです。とっても器用で可愛らしいです。'},
 {id:'koshima',
   name:'コシマゲンゴロウ',
   bodyLength:'9-11 mm',
@@ -336,7 +336,7 @@ const SPECIES=[
   galleryTitles:{
     'images/web/karafutomarugata.webp':''
   },
-  gallery:['images/web/karafutomarugata.webp'],description:'北海道の北部に生息するマルガタゲンゴロウの近縁種です。頭部・胸部の模様が異なることや腹側がワインレッドであることから区別が容易です。'},
+  gallery:['images/web/karafutomarugata.webp'],description:'北海道の北部に生息するマルガタゲンゴロウの近縁種です。頭部・胸部の模様が異なることや腹側がワインレッドであることから区別が容易です。さらに、本種のほうがやや細長めです。マルガタくない。'},
 
 {id:'mesusuji',
   name:'メススジゲンゴロウ',
@@ -562,7 +562,7 @@ const SPECIES=[
     'images/web/kosesuji.webp':''
   },
   gallery:['images/web/kosesuji.webp'],
-  description:''
+  description:'近畿地方のごく限られた地域に分布します。1920年に大阪府摂津市のオス１匹をもとに記載されましたが、その後は1944年に同じく大阪府の淀川でメス１匹の採集記録しかありませんでした。長らく確認されておりませんでしたが、2000年と2004年に滋賀県の安曇川で発見、2012年には京都府の宇治川でも発見されました。河川の増水によって出現する一時的な水域に生息します。羽化後は地中の蛹室に留まり、次の降雨や増水のタイミングを見計らって活動を開始するらしいです。飼育下では羽化後68日間も蛹室内に留まった記録があり、不安定な水域に適応した生態をもちます。トップ写真は京都府で採集した個体です。'
 },
 
 {id:'hososesuji',
@@ -613,10 +613,11 @@ const SPECIES=[
   imageLocation:'',
   imageDate:'',
   galleryTitles:{
-    'images/web/nachisesuji.webp':''
+    'images/web/nachisesuji.webp':'',
+    'images/web/nachisesuji_hb.webp':''
   },
-  gallery:['images/web/nachisesuji.webp'],
-  description:''
+  gallery:['images/web/nachisesuji.webp','images/web/nachisesuji_hb.webp'],
+  description:'ぬた場の周囲のやや湿っている程度の環境において、落ち葉をひっくり返したりするとよくいます。ただ、生息は局所的なようです。トップ写真は広島県で採集した個体です。'
 },
 
 {id:'atohoshihiratamame',
@@ -736,7 +737,7 @@ const SPECIES=[
     'images/web/kiberikurohime_b1.webp':'',
     'images/web/kiberikurohime_b2.webp':''
   },
-  gallery:['images/web/kiberikurohime_b1.webp','images/web/kiberikurohime_b2.webp'],description:'背中が細く黄色のラインで縁取られているためキベリ（黄縁）です。かつては、スナムグリゲンゴロウと呼ばれていました。唯一、クロヒメゲンゴロウ属の中で北海道以外にも生息する種です。生息は局所的ですが、かなり個体数が多いです。'},
+  gallery:['images/web/kiberikurohime_b1.webp','images/web/kiberikurohime_b2.webp'],description:'背中が黄色のラインで縁取られているためキベリ（黄縁）です。水底に潜る性質があるように思います。その裏付けなのか、かつては、スナムグリゲンゴロウと呼ばれていました。生息は局所的ですが、かなり個体数が多いイメージです。唯一、クロヒメゲンゴロウ属の中で北海道以外にも生息する種。でしたが…2026年に日本国内（岩手県八幡平市）からカヤハシクロヒメゲンゴロウが記録されたことによって本州のクロヒメゲンゴロウ属が増えました。'},
 
 {id:'hime',
   name:'ヒメゲンゴロウ',
