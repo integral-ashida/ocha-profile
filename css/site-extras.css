@@ -106,3 +106,13 @@ body[data-section="db"] .catalog-copy .editing-note {
   font-size: .75rem;
   line-height: 1.6;
 }
+
+/* About: separators belong between complete sections, not after the last one. */
+body[data-section="about"] .notes-body > section:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+body[data-section="about"] .notes-body > section > p:last-child {
+  margin-bottom: 0;
+}
