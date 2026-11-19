@@ -51,6 +51,7 @@ const SPECIES=[
   image:'images/web/himefuchitori.webp',
   imageLocation:'',
   imageDate:'',
+  galleryTitles:{
     'images/web/himefuchitori_y1.webp':'',
     'images/web/himefuchitori_p1.webp':'',
     'images/web/himefuchitori_s2.webp':'',
@@ -218,12 +219,12 @@ const SPECIES=[
   redList:'絶滅（EX）',
   latin:'Hydaticus bipunctatus',genus:'シマゲンゴロウ属',
   image:'images/web/suji.webp',
-  imageLocation:'愛知県 稲沢市（旧平和町）',
+  imageLocation:'愛知県',
   imageDate:'1955/8/5',
   galleryTitles:{
     'images/web/suji_h1.webp':''
   },
-  gallery:['images/web/suji_h1.webp'],description:'かつて関東以西の本州、四国、九州に分布していましたが、現在は日本国内で絶滅したと考えられています。近縁種が多く分類が混乱してきたグループで、かつては *Hydaticus satoi* とされていましたが、現在は *Hydaticus bipunctatus* が有効な学名とされています。前胸部の黄色い模様が太く、上翅の2本の黄色い縦条が中央より下側で合流することから、オキナワスジゲンゴロウと容易に区別できます。1955年に愛知県稲沢市（旧平和町）で採集された1個体を所蔵しています（譲渡個体）。'},
+  gallery:['images/web/suji_h1.webp'],description:'かつて関東以西の本州、四国、九州に分布していましたが、現在は日本国内で絶滅したと考えられています。近縁種が多く分類が混乱してきたグループで、かつてはHydaticus satoiとされていましたが、現在はHydaticus bipunctatusが有効な学名とされています。前胸部の黄色い模様が太く、上翅の2本の黄色い縦条が中央より下側で合流することから、オキナワスジゲンゴロウと容易に区別できます。1955年に愛知県で採集された1個体を所蔵しています（譲渡個体）。'},
 {id:'okinawasuji',
   name:'オキナワスジゲンゴロウ',
   bodyLength:'11-14 mm',
@@ -257,8 +258,8 @@ const SPECIES=[
   redList:'-',
   latin:'Hydaticus rhantoides',genus:'シマゲンゴロウ属',
   image:'images/web/usuiroshima.webp',
-  imageLocation:'',
-  imageDate:'',
+  imageLocation:'東京都',
+  imageDate:'2025/5/22',
   galleryTitles:{
     'images/web/usuiroshima_h1.webp':''
   },
@@ -357,7 +358,7 @@ const SPECIES=[
   habitat:'本州・四国・九州',
   redList:'絶滅危惧II類（VU）',
   latin:'Neohydrocoptus sp.',genus:'チビコツブゲンゴロウ属',image:'images/web/mumonchibikotsubu.webp',
-  imageLocation:'三重県 伊賀市',
+  imageLocation:'三重県',
   imageDate:'2026/7/18',
   galleryTitles:{
     'images/web/mumonchibikotsubu.webp':'',
@@ -486,7 +487,7 @@ const SPECIES=[
   habitat:'北海道（大雪山）',
   redList:'-',
   latin:'Hydroporus morio',genus:'ナガケシゲンゴロウ属',image:'images/web/watanabenagakeshi.webp',
-  imageLocation:'北海道 美瑛町',
+  imageLocation:'北海道',
   imageDate:'1992/8/4',
   galleryTitles:{
     'images/web/watanabenagakeshi_h1.webp':'',
@@ -553,8 +554,8 @@ const SPECIES=[
   latin:'Austrelatus parallelus',
   genus:'コセスジゲンゴロウ属',
   image:'images/web/kosesuji.webp',
-  imageLocation:'',
-  imageDate:'',
+  imageLocation:'京都府',
+  imageDate:'2024/9/8',
   galleryTitles:{
     'images/web/kosesuji.webp':''
   },
@@ -607,8 +608,8 @@ const SPECIES=[
   latin:'Copelatus tomokunii',
   genus:'セスジゲンゴロウ属',
   image:'images/web/nachisesuji.webp',
-  imageLocation:'',
-  imageDate:'',
+  imageLocation:'広島県',
+  imageDate:'2026/11/14',
   galleryTitles:{
     'images/web/nachisesuji.webp':'',
     'images/web/nachisesuji_hb.webp':''
