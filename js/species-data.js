@@ -36,12 +36,12 @@ const SPECIES=[
   imageLocation:'',
   imageDate:'',
   galleryTitles:{
-    'images/web/fuchitori.webp':'',
+    'images/web/fuchitori_hh.webp':'',
     'images/web/fuchitori_hb.webp':'',
     'images/web/fuchitori_k.webp':'',
     'images/web/fuchitori_s1.webp':''
   },
-  gallery:['images/web/fuchitori.webp','images/web/fuchitori_hb.webp','images/web/fuchitori_k.webp','images/web/fuchitori_s1.webp'],description:'名のとおり黄色い縁取りがあるためフチトリゲンゴロウです。（それを言ってしまったら大型ゲンゴロウはほとんどフチトリじゃないか！というツッコミはさておき...）ナミゲンゴロウよりわずかに小さいものの、体に厚みがあるため、並べても引けを取らない迫力があります。また、ほかの大型ゲンゴロウに比べてやや青みが強い個体が多いような気がしています。腹側は赤褐色です。\n\n農薬使用や土地開発のような環境変化で個体数を急激に減らしてしまいました。\n\n東南アジアはフチトリゲンゴロウに非常によく似たニセフチトリゲンゴロウ（Cybister guerini）が生息します。ニセの方はフチトリに比べてやや丸いので見慣れると感覚でわかります。もっとも雄交尾器を観察すればフチトリゲンゴロウは先端のくびれが明確なため区別できます。'},
+  gallery:['images/web/fuchitori_hh.webp','images/web/fuchitori_hb.webp','images/web/fuchitori_k.webp','images/web/fuchitori_s1.webp'],description:'名のとおり黄色い縁取りがあるためフチトリゲンゴロウです。（それを言ってしまったら大型ゲンゴロウはほとんどフチトリじゃないか！というツッコミはさておき...）ナミゲンゴロウよりわずかに小さいものの、体に厚みがあるため、並べても引けを取らない迫力があります。また、ほかの大型ゲンゴロウに比べてやや青みが強い個体が多いような気がしています。腹側は赤褐色です。\n\n農薬使用や土地開発のような環境変化で個体数を急激に減らしてしまいました。\n\n東南アジアはフチトリゲンゴロウに非常によく似たニセフチトリゲンゴロウ（Cybister guerini）が生息します。ニセの方はフチトリに比べてやや丸いので見慣れると感覚でわかります。もっとも雄交尾器を観察すればフチトリゲンゴロウは先端のくびれが明確なため区別できます。'},
 {id:'himefuchitori',
   name:'ヒメフチトリゲンゴロウ',
   bodyLength:'28-33 mm',
@@ -52,6 +52,8 @@ const SPECIES=[
   imageLocation:'',
   imageDate:'',
   galleryTitles:{
+    'images/web/himefuchitori_hh.webp':'',
+    'images/web/himefuchitori_s1.webp':'',
     'images/web/himefuchitori_y1.webp':'',
     'images/web/himefuchitori_p1.webp':'',
     'images/web/himefuchitori_s2.webp':'',
@@ -62,7 +64,7 @@ const SPECIES=[
     'images/web/himefuchitori_h5.webp':'',
     'images/web/himefuchitori_k.webp':''
   },
-  gallery:['images/web/himefuchitori_s1.webp','images/web/himefuchitori_y1.webp','images/web/himefuchitori_p1.webp','images/web/himefuchitori_s2.webp','images/web/himefuchitori_s3.webp','images/web/himefuchitori_s4.webp','images/web/himefuchitori_h4.webp','images/web/himefuchitori_hb.webp','images/web/himefuchitori_h5.webp','images/web/himefuchitori_k.webp'],description:'フチトリゲンゴロウによく似ていますがひと回り小さく腹側は一部黄色模様があるので区別が容易です。本種を捕まえると沖縄にやって来たんだなと実感します。比較的大きな池沼に生息します。大型ゲンゴロウのなかでも大人しく、非常にゆったりと遊泳するので大変上品に感ぜられます。'},
+  gallery:['images/web/himefuchitori_hh.webp','images/web/himefuchitori_s1.webp','images/web/himefuchitori_y1.webp','images/web/himefuchitori_p1.webp','images/web/himefuchitori_s2.webp','images/web/himefuchitori_s3.webp','images/web/himefuchitori_s4.webp','images/web/himefuchitori_h4.webp','images/web/himefuchitori_hb.webp','images/web/himefuchitori_h5.webp','images/web/himefuchitori_k.webp'],description:'フチトリゲンゴロウによく似ていますがひと回り小さく腹側は一部黄色模様があるので区別が容易です。本種を捕まえると沖縄にやって来たんだなと実感します。比較的大きな池沼に生息します。大型ゲンゴロウのなかでも大人しく、非常にゆったりと遊泳するので大変上品に感ぜられます。'},
 {id:'kogatano',
   name:'コガタノゲンゴロウ',
   bodyLength:'20-29 mm',
@@ -93,8 +95,9 @@ const SPECIES=[
   imageDate:'',
   galleryTitles:{
     'images/web/marukogatano_hh.webp':''
+    'images/web/marukogatano_hhh.webp':''
   },
-  gallery:['images/web/marukogatano_hh.webp'],description:'わたしが最も好きなゲンゴロウです。体表は非常に美しいエメラルドグリーンに明るい黄色の縁取りで、ほかの大型ゲンゴロウとは一線を画すような鮮やかさがあります。クロゲンゴロウより大きく、コガタノゲンゴロウよりも小さいくらい。ヒルムシロが生育する比較的大きな池でみつかるイメージです。\n\n原記載地は大阪府箕面。しかし、今やその地はもぬけの殻。コガタノゲンゴロウに比べて翅が小さく、飛翔することも少ないため、限られた池で一生を過ごす傾向があります。環境が悪化しても、容易に別の水域へ逃げにくいという性質が、本種の減少に関係しているのかもしれません。'},
+  gallery:['images/web/marukogatano_hh.webp','images/web/marukogatano_hhh.webp'],description:'わたしが最も好きなゲンゴロウです。体表は非常に美しいエメラルドグリーンに明るい黄色の縁取りで、ほかの大型ゲンゴロウとは一線を画すような鮮やかさがあります。クロゲンゴロウより大きく、コガタノゲンゴロウよりも小さいくらい。ヒルムシロが生育する比較的大きな池でみつかるイメージです。\n\n原記載地は大阪府箕面。しかし、今やその地はもぬけの殻。コガタノゲンゴロウに比べて翅が小さく、飛翔することも少ないため、限られた池で一生を過ごす傾向があります。環境が悪化しても、容易に別の水域へ逃げにくいという性質が、本種の減少に関係しているのかもしれません。'},
 {id:'kuro',
   name:'クロゲンゴロウ',
   bodyLength:'20-25 mm',
@@ -277,10 +280,11 @@ const SPECIES=[
   galleryTitles:{
     'images/web/monji_s1.webp':'',
     'images/web/monji_s2.webp':'',
+    'images/web/monji_hhhhhh.webp':'',
     'images/web/monji_b1.webp':'',
     'images/web/monji_b2.webp':''
   },
-  gallery:['images/web/monji_s1.webp','images/web/monji_s2.webp','images/web/monji_b1.webp','images/web/monji_b2.webp'],description:'図鑑に記載された体長から、シマゲンゴロウくらいの大きさを想像して初採集に臨みました。しかし、実際に採集してみるとシマゲンゴロウよりもずっと大きく、そのときの衝撃は今でもよく覚えています。それがトップ写真の近畿産の個体です。初めて出会ったオオイチモンジが近畿産だったなんて、今思えば贅沢な話です。\n\nその後、東北でも採集する機会がありましたが、近畿で採集した個体よりもさらに大きく、再び驚かされました。図鑑の数字だけでは伝わらない迫力が、この種にはありました。\n\nちなみに近畿では、道路沿いの落ち葉が堆積した水路に多く生息していました。2025年までは一年に数回ほど発見される程度でしたが、近年は近畿でも比較的簡単にみられるようになってきました。\n\n産地ごとの珍しさは 東北 < 近畿 ≦ 関東'},
+  gallery:['images/web/monji_s1.webp','images/web/monji_s2.webp','images/web/monji_hhhhhh.webp','images/web/monji_b1.webp','images/web/monji_b2.webp'],description:'図鑑に記載された体長から、シマゲンゴロウくらいの大きさを想像して初採集に臨みました。しかし、実際に採集してみるとシマゲンゴロウよりもずっと大きく、そのときの衝撃は今でもよく覚えています。それがトップ写真の近畿産の個体です。初めて出会ったオオイチモンジが近畿産だったなんて、今思えば贅沢な話です。\n\nその後、東北でも採集する機会がありましたが、近畿で採集した個体よりもさらに大きく、再び驚かされました。図鑑の数字だけでは伝わらない迫力が、この種にはありました。\n\nちなみに近畿では、道路沿いの落ち葉が堆積した水路に多く生息していました。2025年までは一年に数回ほど発見される程度でしたが、近年は近畿でも比較的簡単にみられるようになってきました。\n\n産地ごとの珍しさは 東北 < 近畿 ≦ 関東'},
 {id:'yamonji',
   name:'ヤンバルオオイチモンジシマゲンゴロウ',
   bodyLength:'14-15 mm',
@@ -329,13 +333,13 @@ const SPECIES=[
   habitat:'北海道（北部）',
   redList:'準絶滅危惧（NT）',
   latin:'Graphoderus elatus',genus:'マルガタゲンゴロウ属',
-  image:'images/web/karafutomarugata.webp',
+  image:'images/web/karafutomarugata_h1.webp',
   imageLocation:'',
   imageDate:'',
   galleryTitles:{
-    'images/web/karafutomarugata.webp':''
+    'images/web/karafutomarugata_h1.webp':''
   },
-  gallery:['images/web/karafutomarugata.webp'],description:'北海道の北部に生息するマルガタゲンゴロウの近縁種です。頭部・胸部の模様が異なることや腹側がワインレッドであることから区別が容易です。さらに、本種のほうがやや細長めです。マルガタくない。'},
+  gallery:['images/web/karafutomarugata_h1.webp'],description:'北海道の北部に生息するマルガタゲンゴロウの近縁種です。頭部・胸部の模様が異なることや腹側がワインレッドであることから区別が容易です。さらに、本種のほうがやや細長めです。マルガタくない。\n\n適切な処理を施さなかったため、標本がオワってますね。また、北海道遠征のときに新しい個体をお持ち帰りしようと思います。'},
 
 {id:'mesusuji',
   name:'メススジゲンゴロウ',
@@ -612,11 +616,11 @@ const SPECIES=[
   imageLocation:'広島県',
   imageDate:'2026/11/14',
   galleryTitles:{
-    'images/web/nachisesuji.webp':'',
+    'images/web/nachisesuji_h1.webp':'',
     'images/web/nachisesuji_hb.webp':'',
     'images/web/nachisesuji_b.webp':''
   },
-  gallery:['images/web/nachisesuji.webp','images/web/nachisesuji_hb.webp','images/web/nachisesuji_b.webp'],
+  gallery:['images/web/nachisesuji_h1.webp','images/web/nachisesuji_hb.webp','images/web/nachisesuji_b.webp'],
   description:'ぬた場周囲の湿っている程度の環境において、落ち葉をひっくり返したりするといます。\n\n興味深いのは水たまりの中より、周辺の湿った領域に個体数が極めて多いこと。数日後、同じ採集地を訪れたときには水たまりがなくなっていたのに関わらず、本種は飛散せず、湿った落ち葉や石の下に隠れていたこと。こんなことより、水中の期間より陸上で暮らしている期間の方が長いのでは？と感じています。\n\n個体数は多いですが、生息は局所的です。\n\nトップ写真は広島県で採集した個体です。'
 },
 
@@ -752,7 +756,7 @@ const SPECIES=[
   imageDate:'',
   galleryTitles:{'images/web/kayahashikurohime.webp':''},
   gallery:['images/web/kayahashikurohime.webp'],
-  description:'本種は、1837年にフィンランド産の標本をもとに記載された北方系のゲンゴロウです。北アメリカやユーラシア大陸北部など、北半球の寒冷な地域に分布する周北極種として知られていました。日本からは長らく記録がなかったが、2020年に岩手県で初めて採集されて、2026年に報告されました。岩手県は現在知られている本種の最南端の生息地です。\n\n海外では森林内の小さな池や季節的に干上がる水たまり、道路沿いの水路から見つかっています。岩手県では標高約920mの冷温帯に位置する、水生植物が豊富で水位変動の大きな池から採集されたようです。\n\n世界的に北方に偏って分布する本種が、北海道ではなく本州から発見されたことは非常に興味深いです。\n氷期に南下した個体群が、気候の温暖化に伴い冷涼な山地に取り残され、現在まで生き残っていた可能性も考えられます。もっとも、これは分布から考えられる仮説であり、日本産個体群の起源は明らかになっていません。\n複数年にわたって同じ場所から採集されているため、一時的な飛来ではなく、現地に個体群が定着している可能性は高いと考えられます。\n\n国内初記録の論文では、採集記録は2020年に3個体、2021年に1個体、2022年に2個体、2025年に2個体の、合計8個体が報告されており、かなり採集難易度が高いようです。\n\n和名は第一発見者である茅橋さんにちなんでカヤハシクロヒメゲンゴロウと命名されました。また、大変ありがたいことに茅橋さんから貴重なオス1個体をお譲りいただきました（譲渡個体）'},
+  description:'（トップ画像準備中・・・）。\n\n本種は、1837年にフィンランド産の標本をもとに記載された北方系のゲンゴロウです。北アメリカやユーラシア大陸北部など、北半球の寒冷な地域に分布する周北極種として知られていました。日本からは長らく記録がなかったが、2020年に岩手県で初めて採集されて、2026年に報告されました。岩手県は現在知られている本種の最南端の生息地です。\n\n海外では森林内の小さな池や季節的に干上がる水たまり、道路沿いの水路から見つかっています。岩手県では標高約920mの冷温帯に位置する、水生植物が豊富で水位変動の大きな池から採集されたようです。\n\n世界的に北方に偏って分布する本種が、北海道ではなく本州から発見されたことは非常に興味深いです。\n氷期に南下した個体群が、気候の温暖化に伴い冷涼な山地に取り残され、現在まで生き残っていた可能性も考えられます。もっとも、これは分布から考えられる仮説であり、日本産個体群の起源は明らかになっていません。\n複数年にわたって同じ場所から採集されているため、一時的な飛来ではなく、現地に個体群が定着している可能性は高いと考えられます。\n\n国内初記録の論文では、採集記録は2020年に3個体、2021年に1個体、2022年に2個体、2025年に2個体の、合計8個体が報告されており、かなり採集難易度が高いようです。\n\n和名は第一発見者である茅橋さんにちなんでカヤハシクロヒメゲンゴロウと命名されました。また、大変ありがたいことに茅橋さんから貴重なオス1個体をお譲りいただきました（譲渡個体）'},
 {id:'hime',
   name:'ヒメゲンゴロウ',
   bodyLength:'11-13 mm',
