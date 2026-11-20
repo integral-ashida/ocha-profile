@@ -24,7 +24,7 @@ const SPECIES=[
     'images/web/nami_s9.webp':'',
     'images/web/nami_s10.webp':''
   },
-  gallery:['images/web/nami_s1.webp','images/web/nami_s2.webp','images/web/nami_s3.webp','images/web/nami_s4.webp','images/web/nami_s5.webp','images/web/nami_s6.webp','images/web/nami_y1.webp','images/web/nami_y2.webp','images/web/nami_y3.webp','images/web/nami_p1.webp','images/web/nami_s7.webp','images/web/nami_s8.webp','images/web/nami_s9.webp','images/web/nami_s10.webp'],description:'日本最大のゲンゴロウ。一般にゲンゴロウといえば本種を指しますが、ほかのゲンゴロウ類と区別するためナミゲンゴロウやホンゲンゴロウと呼ばれることもあります。\n\nゲンゴロウ界の代表のような名前を背負っていますが、実際にその堂々たる体格はなかなかのもの。初めてタモ網に入ったときのあの心臓が震えるような感動はいつになっても忘れられません。数多くの種類がいるゲンゴロウ類のなかでもやはり特別な存在のひとつです。\n\nゲンゴロウのメスには皺があります。ゲンゴロウは水中を自由に遊泳すべく、なめらかな体表構造をしていますが、交尾の際にこのなめらかさは厄介なのです。そこでオスはメスの背中に貼り付いて交尾するために、前脚に吸盤を持ちます。しかし、メスにとって水中でオスが上に貼り付くという行為は溺死の可能性がありとっても危険です。そこで、メスはオスの吸盤が貼り付きにくいような皺を持つ個体が生き残ったと考えられています。（性的対立）'},
+  gallery:['images/web/nami_s1.webp','images/web/nami_s2.webp','images/web/nami_s3.webp','images/web/nami_s4.webp','images/web/nami_s5.webp','images/web/nami_s6.webp','images/web/nami_y1.webp','images/web/nami_y2.webp','images/web/nami_y3.webp','images/web/nami_p1.webp','images/web/nami_s7.webp','images/web/nami_s8.webp','images/web/nami_s9.webp','images/web/nami_s10.webp'],description:'日本最大のゲンゴロウ。一般にゲンゴロウといえば本種を指しますが、ほかのゲンゴロウ類と区別するためナミゲンゴロウやホンゲンゴロウと呼ばれることがあります。\n\nゲンゴロウ界の代表のような名前を背負っていますが、実際にその堂々たる体格はなかなかのもの。初めてタモ網に入ったときのあの心臓が震えるような感動はいつになっても忘れられません。数多くの種類がいるゲンゴロウ類のなかでもやはり特別な存在のひとつです。\n\nゲンゴロウのメスには皺があります。ゲンゴロウは水中を自由に遊泳すべく、なめらかな体表構造をしていますが、交尾の際にこのなめらかさは厄介なのです。そこでオスはメスの背中に貼り付いて交尾するために、前脚に吸盤を持ちます。しかし、メスにとって水中でオスが上に貼り付くという行為は溺死の可能性がありとっても危険です。そこで、メスはオスの吸盤が貼り付きにくいような皺を持つ個体が生き残ったと考えられています。（⇒性的対立）'},
 {id:'fuchitori',
   name:'フチトリゲンゴロウ',
   rare: true,
@@ -142,7 +142,7 @@ const SPECIES=[
     'images/web/genmo_h2.webp':'',
     'images/web/genmo_k.webp':''
   },
-  gallery:['images/web/genmo_h1.webp','images/web/genmo_h2.webp','images/web/genmo_k.webp'],description:'モドキと言いますが、歴としたゲンゴロウの仲間です。メスは背中に10条の溝を持つのがゲンゴロウモドキの特徴です。しかし、しばしば溝を持たないメスもいます。\n\n腹側に黒色の縞模様が目立つことから、近縁種のエゾゲンゴロウモドキとの区別が容易です。エゾゲンモはこの縞模様が控えめで目立ちません。トップ写真は東北で採集した個体です。'},
+  gallery:['images/web/genmo_h1.webp','images/web/genmo_h2.webp','images/web/genmo_k.webp'],description:'モドキと言いますが、歴としたゲンゴロウの仲間です。メスは背中に10条の溝を持つのがモドキの特徴です。しかし、しばしば溝を持たないメスもいます。\n\n腹側に黒色の縞模様が目立つことから、近縁種のエゾゲンゴロウモドキとの区別が容易です。\n\nトップ写真は東北で採集した個体です。'},
 {id:'ezogenmo',
   name:'エゾゲンゴロウモドキ',
   bodyLength:'31-36 mm',
@@ -157,7 +157,7 @@ const SPECIES=[
     'images/web/ezogenmo_s2.webp':'',
     'images/web/ezogenmo_b.webp':''
   },
-  gallery:['images/web/ezogenmo_s1.webp','images/web/ezogenmo_s2.webp','images/web/ezogenmo_b.webp'],description:'ゲンゴロウモドキによく似ていますが、腹側に黒色の縞模様が目立たないことから区別が容易です。さらに、ゲンゴロウモドキよりも横幅が広く、胸部下側の黄色の縁取りが太いイメージです。ゲンゴロウモドキと同様に、溝を持たないメスも存在しますが、かなり局所的で稀なように思います。以上、ゲンゴロウモドキと比べてばかりの説明でした。トップ写真は長野県で観察した個体です。'},
+  gallery:['images/web/ezogenmo_s1.webp','images/web/ezogenmo_s2.webp','images/web/ezogenmo_b.webp'],description:'ゲンゴロウモドキによく似ていますが、腹側に黒色の縞模様が目立たないことから区別が容易です。さらに、ゲンゴロウモドキよりも横幅が広く、胸部下側の黄色の縁取りが太いイメージです。ゲンゴロウモドキと同様に、溝を持たないメスも存在しますが、かなり局所的で稀なように思います。以上、ゲンゴロウモドキと比べてばかりの説明でした。\n\nトップ写真は長野県で観察した個体です。'},
 {id:'shapu',
   name:'シャープゲンゴロウモドキ',
   rare: true,
@@ -172,7 +172,7 @@ const SPECIES=[
     'images/web/shapugenmo_s1.webp':'',
     'images/web/shapugenmo_h1.webp':''
   },
-  gallery:['images/web/shapugenmo_s1.webp','images/web/shapugenmo_h1.webp'],description:'ほかのゲンゴロウモドキと比べてやや小型ですが異様な存在感があります。モドキの特徴である頭部の^マークは控えめです。腹側は黒色。脚は非常に長く、水中で静止するときは後脚を胸のあたりまで大きく前に引き寄せる独特の姿勢をとります。\n\n学術的には二亜種にわけることができ、関東に生息するアズマゲンゴロウモドキ（Dytiscus sharpi sharpi）と日本海側に生息するコゲンゴロウモドキ（Dytiscus sharpi validus）があります。アズマゲンゴロウモドキのメスには溝がない個体も散見されます。\n\n国内希少野生動植物種に指定されている大変珍しい種です。小学生のとき、ひと掬いで毎度5-6匹ほどタモ網に入る池をみつけたときには大興奮しました。'},
+  gallery:['images/web/shapugenmo_s1.webp','images/web/shapugenmo_h1.webp'],description:'ほかのゲンゴロウモドキと比べてやや小型ですが異様な存在感があります。モドキの特徴である頭部の^マークは控えめです。腹側は黒色。脚は非常に長く、水中で静止するときは後脚を胸のあたりまで前に大きく引き寄せる独特な姿勢をとります。\n\n学術的には二亜種にわけることができ、関東に生息するアズマゲンゴロウモドキ（Dytiscus sharpi sharpi）と日本海側に生息するコゲンゴロウモドキ（Dytiscus sharpi validus）があります。アズマのメスには溝がない個体が散見されます。\n\n国内希少野生動植物種に指定されている大変珍しい種です。小学生のとき、ひと掬いで毎度5-6匹ほどタモ網に入る沼地をみつけたときには大興奮しました。'},
 
 {id:'shima',
   name:'シマゲンゴロウ',
@@ -251,7 +251,7 @@ const SPECIES=[
   galleryTitles:{
     'images/web/ooshima_hh.webp':''
   },
-  gallery:['images/web/ooshima_hh.webp'],description:'オオイチモンジシマゲンゴロウと同じようにオスは地味、メスは派手な模様で、同じ種類とは思えないほどの差があります。'},
+  gallery:['images/web/ooshima_hh.webp'],description:'オオイチモンジシマゲンゴロウと同じようにオスは地味、メスは派手な模様です。オスとメス、同じ種とは思えないほど模様の差があります。'},
 {id:'usuiroshima',
   name:'ウスイロシマゲンゴロウ',
   bodyLength:'10-11 mm',
@@ -264,7 +264,7 @@ const SPECIES=[
   galleryTitles:{
     'images/web/usuiroshima_h1.webp':''
   },
-  gallery:['images/web/usuiroshima_h1.webp'],description:'名のとおり淡い褐色の体表に細かな模様が広がる南方系のゲンゴロウ。コガタノゲンゴロウと同じように徐々に北上しているような気もします。\n\n2025年には東京都港区からも初記録個体を得ました。（//2026年11月に発行されるニッチェ・ライフのPDFかURLを添付する予定）'},
+  gallery:['images/web/usuiroshima_h1.webp'],description:'名のとおり淡い褐色の体表に細かな模様が広がる南方系のゲンゴロウ。コガタノゲンゴロウと同じように年々、北上しているような気もします。\n\n2025年には東京都港区からも記録しました。（ニッチェ・ライフ第14号を貼る予定）'},
 {id:'monji',
   name:'オオイチモンジシマゲンゴロウ',
   bodyLength:'15-17 mm',
@@ -280,7 +280,7 @@ const SPECIES=[
     'images/web/monji_b1.webp':'',
     'images/web/monji_b2.webp':''
   },
-  gallery:['images/web/monji_s1.webp','images/web/monji_s2.webp','images/web/monji_b1.webp','images/web/monji_b2.webp'],description:'大きさを知ってシマゲンゴロウくらいのサイズ感かな？と思って臨んだ初採集、シマゲンゴロウよりずっとずっと大きかったことが強烈に記憶に残っています。それがトップ写真の滋賀モンジです。初めてが近畿産なんて贅沢だなと...　そのあとに東北モンジを採集してまたその大きさに驚愕しました。近畿よりさらに大きい...！！図鑑からは伝わらないインパクトがこの種にはありました。\n\nちなみに、滋賀モンジは道路沿いの落ち葉の溜まった水路に多く生息していました。また数年後訪れてみたいです。'},
+  gallery:['images/web/monji_s1.webp','images/web/monji_s2.webp','images/web/monji_b1.webp','images/web/monji_b2.webp'],description:'図鑑に記載された体長から、シマゲンゴロウくらいの大きさを想像して初採集に臨みました。しかし、実際に採集してみるとシマゲンゴロウよりもずっと大きく、そのときの衝撃は今でもよく覚えています。それがトップ写真の近畿産の個体です。初めて出会ったオオイチモンジが近畿産だったなんて、今思えば贅沢な話です。\n\nその後、東北でも採集する機会がありましたが、近畿で採集した個体よりもさらに大きく、再び驚かされました。図鑑の数字だけでは伝わらない迫力が、この種にはありました。\n\nちなみに近畿では、道路沿いの落ち葉が堆積した水路に多く生息していました。2025年までは一年に数回ほど発見される程度でしたが、近年は近畿でも比較的簡単にみられるようになってきました。\n\n産地ごとの珍しさは 東北 < 近畿 ≦ 関東'},
 {id:'yamonji',
   name:'ヤンバルオオイチモンジシマゲンゴロウ',
   bodyLength:'14-15 mm',
@@ -295,7 +295,7 @@ const SPECIES=[
     'images/web/yamonji_s1.webp':'',
     'images/web/yamonji_h1.webp':''
   },
-  gallery:['images/web/yamonji_hh.webp','images/web/yamonji_s1.webp','images/web/yamonji_h1.webp'],description:'ほかのモンジの仲間に比べて模様が派手です。生きている状態では非常に白く見える個体もいます。\n\n林道の轍に溜まった水場、コンクリートの桝、いまにも干上がりそうな水溜り、どこにでもいる（と言われています）。ただし国内希少野生動植物種なので捕まえてはなりません。'},
+  gallery:['images/web/yamonji_hh.webp','images/web/yamonji_s1.webp','images/web/yamonji_h1.webp'],description:'ほかのモンジの仲間に比べて模様が派手です。体表がほとんど白く見える個体もいます。\n\n林道の轍に溜まった水場、コンクリートの桝、いまにも干上がりそうな水溜り、わりとどこにでもいます。ただし、国内希少野生動植物種なので捕まえてはなりません。'},
 {id:'ryumonji',
   name:'リュウキュウオオイチモンジシマゲンゴロウ',
   bodyLength:'15-16 mm',
@@ -350,7 +350,7 @@ const SPECIES=[
     'images/web/mesusuji_hh.webp':'',
     'images/web/mesusuji_s1.webp':''
   },
-  gallery:['images/web/mesusuji_hh.webp','images/web/mesusuji_s1.webp'],description:'北海道から本州中部にかけて分布し、主に魚類の生息しない池沼に生息します。\n\n名のとおりメスにはスジが通っているのでメススジです。この筋は単なる飾りではありません。通常ゲンゴロウのオスは前脚の吸盤でメスの背中にしがみつき交尾しますが、このときメスがよく溺死するためメスは、オスの吸盤による付着を妨げるように進化した説があります。\n\n福井県の夜叉ヶ池に生息する近縁のヤシャゲンゴロウとはメスの上翅にある縦溝の有無で区別されます。が、雄交尾器を含めて形態的には極めてよく似ています。近年の遺伝子解析では、ヤシャゲンゴロウが本州産メススジゲンゴロウの系統内に含まれる一方、北海道産メススジはより離れた系統に位置することが示されています。両種の分類には議論の余地があるものの、現在は別種として扱われています。\n\nまた、本属では陸上に産卵する珍しい習性が知られ、幼虫はマルガタゲンゴロウ属と同様に水中を浮遊するように泳ぎながらミジンコやボウフラなどを捕食します。こうした生活様式から魚類による捕食を受けやすく、繁殖には魚類のいない水域が重要となります。'},
+  gallery:['images/web/mesusuji_hh.webp','images/web/mesusuji_s1.webp'],description:'北海道から本州中部にかけて分布し、主に魚類の生息しない池沼に生息します。\n\n名のとおりメスにはスジが通っているのでメススジです。この筋は単なる飾りではありません。通常ゲンゴロウのオスは前脚の吸盤でメスの背中にしがみつき交尾しますが、このときメスがよく溺死するためメスは、オスの吸盤による付着を妨げるように進化した説があります。\n\n福井県の夜叉ヶ池に生息する近縁のヤシャゲンゴロウとはメスの上翅にある縦溝の有無で区別されます。が、雄交尾器を含めて形態的には極めてよく似ています。近年の遺伝子解析では、ヤシャゲンゴロウが本州産メススジゲンゴロウの系統内に含まれる一方、北海道産メススジはより離れた系統に位置することが示されています。両種の分類には議論の余地があるものの、現在は別種として扱われています。\n\nまた、本種は陸上に産卵する珍しい習性が知られ、幼虫はマルガタゲンゴロウ属と同様に水中を浮遊するように泳ぎながらミジンコやボウフラなどを捕食します。こうした生活様式から魚類による捕食を受けやすく、繁殖には魚類のいない水域が重要となります。'},
   
 {id:'mumonchibikotsubu',
   name:'ムモンチビコツブゲンゴロウ',
@@ -365,7 +365,7 @@ const SPECIES=[
     'images/web/mumonchibikotsubu.webp':'',
     'images/web/mumonchibikotsubu_b.webp':''
   },
-  gallery:['images/web/mumonchibikotsubu.webp','images/web/mumonchibikotsubu_b.webp'],description:'水生植物の豊かな浅い湿地に生息して、ガマやマコモの根際などに潜り込んでいるらしいです。マルケシゲンゴロウの仲間と一緒に得られることが多いです。\n\n1990年代から存在が知られているにも関わらず、現在も正式な学名が決まっていません。トップ写真は三重県で採集した個体です。'},
+  gallery:['images/web/mumonchibikotsubu.webp','images/web/mumonchibikotsubu_b.webp'],description:'水生植物の豊かな浅い湿地に生息して、ガマやマコモの根際などに潜り込んでいるらしいです。マルケシゲンゴロウの仲間と一緒に得られることが多いです。\n\n1990年代から存在が知られているにも関わらず、現在も正式な学名が決まっていません。\n\nトップ写真は三重県で採集した個体です。'},
 
 {id:'kotsubu',
   name:'コツブゲンゴロウ',
@@ -390,7 +390,7 @@ const SPECIES=[
   galleryTitles:{
     'images/web/tsuyakotsubu.webp':''
   },
-  gallery:['images/web/tsuyakotsubu.webp'],description:'ムツボシツヤコツブゲンゴロウより大きいが、斑点は小さい。'},
+  gallery:['images/web/tsuyakotsubu.webp'],description:'同属のムツボシツヤコツブゲンゴロウより大きいですが、斑点は小さいです。'},
 
 {id:'kiboshikeshi',
   name:'キボシケシゲンゴロウ',
@@ -455,7 +455,7 @@ const SPECIES=[
   galleryTitles:{
     'images/web/maruchibi_b.webp':''
   },
-  gallery:['images/web/maruchibi_b.webp'],description:'名のとおり丸くて小さいゲンゴロウです。深く広いため池にも生息しますが、どちらかといえば水生植物の豊かな浅い湿地を好むイメージです。冬も採集できるイメージですが、個体数がかなり少ないように思えます。生息域が限られているようですが、小さすぎて見落としているだけですかね？\n\n大きさは1.5-2.0mmでかなり小さい部類です。このような微小種は若いうちに楽しんでおきたいものです。'},
+  gallery:['images/web/maruchibi_b.webp'],description:'名のとおり丸くて小さいゲンゴロウです。深く広いため池にも生息しますが、どちらかといえば水生植物の豊かな浅い湿地を好むイメージです。冬でも採集できますが、個体数がかなり少ないように思えます。\n\n大きさは1.5-2.0mmでかなり小さい部類です。このような微小種は若いうちに楽しんでおきたいものです。'},
 
 {id:'tohokunagakeshi',
   name:'トウホクナガケシゲンゴロウ',
@@ -468,7 +468,7 @@ const SPECIES=[
   galleryTitles:{
     'images/web/tohokunagakeshi.webp':''
   },
-  gallery:['images/web/tohokunagakeshi.webp'],description:'細長い種が多いナガケシゲンゴロウ属のなかでもこの種は逆卵型で非常に特徴的です。黄褐色の斑点があります。トップ写真は山形県で採集した個体で、オオイチモンジシマゲンゴロウやクロズマメゲンゴロウと一緒に生息していました。'},
+  gallery:['images/web/tohokunagakeshi.webp'],description:'細長い種が多いナガケシゲンゴロウ属のなかでもこの種は逆卵型で非常に特徴的です。黄褐色の斑点があります。\n\nトップ写真は山形県で採集した個体で、オオイチモンジシマゲンゴロウやクロズマメゲンゴロウと一緒に生息していました。'},
 {id:'usuironagakeshi',
   name:'ウスイロナガケシゲンゴロウ',
   bodyLength:'3.4-3.8 mm',
@@ -507,7 +507,7 @@ const SPECIES=[
   galleryTitles:{
     'images/web/gomadarachibi.webp':''
   },
-  gallery:['images/web/gomadarachibi.webp'],description:'河川の中流域などの清流に生息し、砂や小石が溜まった浅瀬で見られます。モンキマメゲンゴロウやキベリマメゲンゴロウなどが一緒に得られるイメージです。福井県の夜叉ヶ池では止水にも関わらず、本種が多産するらしいです。（図説 日本のゲンゴロウより）'},
+  gallery:['images/web/gomadarachibi.webp'],description:'河川の中流域などの清流に生息し、砂や小石が溜まった浅瀬で見られます。モンキマメゲンゴロウやキベリマメゲンゴロウなどが一緒に得られることが多いです。また、福井県の夜叉ヶ池では、止水にも関わらず本種が多産しているらしいです。'},
 
 {id:'tsubu',
   name:'ツブゲンゴロウ',
@@ -532,7 +532,7 @@ const SPECIES=[
   galleryTitles:{
     'images/web/shaputsubu.webp':''
   },
-  gallery:['images/web/shaputsubu.webp'],description:'かつては、アヤナミツブゲンゴロウとも呼ばれていました。沖縄では普通種ですが、本州ではかなり珍しいイメージです。模様は個体変異が大きく、ときおりサザナミツブゲンゴロウと間違えそうになることもあります。'},
+  gallery:['images/web/shaputsubu.webp'],description:'かつては、アヤナミツブゲンゴロウとも呼ばれていました。沖縄では普通種ですが、本州ではかなり珍しいイメージです。模様は個体変異が大きく、時折サザナミツブゲンゴロウと間違えそうになるような個体もいます。'},
 
 {id:'kiboshitsubu',
   name:'キボシツブゲンゴロウ',
@@ -549,9 +549,9 @@ const SPECIES=[
 
 {id:'kosesuji',
   name:'コセスジゲンゴロウ',
-  bodyLength:'',
-  habitat:'',
-  redList:'',
+  bodyLength:'3.8 mm',
+  habitat:'本州（近畿）',
+  redList:'絶滅危惧IA類（CR）',
   latin:'Austrelatus parallelus',
   genus:'コセスジゲンゴロウ属',
   image:'images/web/kosesuji.webp',
@@ -575,7 +575,7 @@ const SPECIES=[
   galleryTitles:{
     'images/web/hososesuji_h.webp':''
   },
-  gallery:['images/web/hososesuji_h.webp'],description:'国内のセスジゲンゴロウ属では最も広く見られる種で、北海道から九州まで分布します。南方系の種が多い本属において、北海道にまで分布を広げているのは本種だけであり、寒冷な環境にも適応していることがわかります。\n\n湿地や休耕田のほか、降雨によって一時的に生じた水たまりなどにも生息します。背中には６対の溝が刻まれています。トップ写真は東京都品川区で採集した個体です。'},
+  gallery:['images/web/hososesuji_h.webp'],description:'国内のセスジゲンゴロウ属では最も広く見られる種で、北海道から九州まで分布します。南方系の種が多い本属において、北海道にまで分布を広げているのは本種だけであり、寒冷な環境にも適応していることがわかります。\n\n湿地や休耕田のほか、降雨によって一時的に生じた水たまりなどにも生息します。背中には６対の溝が刻まれています。\n\nトップ写真は東京都品川区で採集した個体です。'},
 {id:'todasesuji',
   name:'トダセスジゲンゴロウ',
   bodyLength:'3.9-4.6 mm',
@@ -587,7 +587,7 @@ const SPECIES=[
   galleryTitles:{
     'images/web/todasesuji_h.webp':'かつては、タテオビセスジゲンゴロウとも呼ばれていました。和名の「トダ」は埼玉県 戸田市に由来します。本種は1988年にCopelatus hasegawaiとして記載された際にこの和名が付けられましたが、のちに東京都を模式産地として1970年に記載されていたCopelatus nakamuraiと同種であることが判明しました。そのため、現在ではCopelatus nakamuraiが有効な学名として用いられています。が、和名にはトダを採用しているということです。'
   },
-  gallery:['images/web/todasesuji_h.webp'],description:'河川敷の木々に囲まれた薄暗い湿地に生息しているそうです。トップ写真は東京都板橋区で採集した個体です。'},
+  gallery:['images/web/todasesuji_h.webp'],description:'河川敷の木々に囲まれた薄暗い湿地に生息しているそうです。\n\nトップ写真は東京都板橋区で採集した個体です。'},
 {id:'yaeyamasesuji',
   name:'ヤエヤマセスジゲンゴロウ',
   bodyLength:'4.8-5.8 mm',
@@ -603,9 +603,9 @@ const SPECIES=[
 
 {id:'nachisesuji',
   name:'ナチセスジゲンゴロウ',
-  bodyLength:'',
-  habitat:'',
-  redList:'',
+  bodyLength:'5.0 mm',
+  habitat:'本州・九州',
+  redList:'-',
   latin:'Copelatus tomokunii',
   genus:'セスジゲンゴロウ属',
   image:'images/web/nachisesuji.webp',
@@ -617,7 +617,7 @@ const SPECIES=[
     'images/web/nachisesuji_b.webp':''
   },
   gallery:['images/web/nachisesuji.webp','images/web/nachisesuji_hb.webp','images/web/nachisesuji_b.webp'],
-  description:'ぬた場の周囲のやや湿っている程度の環境において、落ち葉をひっくり返したりするとよくいます。ただ、生息は局所的なようです。トップ写真は広島県で採集した個体です。'
+  description:'ぬた場周囲の湿っている程度の環境において、落ち葉をひっくり返したりするといます。\n\n興味深いのは水たまりの中より、周辺の湿った領域に個体数が極めて多いこと。数日後、同じ採集地を訪れたときには水たまりがなくなっていたのに関わらず、本種は飛散せず、湿った落ち葉や石の下に隠れていたこと。こんなことより、水中の期間より陸上で暮らしている期間の方が長いのでは？と感じています。\n\n個体数は多いですが、生息は局所的です。\n\nトップ写真は広島県で採集した個体です。'
 },
 
 {id:'atohoshihiratamame',
@@ -737,8 +737,22 @@ const SPECIES=[
     'images/web/kiberikurohime_b1.webp':'',
     'images/web/kiberikurohime_b2.webp':''
   },
-  gallery:['images/web/kiberikurohime_b1.webp','images/web/kiberikurohime_b2.webp'],description:'背中が黄色のラインで縁取られているためキベリ（黄縁）です。水底に潜る性質があるように思います。その裏付けなのか、かつては、スナムグリゲンゴロウと呼ばれていました。生息は局所的ですが、かなり個体数が多いイメージです。\n\n唯一、クロヒメゲンゴロウ属の中で北海道以外にも生息する種。でしたが…2026年に日本国内（岩手県八幡平市）からカヤハシクロヒメゲンゴロウが記録されたことによって本州のクロヒメゲンゴロウ属が増えました。'},
+  gallery:['images/web/kiberikurohime_b1.webp','images/web/kiberikurohime_b2.webp'],description:'背中が黄色のラインで縁取られているためキベリ（黄縁）です。水底に潜る性質があるように思います。その裏付けなのか、かつては、スナムグリゲンゴロウと呼ばれていました。生息は局所的ですが、かなり個体数が多いイメージです。\n\n唯一、クロヒメゲンゴロウ属の中で北海道以外にも生息する種。でしたが、2026年に日本国内（岩手県八幡平市）からカヤハシクロヒメゲンゴロウが記録されたことによって本州のクロヒメゲンゴロウ属が増えました。'},
 
+{id:'kayahashikurohime',
+  name:'カヤハシクロヒメゲンゴロウ',
+  rare:true,
+  bodyLength:'8.0-8.7 mm',
+  habitat:'本州（岩手県）',
+  redList:'-',
+  latin:'Ilybius opacus',
+  genus:'クロヒメゲンゴロウ属',
+  image:'images/web/kayahashikurohime.webp',
+  imageLocation:'',
+  imageDate:'',
+  galleryTitles:{'images/web/kayahashikurohime.webp':''},
+  gallery:['images/web/kayahashikurohime.webp'],
+  description:'本種は、1837年にフィンランド産の標本をもとに記載された北方系のゲンゴロウです。北アメリカやユーラシア大陸北部など、北半球の寒冷な地域に分布する周北極種として知られていました。日本からは長らく記録がなかったが、2020年に岩手県で初めて採集されて、2026年に報告されました。岩手県は現在知られている本種の最南端の生息地です。\n\n海外では森林内の小さな池や季節的に干上がる水たまり、道路沿いの水路から見つかっています。岩手県では標高約920mの冷温帯に位置する、水生植物が豊富で水位変動の大きな池から採集されたようです。\n\n世界的に北方に偏って分布する本種が、北海道ではなく本州から発見されたことは非常に興味深いです。\n氷期に南下した個体群が、気候の温暖化に伴い冷涼な山地に取り残され、現在まで生き残っていた可能性も考えられます。もっとも、これは分布から考えられる仮説であり、日本産個体群の起源は明らかになっていません。\n複数年にわたって同じ場所から採集されているため、一時的な飛来ではなく、現地に個体群が定着している可能性は高いと考えられます。\n\n国内初記録の論文では、採集記録は2020年に3個体、2021年に1個体、2022年に2個体、2025年に2個体の、合計8個体が報告されており、かなり採集難易度が高いようです。\n\n和名は第一発見者である茅橋さんにちなんでカヤハシクロヒメゲンゴロウと命名されました。また、大変ありがたいことに茅橋さんから貴重なオス1個体をお譲りいただきました（譲渡個体）'},
 {id:'hime',
   name:'ヒメゲンゴロウ',
   bodyLength:'11-13 mm',
