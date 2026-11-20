@@ -36,12 +36,12 @@ const SPECIES=[
   imageLocation:'',
   imageDate:'',
   galleryTitles:{
-    'images/web/fuchitori.webp':'',
+    'images/web/fuchitori_hh.webp':'',
     'images/web/fuchitori_hb.webp':'',
     'images/web/fuchitori_k.webp':'',
     'images/web/fuchitori_s1.webp':''
   },
-  gallery:['images/web/fuchitori.webp','images/web/fuchitori_hb.webp','images/web/fuchitori_k.webp','images/web/fuchitori_s1.webp'],description:'名のとおり黄色い縁取りがあるためフチトリゲンゴロウです。（それを言ってしまったら大型ゲンゴロウはほとんどフチトリじゃないか！というツッコミはさておき...）ナミゲンゴロウよりわずかに小さいものの、体に厚みがあるため、並べても引けを取らない迫力があります。また、ほかの大型ゲンゴロウに比べてやや青みが強い個体が多いような気がしています。腹側は赤褐色です。\n\n農薬使用や土地開発のような環境変化で個体数を急激に減らしてしまいました。\n\n東南アジアはフチトリゲンゴロウに非常によく似たニセフチトリゲンゴロウ（Cybister guerini）が生息します。ニセの方はフチトリに比べてやや丸いので見慣れると感覚でわかります。もっとも雄交尾器を観察すればフチトリゲンゴロウは先端のくびれが明確なため区別できます。'},
+  gallery:['images/web/fuchitori_hh.webp','images/web/fuchitori_hb.webp','images/web/fuchitori_k.webp','images/web/fuchitori_s1.webp'],description:'名のとおり黄色い縁取りがあるためフチトリゲンゴロウです。（それを言ってしまったら大型ゲンゴロウはほとんどフチトリじゃないか！というツッコミはさておき...）ナミゲンゴロウよりわずかに小さいものの、体に厚みがあるため、並べても引けを取らない迫力があります。また、ほかの大型ゲンゴロウに比べてやや青みが強い個体が多いような気がしています。腹側は赤褐色です。\n\n農薬使用や土地開発のような環境変化で個体数を急激に減らしてしまいました。\n\n東南アジアはフチトリゲンゴロウに非常によく似たニセフチトリゲンゴロウ（Cybister guerini）が生息します。ニセの方はフチトリに比べてやや丸いので見慣れると感覚でわかります。もっとも雄交尾器を観察すればフチトリゲンゴロウは先端のくびれが明確なため区別できます。'},
 {id:'himefuchitori',
   name:'ヒメフチトリゲンゴロウ',
   bodyLength:'28-33 mm',
@@ -52,6 +52,8 @@ const SPECIES=[
   imageLocation:'',
   imageDate:'',
   galleryTitles:{
+    'images/web/himefuchitori_hh.webp':'',
+    'images/web/himefuchitori_s1.webp':'',
     'images/web/himefuchitori_y1.webp':'',
     'images/web/himefuchitori_p1.webp':'',
     'images/web/himefuchitori_s2.webp':'',
@@ -62,7 +64,7 @@ const SPECIES=[
     'images/web/himefuchitori_h5.webp':'',
     'images/web/himefuchitori_k.webp':''
   },
-  gallery:['images/web/himefuchitori_s1.webp','images/web/himefuchitori_y1.webp','images/web/himefuchitori_p1.webp','images/web/himefuchitori_s2.webp','images/web/himefuchitori_s3.webp','images/web/himefuchitori_s4.webp','images/web/himefuchitori_h4.webp','images/web/himefuchitori_hb.webp','images/web/himefuchitori_h5.webp','images/web/himefuchitori_k.webp'],description:'フチトリゲンゴロウによく似ていますがひと回り小さく腹側は一部黄色模様があるので区別が容易です。本種を捕まえると沖縄にやって来たんだなと実感します。比較的大きな池沼に生息します。大型ゲンゴロウのなかでも大人しく、非常にゆったりと遊泳するので大変上品に感ぜられます。'},
+  gallery:['images/web/himefuchitori_hh.webp','images/web/himefuchitori_s1.webp','images/web/himefuchitori_y1.webp','images/web/himefuchitori_p1.webp','images/web/himefuchitori_s2.webp','images/web/himefuchitori_s3.webp','images/web/himefuchitori_s4.webp','images/web/himefuchitori_h4.webp','images/web/himefuchitori_hb.webp','images/web/himefuchitori_h5.webp','images/web/himefuchitori_k.webp'],description:'フチトリゲンゴロウによく似ていますがひと回り小さく腹側は一部黄色模様があるので区別が容易です。本種を捕まえると沖縄にやって来たんだなと実感します。比較的大きな池沼に生息します。大型ゲンゴロウのなかでも大人しく、非常にゆったりと遊泳するので大変上品に感ぜられます。'},
 {id:'kogatano',
   name:'コガタノゲンゴロウ',
   bodyLength:'20-29 mm',
@@ -329,13 +331,13 @@ const SPECIES=[
   habitat:'北海道（北部）',
   redList:'準絶滅危惧（NT）',
   latin:'Graphoderus elatus',genus:'マルガタゲンゴロウ属',
-  image:'images/web/karafutomarugata.webp',
+  image:'images/web/karafutomarugata_h1.webp',
   imageLocation:'',
   imageDate:'',
   galleryTitles:{
-    'images/web/karafutomarugata.webp':''
+    'images/web/karafutomarugata_h1.webp':''
   },
-  gallery:['images/web/karafutomarugata.webp'],description:'北海道の北部に生息するマルガタゲンゴロウの近縁種です。頭部・胸部の模様が異なることや腹側がワインレッドであることから区別が容易です。さらに、本種のほうがやや細長めです。マルガタくない。'},
+  gallery:['images/web/karafutomarugata_h1.webp'],description:'北海道の北部に生息するマルガタゲンゴロウの近縁種です。頭部・胸部の模様が異なることや腹側がワインレッドであることから区別が容易です。さらに、本種のほうがやや細長めです。マルガタくない。\n\n適切な処理を施さなかったため、標本がオワってますね。また、北海道遠征のときに新しい個体をお持ち帰りしようと思います。'},
 
 {id:'mesusuji',
   name:'メススジゲンゴロウ',
@@ -612,11 +614,11 @@ const SPECIES=[
   imageLocation:'広島県',
   imageDate:'2026/11/14',
   galleryTitles:{
-    'images/web/nachisesuji.webp':'',
+    'images/web/nachisesuji_h1.webp':'',
     'images/web/nachisesuji_hb.webp':'',
     'images/web/nachisesuji_b.webp':''
   },
-  gallery:['images/web/nachisesuji.webp','images/web/nachisesuji_hb.webp','images/web/nachisesuji_b.webp'],
+  gallery:['images/web/nachisesuji_h1.webp','images/web/nachisesuji_hb.webp','images/web/nachisesuji_b.webp'],
   description:'ぬた場周囲の湿っている程度の環境において、落ち葉をひっくり返したりするといます。\n\n興味深いのは水たまりの中より、周辺の湿った領域に個体数が極めて多いこと。数日後、同じ採集地を訪れたときには水たまりがなくなっていたのに関わらず、本種は飛散せず、湿った落ち葉や石の下に隠れていたこと。こんなことより、水中の期間より陸上で暮らしている期間の方が長いのでは？と感じています。\n\n個体数は多いですが、生息は局所的です。\n\nトップ写真は広島県で採集した個体です。'
 },
 
